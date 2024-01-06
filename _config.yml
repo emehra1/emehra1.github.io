@@ -1,0 +1,184 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Eshan Mehra
+title: A.B./S.M. Candidate at Harvard University Studying Biomedical Engineering and Human Developmental & Regenerative Biology
+email: eshanmehra@college.harvard.edu
+# email_title: Email (Email title override)
+phone: (312)307-4884
+# phone_title: Phone (Phone title override)
+website: https://emehra1.github.io/
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+github_username:  emehra1
+instagram_username: emehra1
+linkedin_username: eshan-mehra-86aa26201
+
+# Additional icon links
+#additional_links:
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://esmehra1.github.io/)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: About Me
+about_profile_image: images/profile.heic
+about_content: | # this will include new lines to allow paragraphs
+  As a passionate, ambitious, and interdisciplinary thinker driven by a deep love for knowledge and a desire to make a positive impact, I'm a first year at Harvard College with a profound interest in synthetic biology, Classics, bioengineering, and stem cell biology. I am eager to explore the intersections of these diverse fields to uncover new insights and drive innovation.
+
+With a strong determination to pursue a career in medicine and research, I am dedicated to addressing global health disparities and working towards achieving health equity for all. My belief in the power of storytelling, coupled with my appreciation for ancient literature, drives my commitment to amplifying the voices of the historically underrepresented and oppressed in my community. By understanding their stories, I aspire to make a tangible difference in their lives.
+
+In addition to my academic pursuits, I find joy in playing the violin, a creative outlet that allows me to express myself and connect with others. In addition to criterium cycling, as a former varsity track and field athlete and cross country runner, I embody the values of discipline, perseverance, and teamwork.
+
+I'm looking forward to engaging with like-minded individuals, forging meaningful connections, and exploring new opportunities to collaborate on projects that better society.
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Researching synthetic cancer-targeting gene circuits at HMS
+        description: | # this will include new lines to allow paragraphs
+          I am currently working with Dr. Ming-Ru Wu, assistant professor at HMS, in the Synthetic Immunity Lab. We are researching cancer-targeting synthetic gene circuits to improve efficacy & specificity of tumor-localized combinatorial immunotherapy using engineering and CS principles to develop logic gated gene circuits that deliver tumor-localized therapeutic payloads when specific tumorigenic signatures are recognized. We are also integrating machine learning into promoter screening to identify optimal synthetic promoters with enhanced cell-state specificity (SPECS).
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Researching RCC-associated BM using long-read scRNA-seq
+        link: https://docs.google.com/presentation/d/1aLex9iqvlYrKXeTiKdKIJxE-GeNXuLkmRhyz-tzLgko/edit?usp=sharing
+        link_text: Poster Presentation
+        description: | # this will include new lines to allow paragraphs
+          As part of a multi-site research program under the University of Chicago, I worked with Dr. Ruli Gao in Gao Lab. My project was focused on applying scNanoRNA-seq patient-matched primary and BM tumors to identify distinctive and targetable cell types. I dissected both tumor and immune cell subpopulations as well as their dynamic changes during BM evolution. I discovered several new possible therapeutic targets for RCC-associated BM. Successful completion of this project will help define BM-associated immune cell states, providing evidence for developing precision medicines by targeting unique immune cell subpopulations to treat BM patients.      - layout: left
+        border: eak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Revised model on combined ACI and IL2 therapy's effects on tumor growth
+        link: https://d1r5zyaic2ukn.cloudfront.net/resources/b04d3009-6905-45ea-a920-174504732ed6/Eshan%20Mehra%20-%20Math%2019a%20Final%20Report.pdf
+        link_text: Final Paper
+        description: | # this will include new lines to allow paragraphs
+          As part of my final project for my "Modeling and Differential Equations for the Life Sciences" course (Math 19a), I created my own model for describing combined IL-2 and Adoptive Cellular Immunotherapy treatment responses in tumor growth by revising the model initially proposed by Drs. Kirschner and Panetta in 1998 using Mathematica software.
+        title: Pneumonia Detection Convolutional Neural Network AI Project
+        link: https://docs.google.com/presentation/d/1_hpsngXgBNsbOm4w4IvbgtXsLLG7ZvhXRij4tzMgTtU/edit?usp=sharing&usp=embed_facebook
+        link_text: Final Presentation
+        description: | # this will include new lines to allow paragraphs
+          I learned the fundamentals of python and machine learning with Stanford and MIT graduates. I programmed a pneumonia detection algorithm that uses logistic regression within a convolutional neural network (CNN) to detect pneumonia from chest rays. My product haad a 90% accuracy rate, 87.04% precision rate, and 94% recall rate with low quality x-ray inputs.
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Harvard Technology and Global Health Initiative
+        sub_title: Associate director of engagement and fellow
+        caption: September 2023 - PRESENT
+        link: https://techglobalhealth.org/
+        description: | # this will include new lines to allow paragraphs
+          I planned speaker events (notably with Vikram Patel, Paul Farmer Professor and Chair of Dept. of Global Health and Social Medicine). I worked with many leaders working at the intersection of technology and healthcare (Dr. Ben Reis, Co-Founders of Health Tech without Borders, Dr. Fawwaz Habbal, and many more). I taught at under resourced high schools in Massachusetts area about exciting new technological innovation in healthcare. I also hosted a hackathon event on accountability in healthcare - ranging from discussing food deserts to equitable drug pricing.
+      - layout: right
+        title: Emerging Technology Group
+        sub_title: Case Team Analyst for Ginkgo Bioworks
+        caption: September 2023 - December 2023
+        link: https://www.emergingtechgroup.org/
+        description: | # this will include new lines to allow paragraphs
+          Our objective was to work with Ginkgo Bioworks to assess the landscape of gene editing, research existing laws and regulations, and determine important areas where biosecurity can be reinforced via policy to prevent malicious intent in bioengineering. We presented our findings to Ginkgo in hopes of guiding future directions as the integration of AI in genetic engineering becomes more widespread and as technology becomes more efficient and accessible.
+      - layout: right
+        title: Link Health
+        sub_title: Ambassador
+        caption: January 2024 - PRESENT
+        link: https://link-health.org/
+        description: | # this will include new lines to allow paragraphs
+          Founded by HMS professor Dr. Alister Martin, we connect eligible patients to the Affordable Connectivity Program under the premise that access to broadband internet is considered a "super" social determinant of health (SDOH).
+        - layout: right
+        title: Harvard Undergraduate Health Policy Review
+        sub_title: Senior Editor
+        caption: September 2023 - PRESENT
+        link: http://www.huhpr.org/
+        description: | # this will include new lines to allow paragraphs
+          I write, edit, and help mentor a new generation of authors for the journal.
+      - layout: right
+        title: Harvard Square Homeless Shelter
+        sub_title: Volunteer
+        caption: October 2023 - PRESENT
+        link: Link to company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Every week, I help clean the shelter, make breakfast, and provide any required assistance for the guests staying at the shelter. The shelter houses and serves 24 homeless individuals, aiming to help them escape poverty by providing resources and a warm, safe, and welcoming shelter through funding from gracious donors. We provide services through the five coldest months of the year to help the guests transition to housing.
+      - layout: right
+        title: Aging Initiative at Harvard
+        sub_title: Outreach Chair
+        caption: November 2023 - PRESENT
+        link: Link to company (optional)
+        description: | # this will include new lines to allow paragraphs
+          With advisors Dr. George Church, Dr. Arthur Kleinman, and Dr. Lewis Lipsitz, we are tackling aging through a multidisciplinary lens, from biology to technology to sociology.
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: Harvard University
+        sub_title: Anticipated A.B./S.M. Candidate
+        caption: 2023-2027
+        description: | # this will include new lines to allow paragraphs
+          Studying Human Developmental & Regenerative Biology and Bioengineering.
+  - title: Honors & Awards
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - 1st Place Research Poster Presentation at Beckman Institute for Advanced Science and Technology - Single-Cell Sequencing of Patient-Matched RCCs and Associated BMs
+      - Jessie Chambers NJCL Scholarship Recipient
+      - National Latin Exam (NLE) Scholarship Recipient
+      - Congressional Award Bronze Medal
+      - AP Scholar with Distinction
+      - Seal of Biliteracy Awarded in Latin
+      - 5th Place Lillie B. Hamilton Award
+      - 2nd Place at National Finals at National Junior Classical League Certamen
+      - 1st Place in Linguistics Bowl (International Competition)
+      - 4x 1st Place at Illinois Junior Classical League State Certamen Finals
+  - title: Hobbies
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Cycling
+      - Running
+      - Biotech
+      - Formula 1
+  
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]

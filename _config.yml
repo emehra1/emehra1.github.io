@@ -7,21 +7,17 @@ version: 2
 
 # Personal info
 name: Eshan Mehra
-title: Harvard University — A.B., Human Developmental & Regenerative Biology; A.B., Chemistry & Physics (Expected May 2027)
-email: eshanmehra@college.harvard.edu
-# email_title: Email (Email title override)
-phone: (312)307-4884
-# phone_title: Phone (Phone title override)
-website: https://emehra1.github.io/
-# website_title: Web (Website title override)
+title: Harvard University — A.B., Chemistry, Physics, and Human Developmental & Regenerative Biology (Expected May 2027)
+email: emehra@broadinstitute.org
 
 # Dark Mode (true/false/never)
 darkmode: true
 
 # Social links
 github_username:  emehra1
-instagram_username: emehra1
 linkedin_username: eshan-mehra-86aa26201
+twitter_username:  emehra30
+googlescholar_username: Eshan Mehra
 
 # Additional icon links
 #additional_links:
@@ -53,7 +49,6 @@ content:
         sub_title: Research Fellow
         caption: May 2025 – Present
         description: |
-          Building and leveraging next-generation epigenomic tools to uncover new levers to reprogram cell fate and restore resilience across the lifespan.
 
           Engineering a cost-effective, high-throughput single-cell methylation sequencing assay.
 
@@ -144,9 +139,9 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: middle
+      - layout: Center
         title: Harvard University
-        sub_title: A.B., Human Developmental & Regenerative Biology; A.B., Chemistry & Physics; Secondary in Classics
+        sub_title: A.B., Human Developmental & Regenerative Biology; A.B., Chemistry & Physics
         caption: Expected May 2027
 
   - title: Honors and Awards
@@ -192,10 +187,6 @@ content:
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
-
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass

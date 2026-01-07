@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Eshan Mehra
-title: A.B. Candidate at Harvard University Studying Chemistry, Physics, and Human Developmental & Regenerative Biology
+title: Harvard University — A.B., Human Developmental & Regenerative Biology; A.B., Chemistry & Physics (Expected May 2027)
 email: eshanmehra@college.harvard.edu
 # email_title: Email (Email title override)
 phone: (312)307-4884
@@ -42,108 +42,148 @@ linkedin_username: eshan-mehra-86aa26201
 about_title: Eshan Mehra
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Third-year Harvard College student committed to building and leveraging next-generation epigenomic tools for advancing chronic disease prevention. My interdisciplinary pursuits span developmental and aging biology, mathematics, machine learning, physics, and Classics.
-  
+  Building and leveraging next-generation omics tools to uncover new levers to reprogram cell fate and restore resilience across the lifespan.
+
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Researching synthetic cancer-targeting gene circuits at HMS
-        description: | # this will include new lines to allow paragraphs
-          I am currently working with Dr. Ming-Ru Wu, assistant professor at HMS, in the Synthetic Immunity Lab. We are researching cancer-targeting synthetic gene circuits to improve efficacy & specificity of tumor-localized combinatorial immunotherapy using engineering and CS principles to develop logic gated gene circuits that deliver tumor-localized therapeutic payloads when specific tumorigenic signatures are recognized. We are also integrating machine learning into promoter screening to identify optimal synthetic promoters with enhanced cell-state specificity (SPECS).
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Researching RCC-associated BM using long-read scRNA-seq
-        link: https://docs.google.com/presentation/d/1aLex9iqvlYrKXeTiKdKIJxE-GeNXuLkmRhyz-tzLgko/edit?usp=sharing
-        link_text: Poster Presentation
-        description: | # this will include new lines to allow paragraphs
-          As part of a multi-site research program under the University of Chicago, I worked with Dr. Ruli Gao in Gao Lab. My project was focused on applying scNanoRNA-seq patient-matched primary and BM tumors to identify distinctive and targetable cell types. I dissected both tumor and immune cell subpopulations as well as their dynamic changes during BM evolution. I discovered several new possible therapeutic targets for RCC-associated BM. Successful completion of this project will help define BM-associated immune cell states, providing evidence for developing precision medicines by targeting unique immune cell subpopulations to treat BM patients.      - layout: left
-        border: eak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Revised model on combined ACI and IL2 therapy's effects on tumor growth
-        link: https://d1r5zyaic2ukn.cloudfront.net/resources/b04d3009-6905-45ea-a920-174504732ed6/Eshan%20Mehra%20-%20Math%2019a%20Final%20Report.pdf
-        link_text: Final Paper
-        description: | # this will include new lines to allow paragraphs
-          As part of my final project for my "Modeling and Differential Equations for the Life Sciences" course (Math 19a), I created my own model for describing combined IL-2 and Adoptive Cellular Immunotherapy treatment responses in tumor growth by revising the model initially proposed by Drs. Kirschner and Panetta in 1998 using Mathematica software.
-        title: Pneumonia Detection Convolutional Neural Network AI Project
-        link: https://docs.google.com/presentation/d/1_hpsngXgBNsbOm4w4IvbgtXsLLG7ZvhXRij4tzMgTtU/edit?usp=sharing&usp=embed_facebook
-        link_text: Final Presentation
-        description: | # this will include new lines to allow paragraphs
-          I learned the fundamentals of python and machine learning with Stanford and MIT graduates. I programmed a pneumonia detection algorithm that uses logistic regression within a convolutional neural network (CNN) to detect pneumonia from chest rays. My product haad a 90% accuracy rate, 87.04% precision rate, and 94% recall rate with low quality x-ray inputs.
-  - title: Experience
+  - title: Research Experience
     layout: list
     content:
       - layout: right
-        title: Harvard Technology and Global Health Initiative
-        sub_title: Associate director of engagement and fellow
-        caption: September 2023 - PRESENT
-        link: https://techglobalhealth.org/
-        description: | # this will include new lines to allow paragraphs
-          I planned speaker events (notably with Vikram Patel, Paul Farmer Professor and Chair of Dept. of Global Health and Social Medicine). I worked with many leaders working at the intersection of technology and healthcare (Dr. Ben Reis, Co-Founders of Health Tech without Borders, Dr. Fawwaz Habbal, and many more). I taught at under resourced high schools in Massachusetts area about exciting new technological innovation in healthcare. I also hosted a hackathon event on accountability in healthcare - ranging from discussing food deserts to equitable drug pricing.
+        title: Buenrostro Lab at Broad Institute of MIT and Harvard
+        sub_title: Research Fellow
+        caption: May 2025 – Present
+        description: |
+          Building and leveraging next-generation epigenomic tools to uncover new levers to reprogram cell fate and restore resilience across the lifespan.
+
+          Engineering a cost-effective, high-throughput single-cell methylation sequencing assay.
+
       - layout: right
-        title: Emerging Technology Group
-        sub_title: Case Team Analyst for Ginkgo Bioworks
-        caption: September 2023 - December 2023
-        link: https://www.emergingtechgroup.org/
-        description: | # this will include new lines to allow paragraphs
-          Our objective was to work with Ginkgo Bioworks to assess the landscape of gene editing, research existing laws and regulations, and determine important areas where biosecurity can be reinforced via policy to prevent malicious intent in bioengineering. We presented our findings to Ginkgo in hopes of guiding future directions as the integration of AI in genetic engineering becomes more widespread and as technology becomes more efficient and accessible.
+        title: Synthetic Immunity Lab at Harvard Medical School (Dana-Farber Cancer Institute)
+        sub_title: Research Fellow
+        caption: November 2023 – January 2025
+        description: |
+          Designed and constructed cancer-targeting synthetic gene circuits to enhance the efficacy, specificity, and persistence of combinatorial immunotherapy.
+
+          Programmed T-cells with logic-gated induction of an immortalized "zombie T-cell" (zT-cell) state to overcome T-cell exhaustion in vivo.
+
+          Characterized dynamics of immortalized T cells in vivo and in vitro.
+
+          Mentored by Dr. Ming-Ru Wu, Dept. of Cancer Immunology & Virology.
+
       - layout: right
-        title: Link Health
-        sub_title: Ambassador
-        caption: January 2024 - PRESENT
-        link: https://link-health.org/
-        description: | # this will include new lines to allow paragraphs
-          Founded by HMS professor Dr. Alister Martin, we connect eligible patients to the Affordable Connectivity Program under the premise that access to broadband internet is considered a "super" social determinant of health (SDOH).
-        - layout: right
-        title: Harvard Undergraduate Health Policy Review
-        sub_title: Senior Editor
-        caption: September 2023 - PRESENT
-        link: http://www.huhpr.org/
-        description: | # this will include new lines to allow paragraphs
-          I write, edit, and help mentor a new generation of authors for the journal.
+        title: Gao Lab at Northwestern University Feinberg School of Medicine (Lurie’s Cancer Center)
+        sub_title: Research Fellow
+        caption: May 2023 – August 2023
+        description: |
+          Employed Nanopore scRNA-seq on patient-matched renal cell carcinoma primary tumors and brain metastases to map targetable cell types and markers for metastasis prevention.
+
+          Analyzed tumor and immune cell gene-expression dynamics during brain-metastasis evolution.
+
+          Awarded 1st Place Poster Presentation by the Beckman Institute of Advanced Science and Technology.
+
+  - title: Leadership and Extracurriculars
+    layout: list
+    content:
       - layout: right
-        title: Harvard Square Homeless Shelter
-        sub_title: Volunteer
-        caption: October 2023 - PRESENT
-        link: Link to company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Every week, I help clean the shelter, make breakfast, and provide any required assistance for the guests staying at the shelter. The shelter houses and serves 24 homeless individuals, aiming to help them escape poverty by providing resources and a warm, safe, and welcoming shelter through funding from gracious donors. We provide services through the five coldest months of the year to help the guests transition to housing.
+        title: TIME Initiative
+        sub_title: Fellow; Director of TIME Cast
+        caption: March 2025 – Present
+        description: |
+          Selected as 1 of 25 fellows supported by the Academy for Health & Lifespan Research; represent youth in aging biology at major conferences across the world; network with pioneers in aging biology biotech, academia, and venture capital; host podcast episodes with leaders in aging biology.
+
+      - layout: right
+        title: Nexus Fellowship (Norn Group)
+        sub_title: Fellow
+        caption: February 2025 – Present
+        description: |
+          Drive translational efforts in age-related disease by leading journal clubs, drafting policy memos, and designing/securing funding for novel experiments.
+
+      - layout: right
+        title: Future of Aging Summit
+        sub_title: Co-Founder and Co-Host
+        caption: January 2024 – Present
+        description: |
+          Hosting an interdisciplinary summit on aging at the annual Gerontological Society of America (GSA) 2025 with expected 100+ attendees; leading and hosting Clinical Research in Aging and Biotech’s Role in Aging Panel
+
       - layout: right
         title: Aging Initiative at Harvard
-        sub_title: Outreach Chair
-        caption: November 2023 - PRESENT
-        link: Link to company (optional)
-        description: | # this will include new lines to allow paragraphs
-          With advisors Dr. George Church, Dr. Arthur Kleinman, and Dr. Lewis Lipsitz, we are tackling aging through a multidisciplinary lens, from biology to technology to sociology.
+        sub_title: Vice President of Partnerships
+        caption: October 2023 – Present
+        description: |
+          Spearheaded the Muscle Aging Science and Translation (MAST) Symposium (April 2024), the largest muscle aging conference in the world including speakers David Glass, Andrew Adams, Anne-Ulrike Trendelenburg and Boston’s largest aging-biology mixer (Nov 2024) including speakers George Church, Alex Colville, and Jesse Poganik.
+
+          Co-lead a team of 27; manage partnerships with other companies and advisory board members including George Church, Martin Borch Jensen, Laza Nuzhna, and Jake Becraft; raised $10,000+ through industry outreach.
+
+          Lead professor-dinner series and events with MIT/Harvard researchers (e.g., Jonathan Gootenberg, Omar Abudayyeh).
+
+      - layout: right
+        title: Global Alliance for Medical Innovation (GAMI)
+        sub_title: Research & Development Co-Lead
+        caption: February 2024 – Present
+        description: |
+          Building a nurse-patient matching mobile app for elderly patients in rural India with Udaya Kumar and ISER Tirupati partners; mapping delivery bottlenecks and spearheading pilot implementation.
+
+      - layout: right
+        title: Nucleate Aging Biology Thematic Series
+        sub_title: Co-Lead
+        caption: August 2024 – May 2025
+        description: |
+          Co-founded and led a global thematic series; hosted panel focused on startups and venture capital in longevity biotech with Joshua Olshavsky, Steve Robinette, Alex Colville, and Lada Nuzhna
+
+          Authored resource guides accompanying panel discussions.
+
+      - layout: right
+        title: Harvard OpenBio
+        sub_title: Biosecurity Team Co-Lead & Co-Founder
+        caption: February 2024 – January 2025
+        description: |
+          Organized biosecurity journal club and speaker sessions; planned and co-hosted the Future of Biology Conference (130+ attendees; keynotes: George Church, Reshma Shetty).
+
+          Co-led the Harvard Summer Research Institute, matching 73 underserved students to research mentors and publishing their abstracts.
+
   - title: Education
     layout: list
     content:
       - layout: top-right
         title: Harvard University
-        sub_title: Anticipated A.B./S.M. Candidate
-        caption: 2023-2027
-        description: | # this will include new lines to allow paragraphs
-          Studying Human Developmental & Regenerative Biology and Bioengineering.
-  - title: Honors & Awards
+        sub_title: A.B., Human Developmental & Regenerative Biology; A.B., Chemistry & Physics; Secondary in Classics
+        caption: Expected May 2027
+
+  - title: Honors and Awards
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      - 1st Place Research Poster Presentation at Beckman Institute for Advanced Science and Technology - Single-Cell Sequencing of Patient-Matched RCCs and Associated BMs
-      - Jessie Chambers NJCL Scholarship Recipient
-      - National Latin Exam (NLE) Scholarship Recipient
-      - Congressional Award Bronze Medal
-      - AP Scholar with Distinction
-      - Seal of Biliteracy Awarded in Latin
-      - 5th Place Lillie B. Hamilton Award
-      - 2nd Place at National Finals at National Junior Classical League Certamen
-      - 1st Place in Linguistics Bowl (International Competition)
-      - 4x 1st Place at Illinois Junior Classical League State Certamen Finals
+    content: |
+      - TIME Initiative Exploration Grant — 1 of 4 recipients; support from TIME Initiative and age1 VC to represent next-gen leaders at ARDD 2025 (Copenhagen). 2025
+      - Herchel-Smith Fellow — Competitive fellowship supporting independent research in the Buenrostro Lab (Broad Institute); received travel grant to present at ARDD. 2025
+      - PRISE (Program for Research in Science & Engineering) Fellow, Harvard Office of Undergraduate Research & Fellowships. 2024
+      - Harvard College Research Program (HCRP) Grants (Twice Awarded). 2024
+      - Congressional Award — Bronze Medalist, United States Congress. 2022
+      - Jessie Chambers Scholarship, National Junior Classical League — 1 of 8 national recipients ($1,500). 2023
+      - National Latin Exam Scholarship, NLE Scholarship Committee — 1 of 12 global recipients ($2,000). 2023
+
+  - title: Publications and Presentations
+    layout: text
+    content: |
+      - Dasariraju, S., Simonini, S., Mehra, E., Fedorovskyy, M., Law, C., Khera, N., Rajagopal, K., & Orkaby, A. (2025). Aging Initiative: A Student-Led Model for Advancing Aging Research with a Translational Focus. Late-breaking poster presented at the Gerontological Society of America (GSA) Annual Scientific Meeting, Cambridge, MA.
+      - Chan, K., Wang, J., Balakumar, A., Ng, M., Mehra, E., Jain, L., Fischetti, C., Foody, J.N., Duggan, N.M., Goldsmith, A.J., & Allan-Blitz, L.-T. (2025). Using Machine Learning to Classify Manifestations of Extrapulmonary Tuberculosis with Point-of-Care Ultrasound: A Proof of Concept. The Ultrasound Journal. (under review).
+      - Mehra, E., Lu, L., Lin, H.-Y., Shiau, C.-K., Pan, T., & Gao, R. (2023). Delineating Cellular Ecosystem Dynamics from Renal Cell Carcinomas to Brain Metastases. Poster presented at the Lurie Cancer Research Center, Northwestern University Feinberg School of Medicine, Chicago, IL and Harvard University, Cambridge, MA.
+      - Emani, V., An, D., Mehra, E. (2025). A Digital Platform to Improve Access & Af ordability of Trained Homecare Medical Nurses in India. Poster presented at Harvard University, Cambridge, MA.
+      - Mehra, E. How the Power Shift in Healthcare from Providers to Insurers is Eroding Physician–Patient Relationships. 2023.
+
+  - title: Projects
+    layout: text
+    content: |
+      - Modeling IL-2 + Adoptive Cellular Immunotherapy in Tumor Growth (2024) — Built and analyzed a systems model exploring dosing synergies between IL-2 and ACI to study tumor-growth dynamics.
+
+  - title: Skills
+    layout: text
+    content: |
+      - Laboratory: molecular cloning; lentiviral transfection & transduction; mammalian cell culture; miniprep; PCR & gel electrophoresis; bacterial transformation & plating; colony selection & liquid cultures; imaging; Seurat; mouse handling.
+      - Technical: Python; R; Command Line; MATLAB; Mathematica; LaTeX.
+      - Other Activities: Harvard Hindu Association; Harvard Cycling Club; Harvard Undergraduate Health Policy Review (Senior Editor).
+
   - title: Hobbies
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: |
       - Cycling
       - Running
       - Biotech
@@ -164,15 +204,14 @@ sass:
 plugins:
  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - lib/
+  - scripts/
+  - docker-compose.yml

@@ -192,3 +192,19 @@ p.quote {
     margin-top: 1rem;
   }
 }
+
+/* Center-align Education section only */
+.section.education {
+  text-align: center;
+}
+
+.section.education .item {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section.education .item .title,
+.section.education .item .sub-title,
+.section.education .item .caption {
+  text-align: center;
+}

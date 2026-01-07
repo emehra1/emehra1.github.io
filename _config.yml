@@ -17,7 +17,7 @@ darkmode: true
 github_username:  emehra1
 linkedin_username: eshan-mehra-86aa26201
 twitter_username:  emehra30
-googlescholar_username: Eshan Mehra
+googlescholar_username: nJMnE9EAAAAJ&hl=en
 
 # Additional icon links
 #additional_links:
@@ -139,7 +139,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: Center
+      - layout: center
         title: Harvard University
         sub_title: A.B., Human Developmental & Regenerative Biology; A.B., Chemistry & Physics
         caption: Expected May 2027
@@ -147,6 +147,8 @@ content:
   - title: Honors and Awards
     layout: text
     content: |
+      - TIME x Aoki Foundation Grant Recipient - 1 of 11 recipients; support from TIME Initiative and Aoki Foundation to host Immune Aging Speaker series. 2026
+      - John Harvard Scholar (top 5% of class). 2025
       - TIME Initiative Exploration Grant — 1 of 4 recipients; support from TIME Initiative and age1 VC to represent next-gen leaders at ARDD 2025 (Copenhagen). 2025
       - Herchel-Smith Fellow — Competitive fellowship supporting independent research in the Buenrostro Lab (Broad Institute); received travel grant to present at ARDD. 2025
       - PRISE (Program for Research in Science & Engineering) Fellow, Harvard Office of Undergraduate Research & Fellowships. 2024

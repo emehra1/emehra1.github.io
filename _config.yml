@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Eshan Mehra
-title: A.B./S.M. Candidate at Harvard University Studying Biomedical Engineering and Human Developmental & Regenerative Biology
+title: A.B. Candidate at Harvard University Studying Chemistry, Physics, and Human Developmental & Regenerative Biology
 email: eshanmehra@college.harvard.edu
 # email_title: Email (Email title override)
 phone: (312)307-4884
@@ -39,17 +39,11 @@ linkedin_username: eshan-mehra-86aa26201
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: About Me
-about_profile_image: images/profile.heic
+about_title: Eshan Mehra
+about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  As a passionate, ambitious, and interdisciplinary thinker driven by a deep love for knowledge and a desire to make a positive impact, I'm a first year at Harvard College with a profound interest in synthetic biology, Classics, bioengineering, and stem cell biology. I am eager to explore the intersections of these diverse fields to uncover new insights and drive innovation.
-
-With a strong determination to pursue a career in medicine and research, I am dedicated to addressing global health disparities and working towards achieving health equity for all. My belief in the power of storytelling, coupled with my appreciation for ancient literature, drives my commitment to amplifying the voices of the historically underrepresented and oppressed in my community. By understanding their stories, I aspire to make a tangible difference in their lives.
-
-In addition to my academic pursuits, I find joy in playing the violin, a creative outlet that allows me to express myself and connect with others. In addition to criterium cycling, as a former varsity track and field athlete and cross country runner, I embody the values of discipline, perseverance, and teamwork.
-
-I'm looking forward to engaging with like-minded individuals, forging meaningful connections, and exploring new opportunities to collaborate on projects that better society.
-
+  Third-year Harvard College student committed to building and leveraging next-generation epigenomic tools for advancing chronic disease prevention. My interdisciplinary pursuits span developmental and aging biology, mathematics, machine learning, physics, and Classics.
+  
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)

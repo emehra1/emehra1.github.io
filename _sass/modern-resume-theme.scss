@@ -251,7 +251,7 @@ p.quote {
   overflow: hidden;
   min-height: 320px;
   text-decoration: none;
-  color: inherit;
+  color: #fff;
 
   background-image: var(--bg);
   background-size: cover;
@@ -261,6 +261,11 @@ p.quote {
   box-shadow: 0 10px 30px rgba(0,0,0,0.18);
   transform: translateY(0);
   transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.hover-card * {
+  color: inherit !important;
+  text-decoration: none !important;
 }
 
 .hover-card::before {
@@ -288,15 +293,17 @@ p.quote {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-weight: 800;
-  font-size: clamp(1.1rem, 2.2vw, 1.7rem);
+  font-size: clamp(1.6rem, 3.2vw, 2.6rem);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   margin: 0;
 }
 
 .hover-card__meta {
-  opacity: 0;
   transform: translateY(6px);
   transition: opacity 180ms ease, transform 180ms ease;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
+  opacity: 0.9;
   font-weight: 400;
 }
 
@@ -306,15 +313,15 @@ p.quote {
 }
 
 .hover-card__body {
-  font-weight: 300;
+  font-size: clamp(1.2rem, 2.4vw, 1.85rem);
   line-height: 1.45;
+  max-width: 44ch;
   font-size: clamp(1.05rem, 2.0vw, 1.6rem);
   margin: 0;
 
   opacity: 0;
   transform: translateY(8px);
   transition: opacity 180ms ease, transform 180ms ease;
-  max-width: 42ch;
 }
 
 .hover-card:hover,
@@ -323,10 +330,9 @@ p.quote {
   box-shadow: 0 14px 42px rgba(0,0,0,0.26);
 }
 
+.hover-card::before { opacity: 0.50; }
 .hover-card:hover::before,
-.hover-card:focus-visible::before {
-  opacity: 0.65;
-}
+.hover-card:focus-visible::before { opacity: 0.78; }
 
 .hover-card:hover .hover-card__meta,
 .hover-card:focus-visible .hover-card__meta,
@@ -336,7 +342,20 @@ p.quote {
   transform: translateY(0);
 }
 
+.hover-card__title,
+.hover-card__meta,
+.hover-card__body {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
 .hover-card:hover .hover-card__title,
-.hover-card:focus-visible .hover-card__title {
-  text-shadow: 0 6px 24px rgba(0,0,0,0.35);
+.hover-card:hover .hover-card__meta,
+.hover-card:hover .hover-card__body,
+.hover-card:focus-visible .hover-card__title,
+.hover-card:focus-visible .hover-card__meta,
+.hover-card:focus-visible .hover-card__body {
+  opacity: 1;
+  transform: translateY(0);
 }

@@ -131,7 +131,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/foa-summit');">
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/foa-summit.png');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Future of Aging Summit</h3>
             <div class="hover-card__meta">
@@ -144,7 +144,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/aging-initiative');">
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/aging-initiative.png');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Aging Initiative at Harvard</h3>
             <div class="hover-card__meta">

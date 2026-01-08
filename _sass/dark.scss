@@ -1,12 +1,12 @@
 .dark {
-  background-color: #222;
-  color: #e6e6e6;
+  background-color: #000000;
+  color: #ffffffd3;
 }
 
 .dark {
   mark {
-    color: #222;
-    background-color: #e6e6e6;
+    color: #000000;
+    background-color: #ffffffd3;
   }
 
   a {
@@ -15,5 +15,5 @@
 }
 
 body.dark h3 {
-  border-bottom-color: rgba(255, 255, 255, 0.3);
+  border-bottom-color: rgba(255, 255, 255, 0.883);
 }

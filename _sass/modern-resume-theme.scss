@@ -195,21 +195,40 @@ p.quote {
 
 /* ===== Force header icons into a 3-column grid (2 rows of 3) ===== */
 
-/* The icons are usually in a list inside header-right */
+/* Put the icon strip under the title line and align left */
+.header-right {
+  width: 100%;
+  text-align: left;
+  margin-top: 10px;
+}
+
+/* Single-line row of smaller icons */
 .header-right ul,
 .header-right .icons,
 .header-right .icon-links {
-  display: grid !important;
-  grid-template-columns: repeat(3, 52px) !important;
-  grid-auto-rows: 52px !important;
-  gap: 12px 18px !important;
-  justify-content: end !important;
-  align-content: start !important;
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: nowrap;         /* keep in one line */
+  gap: 14px;
+  justify-content: flex-start;
+  align-items: center;
 
-  /* prevents the layout from stretching weirdly */
   padding: 0 !important;
   margin: 0 !important;
   list-style: none !important;
+}
+
+/* Make the icons smaller */
+.header-right i,
+.header-right .fa,
+.header-right .fab,
+.header-right .fas {
+  font-size: 18px !important;
+}
+
+/* If the theme is rendering any text next to the icons, hide it */
+.header-right p {
+  display: none !important;
 }
 
 /* Ensure each icon sits nicely inside a grid cell */
@@ -384,7 +403,7 @@ a.hover-card * {
 }
 
 .hover-card__meta {
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   opacity: 0.9;
 }
 
@@ -406,4 +425,45 @@ a.hover-card * {
 .hover-card:hover .hover-card__body {
   opacity: 1;
   transform: translateY(0);
+}
+
+.get-in-touch {
+  margin-top: 18px;
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.get-in-touch .touch-btn {
+  width: 64px;
+  height: 64px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(0,0,0,0.15);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.get-in-touch .touch-btn i {
+  font-size: 28px;
+}
+
+/* Touch devices: show hover-card content by default */
+@media (hover: none) and (pointer: coarse) {
+  .hover-card::before {
+    opacity: 0.78; /* same as your hover overlay */
+  }
+
+  .hover-card__title,
+  .hover-card__meta,
+  .hover-card__body {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+
+  /* Optional: disable the “lift on hover” animation on touch */
+  .hover-card {
+    transform: none !important;
+  }
 }

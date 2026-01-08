@@ -581,10 +581,3 @@ h3[id],
 span[id] {
   scroll-margin-top: 110px; /* adjust to your header height */
 }
-
-@media (max-width: 768px) {
-  h3[id],
-  span[id] {
-    scroll-margin-top: 140px;
-  }
-}

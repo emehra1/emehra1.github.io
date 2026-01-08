@@ -1,22 +1,17 @@
-# Site
 repository: https://emehra1.github.io/
 favicon: images/favicon.ico
 version: 2
 
-# Personal info
 name: Eshan Mehra
 title: Harvard University — A.B., Chemistry, Physics, and Human Developmental & Regenerative Biology (Expected May 2027)
 
-# Dark Mode (true/false/never)
 darkmode: true
 
-# Social links
 linkedin_username: eshan-mehra-86aa26201
 twitter_username: emehra30
 googlescholar_username: "nJMnE9EAAAAJ&hl=en"
 github_username: emehra1
 
-# Extra icon links (used in header via additional_links loop)
 additional_links:
   - title: Email
     icon: fas fa-envelope
@@ -25,7 +20,6 @@ additional_links:
     icon: fas fa-pencil-alt
     url: https://eshanmehra.substack.com/
 
-# About
 about_profile_image: images/profile.png
 about_content: |
   <span id="about"></span>
@@ -38,8 +32,7 @@ content:
       <span id="labs"></span>
       <div class="hover-grid">
 
-        <a class="hover-card" href="#"
-           style="--bg: url('/images/cards/buenrostro.jpg'); --cover: rgba(74, 192, 176, 0.55);">
+        <a class="hover-card labs" href="#" style="--bg: url('/images/cards/buenrostro.jpg');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Buenrostro Lab</h3>
             <p class="hover-card__body">
@@ -48,8 +41,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card" href="#"
-           style="--bg: url('/images/cards/synthetic-immunity.jpg'); --cover: rgba(74, 192, 176, 0.55);">
+        <a class="hover-card labs" href="#" style="--bg: url('/images/cards/synthetic-immunity.jpg');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Synthetic Immunity Lab</h3>
             <p class="hover-card__body">
@@ -61,8 +53,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card" href="#"
-           style="--bg: url('/images/cards/gao-lab.jpg'); --cover: rgba(74, 192, 176, 0.55);">
+        <a class="hover-card labs" href="#" style="--bg: url('/images/cards/gao-lab.jpg');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Gao Lab</h3>
             <p class="hover-card__body">
@@ -81,8 +72,7 @@ content:
       <span id="leadership"></span>
       <div class="hover-grid">
 
-        <a class="hover-card cover-no-title" href="#"
-           style="--bg: url('/images/cards/time.webp'); --cover: rgba(120, 190, 255, 0.55);">
+        <a class="hover-card cover-no-title" href="#" style="--bg: url('/images/cards/time.webp');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">TIME Initiative</h3>
             <p class="hover-card__body">
@@ -91,8 +81,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card cover-no-title" href="#"
-           style="--bg: url('/images/cards/norn.webp'); --cover: rgba(120, 190, 255, 0.55);">
+        <a class="hover-card cover-no-title" href="#" style="--bg: url('/images/cards/norn.webp');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Nexus Fellowship</h3>
             <p class="hover-card__body">
@@ -101,8 +90,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card cover-no-title" href="#"
-           style="--bg: url('/images/cards/foa-summit.png'); --cover: rgba(120, 190, 255, 0.55);">
+        <a class="hover-card cover-no-title" href="#" style="--bg: url('/images/cards/foa-summit.png');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Future of Aging Summit</h3>
             <p class="hover-card__body">
@@ -111,8 +99,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card cover-no-title" href="#"
-           style="--bg: url('/images/cards/aging-initiative.png'); --cover: rgba(120, 190, 255, 0.55);">
+        <a class="hover-card cover-no-title" href="#" style="--bg: url('/images/cards/aging-initiative.png');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Aging Initiative at Harvard</h3>
             <p class="hover-card__body">
@@ -122,8 +109,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card cover-no-title" href="#"
-           style="--bg: url('/images/cards/gami.png'); --cover: rgba(120, 190, 255, 0.55);">
+        <a class="hover-card cover-no-title" href="#" style="--bg: url('/images/cards/gami.png');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">GAMI</h3>
             <p class="hover-card__body">
@@ -132,8 +118,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card cover-no-title" href="#"
-           style="--bg: url('/images/cards/nucleate.png'); --cover: rgba(120, 190, 255, 0.55);">
+        <a class="hover-card cover-no-title" href="#" style="--bg: url('/images/cards/nucleate.png');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Nucleate Aging Biology</h3>
             <p class="hover-card__body">
@@ -142,8 +127,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card cover-no-title" href="#"
-           style="--bg: url('/images/cards/openbio.png'); --cover: rgba(120, 190, 255, 0.55);">
+        <a class="hover-card cover-no-title" href="#" style="--bg: url('/images/cards/openbio.png');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Harvard OpenBio</h3>
             <p class="hover-card__body">
@@ -185,21 +169,18 @@ content:
       <span id="projects"></span>
       <div class="hover-grid">
 
-        <a class="hover-card cover-no-title projects"
-        href="https://docs.google.com/document/d/1D8xeZBTMEZ8utR_p62iPLbYHhZFYc9NrCfbe8ss-NaI/edit?usp=sharing"
-        target="_blank"
-        rel="noopener"
-        style="--bg: url('/images/cards/il2-aci.png'); --cover: rgba(255, 210, 120, 0.55);">
-
-        <div class="hover-card__content">
-          <h3 class="hover-card__title">Modeling IL-2 + ACI in Tumor Growth</h3>
-
-          <p class="hover-card__body">
-            Built and analyzed a systems model exploring dosing synergies between IL-2
-            and adoptive cellular immunotherapy (ACI) to study tumor-growth dynamics.
-          </p>
-        </div>
-
+        <a class="hover-card projects"
+           href="https://docs.google.com/document/d/1D8xeZBTMEZ8utR_p62iPLbYHhZFYc9NrCfbe8ss-NaI/edit?usp=sharing"
+           target="_blank"
+           rel="noopener"
+           style="--bg: url('/images/cards/il2-aci.png');">
+          <div class="hover-card__content">
+            <h3 class="hover-card__title">Modeling IL-2 + ACI in Tumor Growth</h3>
+            <p class="hover-card__body">
+              Built and analyzed a systems model exploring dosing synergies between IL-2
+              and adoptive cellular immunotherapy (ACI) to study tumor-growth dynamics.
+            </p>
+          </div>
         </a>
 
       </div>

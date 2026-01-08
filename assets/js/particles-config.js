@@ -5,9 +5,13 @@ const particleColor = isDark ? "#ffffff" : "#000000";
 particlesJS("particles-js", {
   particles: {
     color: { value: particleColor },
-    line_linked: { color: particleColor },
+    line_linked: { 
+      color: particleColor ,
+      distance: 220 ,
+      width: 1 ,
+    },
     number: {
-      value: 60,
+      value: 80,
       density: {
         enable: true,
         value_area: 900
@@ -17,7 +21,7 @@ particlesJS("particles-js", {
       type: "circle"
     },
     opacity: {
-      value: 0.25,
+      value: 0.35,
       random: false
     },
     size: {

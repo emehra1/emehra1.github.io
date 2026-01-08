@@ -324,9 +324,21 @@ p.quote {
   box-shadow: 0 14px 42px rgba(0,0,0,0.26);
 }
 
-/* Darken image on hover for better text contrast */
-.hover-card:hover {
-  filter: brightness(0.65) contrast(1.05);
+/* Default cover */
+.hover-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--cover);
+  opacity: 1;
+  transition: opacity 200ms ease, background 200ms ease;
+  z-index: 2;
+}
+
+/* On hover: darken image while keeping text white */
+.hover-card:hover::before {
+  background: rgba(0, 0, 0, 0.55); /* image darkening layer */
+  opacity: 1;
 }
 
 .hover-card {

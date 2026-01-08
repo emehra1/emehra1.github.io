@@ -50,63 +50,8 @@
 
 .border-weak  {
   padding-bottom: 8px;
-  border-bottom: solid 1px #CCCCCC;
+  border-bottom: dashed 1px #CCCCCC;
 }
-
-
-/* ===== Light theme override ===== */
-html, body {
-  background-color: #ffffff;
-  color: #111111;
-
-}
-
-.page-content {
-  background-color: transparent;
-}
-
-h1, h2, h3, h4, h5 {
-  color: #111111;
-}
-
-p, li {
-  color: #222222;
-}
-
-a {
-  color: #111111;
-}
-
-/* ===== Background image layer ===== */
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-image: url("/assets/microscopy.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.03; /* controls subtlety */
-  filter: grayscale(100%) contrast(110%);
-  z-index: -1;
-}
-
-body::after {
-  content: "";
-  position: fixed;
-  inset: 0;
-  background: rgba(255, 255, 255, 0.75);
-  z-index: -1;
-}
-
-.page-content, .container {
-  position: relative;
-  z-index: 1;
-}
-
 
 .layout {
   margin-top: 3rem;
@@ -246,41 +191,4 @@ p.quote {
     padding: 0rem 1rem;
     margin-top: 1rem;
   }
-}
-
-/* Center-align Education section only */
-.section.education .layout {
-  justify-content: center;
-}
-
-.section.education .details {
-  text-align: center;
-}
-
-.section.education .details p {
-  text-align: center;
-}
-
-/* ===== Header: hide email line + 2x3 icon grid ===== */
-
-/* Hide the rendered "Email: ..." line in the header */
-.header-right p {
-  display: none !important;
-}
-
-/* Force icons to wrap to two rows */
-.header-right {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  justify-content: flex-end !important;
-
-  /* Controls wrapping: ~3 icons per row */
-  max-width: 180px;
-
-  gap: 10px;
-}
-
-/* Make each icon a fixed-size item (prevents weird stretching) */
-.header-right a {
-  flex: 0 0 auto !important;
 }

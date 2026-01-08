@@ -177,7 +177,7 @@
 }
 
 .contact a:hover {
-  color: #4C4C4C;
+  color: #000000;
 }
 
 p.quote {
@@ -270,7 +270,7 @@ p.quote {
   overflow: hidden;
   min-height: 320px;
   text-decoration: none;
-  color: #fff;
+  color: #ffffffd3;
 
   background-image: var(--bg);
   background-size: cover;
@@ -488,4 +488,9 @@ a.hover-card * {
   .hover-card {
     transform: none !important;
   }
+}
+
+.section-title,
+.section h2 {
+  color: #ffffff;
 }

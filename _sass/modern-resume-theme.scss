@@ -359,3 +359,51 @@ p.quote {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* ================================
+   Force hover-card text to white
+   (override theme anchor styles)
+   ================================ */
+
+a.hover-card,
+a.hover-card:hover,
+a.hover-card:visited,
+a.hover-card:active {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+a.hover-card * {
+  color: #ffffff !important;
+}
+
+/* Typography scale for cards */
+.hover-card__title {
+  font-size: clamp(1.6rem, 3.2vw, 2.6rem);
+  letter-spacing: 0.08em;
+}
+
+.hover-card__meta {
+  font-size: 1.05rem;
+  opacity: 0.9;
+}
+
+.hover-card__body {
+  font-size: clamp(1.2rem, 2.4vw, 1.85rem);
+  line-height: 1.45;
+}
+
+.hover-card__title,
+.hover-card__meta,
+.hover-card__body {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 200ms ease, transform 200ms ease;
+}
+
+.hover-card:hover .hover-card__title,
+.hover-card:hover .hover-card__meta,
+.hover-card:hover .hover-card__body {
+  opacity: 1;
+  transform: translateY(0);
+}

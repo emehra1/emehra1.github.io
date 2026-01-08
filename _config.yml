@@ -118,7 +118,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/norn.jpg');">
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/norn.webp');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Nexus Fellowship</h3>
             <div class="hover-card__meta">
@@ -159,7 +159,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/gami.jpeg');">
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/gami.webp');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">GAMI</h3>
             <div class="hover-card__meta">
@@ -186,7 +186,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/openbio.jpg');">
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/openbio.png');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Harvard OpenBio</h3>
             <div class="hover-card__meta">

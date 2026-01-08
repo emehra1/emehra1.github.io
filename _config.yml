@@ -170,6 +170,40 @@ content:
       <div class="hover-grid">
 
         <a class="hover-card projects"
+           href="https://drive.google.com/file/d/1jVz_gRrl2Z6W7DQ15xxsLWaqAAJNtu-U/view?usp=sharing"
+           target="_blank"
+           rel="noopener"
+           style="--bg: url('/images/cards/il2-aci.png');">
+          <div class="hover-card__content">
+            <h3 class="hover-card__title">Chronic Expansion Reprograms Memory CD8+ T Cells Toward Poised Exhaustion Without Loss of Proliferative Capacity</h3>
+            <p class="hover-card__body">
+               Reanalyzed longitudinal RNA-seq and ATAC-seq data to show that repeated CD8⁺ T-cell expansion drives epigenetic and transcriptional programs associated with poised exhaustion while preserving proliferative capacity.
+            </p>
+          </div>
+        </a>
+
+      </div>
+
+      <div class="hover-grid">
+
+        <a class="hover-card projects"
+           href="https://drive.google.com/file/d/1SSYbrn09IO8GH8xXDtbaMzTwU0S63l3Q/view?usp=sharing"
+           target="_blank"
+           rel="noopener"
+           style="--bg: url('/images/cards/il2-aci.png');">
+          <div class="hover-card__content">
+            <h3 class="hover-card__title">Simulating Super-Resolution Fluorescence Microscopy with Quantum Dots</h3>
+            <p class="hover-card__body">
+              Performed *in silico* simulations of quantum dot blinking as a novel super-resolution microscopy method.
+            </p>
+          </div>
+        </a>
+
+      </div>
+
+      <div class="hover-grid">
+
+        <a class="hover-card projects"
            href="https://docs.google.com/document/d/1D8xeZBTMEZ8utR_p62iPLbYHhZFYc9NrCfbe8ss-NaI/edit?usp=sharing"
            target="_blank"
            rel="noopener"

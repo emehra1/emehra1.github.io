@@ -749,3 +749,18 @@ h3[id], span[id] {
 .touch-btn i {
   color: #ffffffd3;
 }
+
+/* Hide menu UI on mobile */
+@media (max-width: 768px) {
+  .menu-btn,
+  .menu-panel,
+  .menu-overlay {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  body.menu-open {
+    overflow: auto !important;
+  }
+}

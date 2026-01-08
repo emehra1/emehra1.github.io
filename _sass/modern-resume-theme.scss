@@ -721,3 +721,31 @@ h3[id], span[id] {
 .menu-title {
   font-size: 18px;   /* or 15px */
 }
+
+/* Header layout: stack icons under title */
+.header-container {
+  flex-wrap: wrap;
+}
+
+.header-left,
+.header-right {
+  flex: 0 0 100%;
+}
+
+.header-right {
+  margin-top: 10px;
+  text-align: left;
+}
+
+/* Header icons row */
+.header-touch-icons {
+  display: flex;
+  gap: 14px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.touch-btn i {
+  color: #ffffffd3;
+}

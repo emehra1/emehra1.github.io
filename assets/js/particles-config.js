@@ -12,7 +12,7 @@ particlesJS("particles-js", {
       opacity: 0.5 ,
     },
     number: {
-      value: 60,
+      value: 70,
       density: {
         enable: true,
         value_area: 900
@@ -31,7 +31,7 @@ particlesJS("particles-js", {
     },
     move: {
       enable: true,
-      speed: 0.6,
+      speed: 0.65,
       direction: "none",
       random: false,
       straight: false,

@@ -535,18 +535,28 @@ body.menu-open .menu-overlay { opacity: 0.9; pointer-events: auto; }
   }
 }
 
-/* Touch devices: show details by default (no hover) */
+/* Touch devices: control what shows by section */
 @media (hover: none) and (pointer: coarse) {
-  .hover-card::before { opacity: 0; }
-  .hover-card__title { opacity: 0; }
-  .hover-card__body {
+  /* Disable hover lift */
+  .hover-card { transform: none !important; }
+
+  /* Default mobile behavior: keep cover visible, hide details */
+  .hover-card::before { opacity: 1 !important; }
+  .hover-card__title { opacity: 1 !important; }
+  .hover-card__body  { opacity: 0 !important; transform: translateY(8px) !important; }
+
+  /* Leadership: show description (no title) */
+  .hover-card.cover-no-title::before { opacity: 0 !important; }
+  .hover-card.cover-no-title .hover-card__body {
     opacity: 1 !important;
     transform: translateY(0) !important;
   }
-  .hover-card { transform: none !important; }
 
-  /* Keep Projects titles visible on touch */
-  .hover-card.projects .hover-card__title {
-    opacity: 1 !important;
-  }
+  /* Labs: title only (keep body hidden) */
+  .hover-card.labs .hover-card__title { opacity: 1 !important; }
+  .hover-card.labs .hover-card__body  { opacity: 0 !important; }
+
+  /* Projects: title only (keep body hidden) */
+  .hover-card.projects .hover-card__title { opacity: 1 !important; }
+  .hover-card.projects .hover-card__body  { opacity: 0 !important; }
 }

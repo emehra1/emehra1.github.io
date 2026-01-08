@@ -9,7 +9,7 @@ particlesJS("particles-js", {
       color: particleColor ,
       distance: 100 ,
       width: 1 ,
-      opacity: 0.35 ,
+      opacity: 0.5 ,
     },
     number: {
       value: 60,

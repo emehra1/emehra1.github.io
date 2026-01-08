@@ -572,7 +572,7 @@ html { scroll-behavior: smooth; }
 /* Open state */
 body.menu-open .menu-panel { transform: translateX(0); }
 body.menu-open .menu-overlay {
-  opacity: 1;
+  opacity: 0.9;
   pointer-events: auto;
 }
 
@@ -580,4 +580,82 @@ body.menu-open .menu-overlay {
 h3[id],
 span[id] {
   scroll-margin-top: 110px; /* adjust to your header height */
+}
+
+/* Header layout: put icon row under the title, left-aligned */
+.header-container {
+  flex-wrap: wrap;
+}
+
+.header-left {
+  flex: 1 1 100%;
+}
+
+.header-right {
+  flex: 1 1 100%;
+  margin-top: 10px;
+  text-align: left;
+}
+
+/* Make the header icon links look like your bottom "touch-btn" buttons */
+.header-right ul.icons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-right ul.icons li {
+  padding-left: 0; /* overrides icons.scss spacing */
+}
+
+.header-right ul.icons a {
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;          /* square-ish, like bottom */
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+  opacity: 0.85;
+}
+
+.header-right ul.icons a:hover {
+  opacity: 1;
+  background: transparent;
+}
+
+.header-right ul.icons a i {
+  font-size: 16px;
+  line-height: 1;
+  color: #fff;                 /* makes the icon white */
+}
+
+.touch-btn i,
+.header-right ul.icons a i {
+  color: #fff;
+}
+
+html {
+  scroll-padding-top: 110px; /* set to your header height */
+}
+
+[id] {
+  scroll-margin-top: 110px;  /* fallback / extra safety */
+}
+
+.menu-btn {
+  width: 64px;   /* wider */
+  height: 44px;
+}
+
+.menu-btn span {
+  width: 34px;   /* longer burger lines */
 }

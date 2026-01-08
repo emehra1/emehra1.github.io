@@ -193,58 +193,39 @@ p.quote {
   }
 }
 
-/* ===== Force header icons into a 3-column grid (2 rows of 3) ===== */
-
-/* Put the icon strip under the title line and align left */
-.header-right {
-  width: 100%;
-  text-align: left;
-  margin-top: 10px;
-}
-
-/* Single-line row of smaller icons */
-.header-right ul,
-.header-right .icons,
-.header-right .icon-links {
-  display: flex !important;
-  flex-direction: row;
-  flex-wrap: nowrap;         /* keep in one line */
-  gap: 14px;
-  justify-content: flex-start;
+/* Header icons: make them match the footer boxed buttons */
+.header-right a,
+.header-icons a,
+.icon-links a,
+.icons a {
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
 
-  padding: 0 !important;
-  margin: 0 !important;
-  list-style: none !important;
+  border: 1px solid rgba(255, 255, 255, 0.894);
+  border-radius: 8px;
+
+  text-decoration: none;
+  opacity: 0.85;
+
+  color: #ffffff; /* forces icon glyph color */
 }
 
-/* Make the icons smaller */
+.header-right a:hover,
+.header-icons a:hover,
+.icon-links a:hover,
+.icons a:hover {
+  opacity: 1;
+}
+
+/* icon size */
 .header-right i,
-.header-right .fa,
-.header-right .fab,
-.header-right .fas {
-  font-size: 18px !important;
-}
-
-/* If the theme is rendering any text next to the icons, hide it */
-.header-right p {
-  display: none !important;
-}
-
-/* Ensure each icon sits nicely inside a grid cell */
-.header-right li {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* If the theme adds margins to the links themselves */
-.header-right a {
-  margin: 0 !important;
-}
-
-/* Hide the email text line (keep only icon) */
-.header-right p {
-  display: none !important;
+.header-icons i,
+.icon-links i,
+.icons i {
+  font-size: 16px;
 }
 
 /* ===== Hover Cards (image tiles with hover reveal) ===== */
@@ -511,8 +492,8 @@ html { scroll-behavior: smooth; }
 /* Hamburger button */
 .menu-btn {
   position: fixed;
-  top: 22px;
-  right: 22px;
+  top: 25px;
+  right: 25px;
   z-index: 9999;
   width: 44px;
   height: 44px;
@@ -524,9 +505,9 @@ html { scroll-behavior: smooth; }
 
 .menu-btn span {
   display: block;
-  height: 3px;
+  height: 5px;
   margin: 6px 0;
-  background: rgba(255,255,255,0.85); /* white for dark mode */
+  background: rgb(255, 255, 255); /* white for dark mode */
   border-radius: 2px;
 }
 
@@ -593,4 +574,17 @@ body.menu-open .menu-panel { transform: translateX(0); }
 body.menu-open .menu-overlay {
   opacity: 1;
   pointer-events: auto;
+}
+
+/* Offset anchor scrolling so section headings aren't hidden under header */
+h3[id],
+span[id] {
+  scroll-margin-top: 110px; /* adjust to your header height */
+}
+
+@media (max-width: 768px) {
+  h3[id],
+  span[id] {
+    scroll-margin-top: 140px;
+  }
 }

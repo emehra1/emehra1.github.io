@@ -750,17 +750,26 @@ h3[id], span[id] {
   color: #ffffffd3;
 }
 
-/* Hide menu UI on mobile */
+/* Smaller, lighter menu button on mobile */
 @media (max-width: 768px) {
-  .menu-btn,
-  .menu-panel,
-  .menu-overlay {
-    display: none !important;
+  .menu-btn {
+    width: 36px;        /* smaller tap target */
+    height: 36px;
+    padding: 6px;
+    top: 16px;          /* tuck it in slightly */
+    right: 16px;
+    opacity: 0.85;
+  }
+
+  .menu-btn span {
+    height: 2px;        /* thinner lines */
+    margin: 4px 0;
+    width: 22px;        /* shorter bars */
   }
 }
 
 @media (max-width: 768px) {
-  body.menu-open {
-    overflow: auto !important;
+  .menu-btn {
+    opacity: 0.7;
   }
 }

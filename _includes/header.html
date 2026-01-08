@@ -3,62 +3,43 @@
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <h1>{{ site.name | escape }}</h1>
       <h2>{{ site.title | escape }}</h2>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
-      <ul class="icons no-print header-touch-icons">
 
+      <ul class="icons no-print header-touch-icons">
         <li>
           <a class="touch-btn" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" aria-label="LinkedIn">
             <i class="fab fa-linkedin-in"></i>
           </a>
         </li>
-
         <li>
           <a class="touch-btn" href="https://twitter.com/{{ site.twitter_username }}" target="_blank" aria-label="Twitter">
             <i class="fab fa-twitter"></i>
           </a>
         </li>
-
         <li>
           <a class="touch-btn" href="https://scholar.google.com/citations?user={{ site.googlescholar_username }}" target="_blank" aria-label="Google Scholar">
             <i class="fas fa-graduation-cap"></i>
           </a>
         </li>
-
         <li>
           <a class="touch-btn" href="https://eshanmehra.substack.com/" target="_blank" aria-label="Substack">
             <i class="fas fa-pencil-alt"></i>
           </a>
         </li>
-
         <li>
           <a class="touch-btn" href="https://github.com/{{ site.github_username }}" target="_blank" aria-label="GitHub">
             <i class="fab fa-github"></i>
           </a>
         </li>
-
         <li>
           <a class="touch-btn" href="mailto:emehra@broadinstitute.org" aria-label="Email">
             <i class="fas fa-envelope"></i>
           </a>
         </li>
       </ul>
+    </div>
 
-      {%- if site.email -%}
-        <p>
-          {{ site.email_title | default: "Email" }}: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email | escape }}</a>
-        </p>
-      {%- endif -%}
-      {%- if site.phone -%}
-        <p>
-          {{ site.phone_title | default: "Phone" }}: {{ site.phone | escape }}
-        </p>
-      {%- endif -%}
-      {%- if site.website -%}
-        <p>
-          {{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
-        </p>
-      {%- endif -%}
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+      <!-- leave this empty or keep contact text if you ever use it -->
     </div>
   </div>
 </div>

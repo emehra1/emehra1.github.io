@@ -397,8 +397,8 @@ p.quote {
   text-shadow: 0 3px 14px rgba(0,0,0,0.65);
 }
 
-/* External-link hint on Projects hover */
-.hover-card.projects::after {
+/* External-link hint for all clickable hover cards */
+.hover-card[href]::after {
   content: "↗";
   position: absolute;
   bottom: 18px;
@@ -410,7 +410,11 @@ p.quote {
   z-index: 4;
 }
 
-.hover-card.projects:hover::after { opacity: 0.85; }
+/* Reveal on hover / focus */
+.hover-card[href]:hover::after,
+.hover-card[href]:focus-visible::after {
+  opacity: 0.85;
+}
 
 /* =========================================================
    Menu

@@ -32,7 +32,7 @@ content:
       <span id="labs"></span>
       <div class="hover-grid">
 
-        <a class="hover-card labs" href="#" style="--bg: url('/images/cards/buenrostro.jpg');">
+        <a class="hover-card labs" href="https://www.buenrostrolab.com/" style="--bg: url('/images/cards/buenrostro.jpg');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Buenrostro Lab</h3>
             <p class="hover-card__body">
@@ -41,7 +41,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card labs" href="#" style="--bg: url('/images/cards/synthetic-immunity.jpg');">
+        <a class="hover-card labs" href="https://www.syntheticimmunity.net/" style="--bg: url('/images/cards/synthetic-immunity.jpg');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Synthetic Immunity Lab</h3>
             <p class="hover-card__body">
@@ -53,7 +53,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card labs" href="#" style="--bg: url('/images/cards/gao-lab.jpg');">
+        <a class="hover-card labs" href="https://labs.feinberg.northwestern.edu/gao/index.html" style="--bg: url('/images/cards/gao-lab.jpg');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Gao Lab</h3>
             <p class="hover-card__body">
@@ -72,7 +72,7 @@ content:
       <span id="leadership"></span>
       <div class="hover-grid">
 
-        <a class="hover-card cover-no-title" href="#" style="--bg: url('/images/cards/time.webp');">
+        <a class="hover-card cover-no-title" href="https://www.timeinitiative.org/" style="--bg: url('/images/cards/time.webp');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">TIME Initiative</h3>
             <p class="hover-card__body">
@@ -81,7 +81,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card cover-no-title" href="#" style="--bg: url('/images/cards/norn.webp');">
+        <a class="hover-card cover-no-title" href="https://norn.group/" style="--bg: url('/images/cards/norn.webp');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Nexus Fellowship</h3>
             <p class="hover-card__body">
@@ -90,7 +90,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card cover-no-title" href="#" style="--bg: url('/images/cards/foa-summit.png');">
+        <a class="hover-card cover-no-title" href="https://www.changemakersinaging.org/" style="--bg: url('/images/cards/foa-summit.png');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Future of Aging Summit</h3>
             <p class="hover-card__body">
@@ -99,7 +99,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card cover-no-title" href="#" style="--bg: url('/images/cards/aging-initiative.png');">
+        <a class="hover-card cover-no-title" href="https://aging-initiative.org/" style="--bg: url('/images/cards/aging-initiative.png');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Aging Initiative at Harvard</h3>
             <p class="hover-card__body">
@@ -109,7 +109,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card cover-no-title" href="#" style="--bg: url('/images/cards/gami.png');">
+        <a class="hover-card cover-no-title" href="https://www.harvardgami.com/" style="--bg: url('/images/cards/gami.png');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">GAMI</h3>
             <p class="hover-card__body">
@@ -118,7 +118,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card cover-no-title" href="#" style="--bg: url('/images/cards/nucleate.png');">
+        <a class="hover-card cover-no-title" href="https://nucleate.org/" style="--bg: url('/images/cards/nucleate.png');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Nucleate Aging Biology</h3>
             <p class="hover-card__body">
@@ -127,7 +127,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card cover-no-title" href="#" style="--bg: url('/images/cards/openbio.png');">
+        <a class="hover-card cover-no-title" href="https://www.openbiolab.org/" style="--bg: url('/images/cards/openbio.png');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Harvard OpenBio</h3>
             <p class="hover-card__body">

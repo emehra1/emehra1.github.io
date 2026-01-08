@@ -324,6 +324,23 @@ p.quote {
   box-shadow: 0 14px 42px rgba(0,0,0,0.26);
 }
 
+/* Darken image on hover for better text contrast */
+.hover-card:hover {
+  filter: brightness(0.65) contrast(1.05);
+}
+
+.hover-card {
+  transition: filter 200ms ease, transform 180ms ease, box-shadow 180ms ease;
+}
+
+.hover-card__content {
+  z-index: 3;
+}
+
+.hover-card::before {
+  z-index: 2;
+}
+
 .hover-card:hover::before,
 .hover-card:focus-visible::before { opacity: 0.25; }
 

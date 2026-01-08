@@ -352,6 +352,20 @@ p.quote {
   text-shadow: 0 3px 12px rgba(0,0,0,0.55);
 }
 
+/* Leadership / Extracurriculars: blue cover tint + readable hover */
+.hover-card.cover-no-title::before {
+  background: rgba(120, 190, 255, 0.55);
+  opacity: 1;
+}
+
+.hover-card.cover-no-title:hover::before,
+.hover-card.cover-no-title:focus-visible::before {
+  background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    rgba(120, 190, 255, 0.35);
+  opacity: 1;
+}
+
 /* Projects: yellow at rest + strong dark scrim on hover */
 .hover-card.projects::before {
   background: rgba(255, 210, 120, 0.55);
@@ -369,6 +383,12 @@ p.quote {
 .hover-card.projects .hover-card__title,
 .hover-card.projects .hover-card__body {
   text-shadow: 0 3px 14px rgba(0,0,0,0.65);
+}
+
+/* Projects: slightly smaller, more restrained title */
+.hover-card.projects .hover-card__title {
+  font-size: clamp(20px, 2.2vw, 30px);
+  letter-spacing: 0.06em; /* optional: tighter than labs */
 }
 
 /* External-link hint on Projects hover */

@@ -372,13 +372,28 @@ p.quote {
   transform: translateY(0);
 }
 
-/* Darken yellow slightly on hover to preserve contrast */
+/* --- Projects: force readable hover on light (paper) images --- */
+
+/* Keep your yellow cover at rest (what you already have) */
 .hover-card.projects::before {
-  background: rgba(220, 180, 90, 0.6);
+  background: rgba(255, 210, 120, 0.55);
+  opacity: 1;
 }
 
-.hover-card.projects:hover::before {
-  opacity: 0.35;
+/* On hover: add a DARK scrim while keeping a hint of yellow */
+.hover-card.projects:hover::before,
+.hover-card.projects:focus-visible::before {
+  background:
+    linear-gradient(rgba(0,0,0,0.62), rgba(0,0,0,0.62)),
+    rgba(255, 210, 120, 0.35);
+  opacity: 1;
+}
+
+/* Make Projects text a bit more "stamped" */
+.hover-card.projects .hover-card__title,
+.hover-card.projects .hover-card__body {
+  color: #fff !important;
+  text-shadow: 0 3px 14px rgba(0,0,0,0.65);
 }
 
 /* Touch devices: show details by default (no hover) */

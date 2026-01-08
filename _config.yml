@@ -167,7 +167,7 @@ content:
     layout: text
     content: |
       <span id="projects"></span>
-      <div class="hover-grid">
+      <div class="hover-grid cols-3">
 
         <a class="hover-card projects"
            href="https://drive.google.com/file/d/1jVz_gRrl2Z6W7DQ15xxsLWaqAAJNtu-U/view?usp=sharing"
@@ -184,7 +184,7 @@ content:
 
       </div>
 
-      <div class="hover-grid">
+      <div class="hover-grid cols-3">
 
         <a class="hover-card projects"
            href="https://drive.google.com/file/d/1SSYbrn09IO8GH8xXDtbaMzTwU0S63l3Q/view?usp=sharing"
@@ -201,7 +201,7 @@ content:
 
       </div>
 
-      <div class="hover-grid">
+      <div class="hover-grid cols-3">
 
         <a class="hover-card projects"
            href="https://docs.google.com/document/d/1D8xeZBTMEZ8utR_p62iPLbYHhZFYc9NrCfbe8ss-NaI/edit?usp=sharing"
@@ -209,10 +209,10 @@ content:
            rel="noopener"
            style="--bg: url('/images/cards/il2-aci.png');">
           <div class="hover-card__content">
-            <h3 class="hover-card__title">Modeling IL-2 + ACI in Tumor Growth</h3>
+            <h3 class="hover-card__title">Modeling IL-2 + ACT in Tumor Growth</h3>
             <p class="hover-card__body">
               Built and analyzed a systems model exploring dosing synergies between IL-2
-              and adoptive cellular immunotherapy (ACI) to study tumor-growth dynamics.
+              and adoptive cellular immunotherapy (ACT) to study tumor-growth dynamics.
             </p>
           </div>
         </a>

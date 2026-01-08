@@ -13,14 +13,18 @@ email: emehra@broadinstitute.org
 # Dark Mode (true/false/never)
 darkmode: true
 
+
 # Social links
 linkedin_username: eshan-mehra-86aa26201
-twitter_username:  emehra30
-googlescholar_username: nJMnE9EAAAAJ&hl=en
-github_username:  emehra1
-- title: substack
-  icon: pencil
-  url: https://eshanmehra.substack.com/
+twitter_username: emehra30
+googlescholar_username: "nJMnE9EAAAAJ&hl=en"
+github_username: emehra1
+
+# Additional icon links
+additional_links:
+  - title: Substack
+    icon: fas fa-pencil-alt
+    url: https://eshanmehra.substack.com/
 
 # Additional icon links
 #additional_links:

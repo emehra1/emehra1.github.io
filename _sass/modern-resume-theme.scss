@@ -49,8 +49,8 @@
 }
 
 .border-weak  {
-  padding-bottom: 8px;
-  border-bottom: dashed 1px #CCCCCC;
+  padding-bottom: 12px;
+  border-bottom: solid 1px #333333;
 }
 
 .layout {
@@ -245,8 +245,54 @@ p.quote {
 
 .border-weak  {
   padding-bottom: 8px;
-  border-bottom: dashed 1px #CCCCCC;
+  border-bottom: solid 1px #CCCCCC;
 }
+
+
+/* ===== Light theme override ===== */
+html, body {
+  background-color: #ffffff;
+  color: #111111;
+
+}
+
+.page-content {
+  background-color: transparent;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #111111;
+}
+
+p, li {
+  color: #222222;
+}
+
+a {
+  color: #111111;
+}
+
+/* ===== Background image layer ===== */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/assets/background.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.08; /* controls subtlety */
+  z-index: -1;
+}
+
+.page-content, .container {
+  position: relative;
+  z-index: 1;
+}
+
 
 .layout {
   margin-top: 3rem;

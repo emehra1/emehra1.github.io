@@ -576,10 +576,12 @@ body.menu-open .menu-overlay {
   pointer-events: auto;
 }
 
-/* Offset anchor scrolling so section headings aren't hidden under header */
-h3[id],
-span[id] {
-  scroll-margin-top: 110px; /* adjust to your header height */
+
+html { scroll-behavior: smooth; }
+
+/* only offset headings/anchors you actually jump to */
+h3[id], span[id] {
+  scroll-margin-top: 90px;   /* try 70–90; 80 is a good start */
 }
 
 /* Header layout: put icon row under the title, left-aligned */
@@ -643,14 +645,6 @@ span[id] {
   color: #fff;
 }
 
-html {
-  scroll-padding-top: 110px; /* set to your header height */
-}
-
-[id] {
-  scroll-margin-top: 110px;  /* fallback / extra safety */
-}
-
 .menu-btn {
   width: 64px;   /* wider */
   height: 44px;
@@ -658,4 +652,62 @@ html {
 
 .menu-btn span {
   width: 34px;   /* longer burger lines */
+}
+
+/* --- HEADER ICONS: force them to match footer boxed style --- */
+.header-right ul.icons {
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  display: flex !important;
+  gap: 14px !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  flex-wrap: nowrap !important;
+}
+
+.header-right ul.icons li {
+  padding-left: 0 !important; /* overrides theme spacing */
+}
+
+/* Override theme's round "badge" buttons */
+.header-right ul.icons a {
+  width: 34px !important;
+  height: 34px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  border: 1px solid rgba(255,255,255,0.9) !important;
+  border-radius: 8px !important;         /* <-- not circular */
+  background: transparent !important;      /* <-- remove gray fill */
+  box-shadow: none !important;
+
+  opacity: 0.85 !important;
+  text-decoration: none !important;
+}
+
+.header-right ul.icons a:hover {
+  opacity: 1 !important;
+  background: transparent !important;
+}
+
+.header-right ul.icons a i {
+  font-size: 16px !important;
+  color: #fff !important;                 /* <-- white icons */
+}
+
+.header-container {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.header-left,
+.header-right {
+  flex: 0 0 100% !important;
+}
+
+.header-right {
+  text-align: left !important;
+  margin-top: 10px !important;
 }

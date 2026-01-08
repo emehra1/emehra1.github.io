@@ -7,7 +7,7 @@ particlesJS("particles-js", {
     color: { value: particleColor },
     line_linked: { 
       color: particleColor ,
-      distance: 220 ,
+      distance: 80 ,
       width: 1 ,
     },
     number: {

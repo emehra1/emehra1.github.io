@@ -737,19 +737,50 @@ h3[id], span[id] {
   text-align: left;
 }
 
-/* Header icons row */
+/* Header icon row */
 .header-touch-icons {
-  display: flex;
-  gap: 14px;
-  padding: 0;
-  margin: 0;
-  list-style: none;
+  margin-top: 14px;
+  padding: 0 !important;
+  list-style: none !important;
+
+  display: flex !important;
+  gap: 14px !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+
+  /* in case theme floats .icons */
+  float: none !important;
 }
 
-.touch-btn i {
-  color: #ffffffd3;
+.header-touch-icons li {
+  padding-left: 0 !important;
+  margin: 0 !important;
 }
 
+/* Make header touch buttons match footer */
+.header-touch-icons .touch-btn {
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  background: transparent;
+
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.header-touch-icons .touch-btn:hover {
+  opacity: 1;
+}
+
+.header-touch-icons .touch-btn i {
+  font-size: 16px;
+  color: #fff;
+}
 /* Smaller, lighter menu button on mobile */
 @media (max-width: 768px) {
   .menu-btn {

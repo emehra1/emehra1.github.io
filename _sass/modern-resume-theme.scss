@@ -260,3 +260,27 @@ p.quote {
 .section.education .details p {
   text-align: center;
 }
+
+/* ===== Header: hide email line + 2x3 icon grid ===== */
+
+/* Hide the rendered "Email: ..." line in the header */
+.header-right p {
+  display: none !important;
+}
+
+/* Force icons to wrap to two rows */
+.header-right {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: flex-end !important;
+
+  /* Controls wrapping: ~3 icons per row */
+  max-width: 180px;
+
+  gap: 10px;
+}
+
+/* Make each icon a fixed-size item (prevents weird stretching) */
+.header-right a {
+  flex: 0 0 auto !important;
+}

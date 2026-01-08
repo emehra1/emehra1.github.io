@@ -185,10 +185,6 @@ content:
       - Running
       - Powerlifting
       - Formula 1
-  
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
 
 sass:
   sass_dir: _sass

@@ -244,9 +244,9 @@ content:
         <div class="get-in-touch">
           <a class="touch-btn" href="mailto:emehra@broadinstitute.org" aria-label="Email"><i class="fas fa-envelope"></i></a>
           <a class="touch-btn" href="https://twitter.com/emehra30" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-          <a class="touch-btn" href="https://github.com/emehra1" aria-label="GitHub"><i class="fab fa-github"></i></a>
           <a class="touch-btn" href="https://scholar.google.com/citations?user=nJMnE9EAAAAJ&hl=en" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
           <a class="touch-btn" href="https://www.linkedin.com/in/eshan-mehra-86aa26201/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a class="touch-btn" href="https://github.com/emehra1" aria-label="GitHub"><i class="fab fa-github"></i></a>
           <a class="touch-btn" href="https://eshanmehra.substack.com/" aria-label="Substack"><i class="fas fa-pencil-alt"></i></a>
         </div>
       </div>

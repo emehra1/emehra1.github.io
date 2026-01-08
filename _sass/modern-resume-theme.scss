@@ -192,3 +192,38 @@ p.quote {
     margin-top: 1rem;
   }
 }
+
+/* ===== Force header icons into a 3-column grid (2 rows of 3) ===== */
+
+/* The icons are usually in a list inside header-right */
+.header-right ul,
+.header-right .icons,
+.header-right .icon-links {
+  display: grid !important;
+  grid-template-columns: repeat(3, 52px) !important;
+  grid-auto-rows: 52px !important;
+  gap: 12px 18px !important;
+  justify-content: end !important;
+  align-content: start !important;
+
+  /* prevents the layout from stretching weirdly */
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style: none !important;
+}
+
+/* Ensure each icon sits nicely inside a grid cell */
+.header-right li {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* If the theme adds margins to the links themselves */
+.header-right a {
+  margin: 0 !important;
+}
+
+/* Hide the email text line (keep only icon) */
+.header-right p {
+  display: none !important;
+}

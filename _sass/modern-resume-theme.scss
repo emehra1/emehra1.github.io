@@ -227,3 +227,116 @@ p.quote {
 .header-right p {
   display: none !important;
 }
+
+/* ===== Hover Cards (image tiles with hover reveal) ===== */
+
+.hover-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 16px;
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hover-card {
+  --bg: none;                 /* set per-card via inline style */
+  --overlay: rgba(0, 0, 0, 0.55);
+
+  position: relative;
+  display: block;
+  border-radius: 18px;
+  overflow: hidden;
+  min-height: 320px;
+  text-decoration: none;
+  color: inherit;
+
+  background-image: var(--bg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.18);
+  transform: translateY(0);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.hover-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--overlay);
+  opacity: 0.35;
+  transition: opacity 180ms ease;
+}
+
+.hover-card__content {
+  position: absolute;
+  inset: 0;
+  padding: 28px;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  gap: 14px;
+  z-index: 1;
+}
+
+.hover-card__title {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: clamp(1.1rem, 2.2vw, 1.7rem);
+  margin: 0;
+}
+
+.hover-card__meta {
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 180ms ease, transform 180ms ease;
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.hover-card__meta span {
+  display: block;
+  opacity: 0.9;
+}
+
+.hover-card__body {
+  font-weight: 300;
+  line-height: 1.45;
+  font-size: clamp(1.05rem, 2.0vw, 1.6rem);
+  margin: 0;
+
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 180ms ease, transform 180ms ease;
+  max-width: 42ch;
+}
+
+.hover-card:hover,
+.hover-card:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 42px rgba(0,0,0,0.26);
+}
+
+.hover-card:hover::before,
+.hover-card:focus-visible::before {
+  opacity: 0.65;
+}
+
+.hover-card:hover .hover-card__meta,
+.hover-card:focus-visible .hover-card__meta,
+.hover-card:hover .hover-card__body,
+.hover-card:focus-visible .hover-card__body {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hover-card:hover .hover-card__title,
+.hover-card:focus-visible .hover-card__title {
+  text-shadow: 0 6px 24px rgba(0,0,0,0.35);
+}

@@ -50,99 +50,157 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
   - title: 🔬 Research Experience
-    layout: list
-    content:
-      - layout: left
-        title: Buenrostro Lab @ Broad Institute of MIT and Harvard
-        sub_title: Research Fellow
-        caption: May 2025 – Present
-        description: |
+    layout: text
+    content: |
+      <div class="hover-grid">
 
-          Engineering a cost-effective, high-throughput single-cell methylation sequencing assay.
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/buenrostro.jpg');">
+          <div class="hover-card__content">
+            <h3 class="hover-card__title">Buenrostro Lab</h3>
+            <div class="hover-card__meta">
+              <span><strong>Research Fellow</strong></span>
+              <span>May 2025 – Present</span>
+            </div>
+            <p class="hover-card__body">
+              Engineering a cost-effective, high-throughput single-cell methylation sequencing assay.
+            </p>
+          </div>
+        </a>
 
-      - layout: left
-        title: Synthetic Immunity Lab @ Harvard Medical School (Dana-Farber Cancer Institute)
-        sub_title: Research Fellow
-        caption: November 2023 – January 2025
-        description: |
-          Designed and constructed cancer-targeting synthetic gene circuits to enhance the efficacy, specificity, and persistence of combinatorial immunotherapy.
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/synthetic-immunity.jpg');">
+          <div class="hover-card__content">
+            <h3 class="hover-card__title">Synthetic Immunity Lab</h3>
+            <div class="hover-card__meta">
+              <span><strong>Research Fellow</strong></span>
+              <span>November 2023 – January 2025</span>
+            </div>
+            <p class="hover-card__body">
+              Designed and constructed cancer-targeting synthetic gene circuits to enhance the efficacy, specificity, and persistence of combinatorial immunotherapy.
+              Programmed T-cells with logic-gated induction of an immortalized “zombie T-cell” (zT-cell) state to overcome T-cell exhaustion in vivo.
+              Characterized dynamics of immortalized T cells in vivo and in vitro.
+              Mentored by Dr. Ming-Ru Wu, Dept. of Cancer Immunology &amp; Virology.
+            </p>
+          </div>
+        </a>
 
-          Programmed T-cells with logic-gated induction of an immortalized "zombie T-cell" (zT-cell) state to overcome T-cell exhaustion in vivo.
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/gao-lab.jpg');">
+          <div class="hover-card__content">
+            <h3 class="hover-card__title">Gao Lab</h3>
+            <div class="hover-card__meta">
+              <span><strong>Research Fellow</strong></span>
+              <span>May 2023 – August 2023</span>
+            </div>
+            <p class="hover-card__body">
+              Employed Nanopore scRNA-seq on patient-matched renal cell carcinoma primary tumors and brain metastases to map targetable cell types and markers for metastasis prevention.
+              Analyzed tumor and immune cell gene-expression dynamics during brain-metastasis evolution.
+              Awarded 1st Place Poster Presentation by the Beckman Institute of Advanced Science and Technology.
+            </p>
+          </div>
+        </a>
 
-          Characterized dynamics of immortalized T cells in vivo and in vitro.
-
-          Mentored by Dr. Ming-Ru Wu, Dept. of Cancer Immunology & Virology.
-
-      - layout: left
-        title: Gao Lab @ Northwestern University Feinberg School of Medicine (Lurie’s Cancer Center)
-        sub_title: Research Fellow
-        caption: May 2023 – August 2023
-        description: |
-          Employed Nanopore scRNA-seq on patient-matched renal cell carcinoma primary tumors and brain metastases to map targetable cell types and markers for metastasis prevention.
-
-          Analyzed tumor and immune cell gene-expression dynamics during brain-metastasis evolution.
-
-          Awarded 1st Place Poster Presentation by the Beckman Institute of Advanced Science and Technology.
+      </div>
 
   - title: 📚 Leadership and Extracurriculars
-    layout: list
-    content:
-      - layout: left
-        title: TIME Initiative
-        sub_title: Fellow; Director of TIME Cast
-        caption: March 2025 – Present
-        description: |
-          Selected as 1 of 25 fellows supported by the Academy for Health & Lifespan Research; represent youth in aging biology at major conferences across the world; network with pioneers in aging biology biotech, academia, and venture capital; host podcast episodes with leaders in aging biology.
+    layout: text
+    content: |
+      <div class="hover-grid">
 
-      - layout: left
-        title: Nexus Fellowship (Norn Group)
-        sub_title: Fellow
-        caption: February 2025 – Present
-        description: |
-          Drive translational efforts in age-related disease by leading journal clubs, drafting policy memos, and designing/securing funding for novel experiments.
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/time.webp');">
+          <div class="hover-card__content">
+            <h3 class="hover-card__title">TIME Initiative</h3>
+            <div class="hover-card__meta">
+              <span><strong>Fellow; Director of TIME Cast</strong></span>
+              <span>March 2025 – Present</span>
+            </div>
+            <p class="hover-card__body">
+              Selected as 1 of 25 fellows supported by the Academy for Health &amp; Lifespan Research; represent youth in aging biology at major conferences across the world; network with pioneers in aging biology biotech, academia, and venture capital; host podcast episodes with leaders in aging biology.
+            </p>
+          </div>
+        </a>
 
-      - layout: left
-        title: Future of Aging Summit
-        sub_title: Co-Founder and Co-Host
-        caption: January 2024 – Present
-        description: |
-          Hosting an interdisciplinary summit on aging at the annual Gerontological Society of America (GSA) 2025 with expected 100+ attendees; leading and hosting Clinical Research in Aging and Biotech’s Role in Aging Panel
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/norn.jpg');">
+          <div class="hover-card__content">
+            <h3 class="hover-card__title">Nexus Fellowship</h3>
+            <div class="hover-card__meta">
+              <span><strong>Fellow</strong></span>
+              <span>February 2025 – Present</span>
+            </div>
+            <p class="hover-card__body">
+              Drive translational efforts in age-related disease by leading journal clubs, drafting policy memos, and designing/securing funding for novel experiments.
+            </p>
+          </div>
+        </a>
 
-      - layout: left
-        title: Aging Initiative at Harvard
-        sub_title: Vice President of Partnerships
-        caption: October 2023 – Present
-        description: |
-          Spearheaded the Muscle Aging Science and Translation (MAST) Symposium (April 2024), the largest muscle aging conference in the world including speakers David Glass, Andrew Adams, Anne-Ulrike Trendelenburg and Boston’s largest aging-biology mixer (Nov 2024) including speakers George Church, Alex Colville, and Jesse Poganik.
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/foa-summit');">
+          <div class="hover-card__content">
+            <h3 class="hover-card__title">Future of Aging Summit</h3>
+            <div class="hover-card__meta">
+              <span><strong>Co-Founder and Co-Host</strong></span>
+              <span>January 2024 – Present</span>
+            </div>
+            <p class="hover-card__body">
+              Hosting an interdisciplinary summit on aging at the annual Gerontological Society of America (GSA) 2025 with expected 100+ attendees; leading and hosting Clinical Research in Aging and Biotech’s Role in Aging Panel
+            </p>
+          </div>
+        </a>
 
-          Co-lead a team of 27; manage partnerships with other companies and advisory board members including George Church, Martin Borch Jensen, Laza Nuzhna, and Jake Becraft; raised $10,000+ through industry outreach.
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/aging-initiative');">
+          <div class="hover-card__content">
+            <h3 class="hover-card__title">Aging Initiative at Harvard</h3>
+            <div class="hover-card__meta">
+              <span><strong>Vice President of Partnerships</strong></span>
+              <span>October 2023 – Present</span>
+            </div>
+            <p class="hover-card__body">
+              Spearheaded the Muscle Aging Science and Translation (MAST) Symposium (April 2024), the largest muscle aging conference in the world including speakers David Glass, Andrew Adams, Anne-Ulrike Trendelenburg and Boston’s largest aging-biology mixer (Nov 2024) including speakers George Church, Alex Colville, and Jesse Poganik.
+              Co-lead a team of 27; manage partnerships with other companies and advisory board members including George Church, Martin Borch Jensen, Laza Nuzhna, and Jake Becraft; raised $10,000+ through industry outreach.
+              Lead professor-dinner series and events with MIT/Harvard researchers (e.g., Jonathan Gootenberg, Omar Abudayyeh).
+            </p>
+          </div>
+        </a>
 
-          Lead professor-dinner series and events with MIT/Harvard researchers (e.g., Jonathan Gootenberg, Omar Abudayyeh).
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/gami.jpeg');">
+          <div class="hover-card__content">
+            <h3 class="hover-card__title">GAMI</h3>
+            <div class="hover-card__meta">
+              <span><strong>Research &amp; Development Co-Lead</strong></span>
+              <span>February 2024 – Present</span>
+            </div>
+            <p class="hover-card__body">
+              Building a nurse-patient matching mobile app for elderly patients in rural India with Udaya Kumar and ISER Tirupati partners; mapping delivery bottlenecks and spearheading pilot implementation.
+            </p>
+          </div>
+        </a>
 
-      - layout: left
-        title: Global Alliance for Medical Innovation (GAMI)
-        sub_title: Research & Development Co-Lead
-        caption: February 2024 – Present
-        description: |
-          Building a nurse-patient matching mobile app for elderly patients in rural India with Udaya Kumar and ISER Tirupati partners; mapping delivery bottlenecks and spearheading pilot implementation.
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/nucleate.png');">
+          <div class="hover-card__content">
+            <h3 class="hover-card__title">Nucleate Aging Biology</h3>
+            <div class="hover-card__meta">
+              <span><strong>Co-Lead</strong></span>
+              <span>August 2024 – May 2025</span>
+            </div>
+            <p class="hover-card__body">
+              Co-founded and led a global thematic series; hosted panel focused on startups and venture capital in longevity biotech with Joshua Olshavsky, Steve Robinette, Alex Colville, and Lada Nuzhna.
+              Authored resource guides accompanying panel discussions.
+            </p>
+          </div>
+        </a>
 
-      - layout: left
-        title: Nucleate Aging Biology Thematic Series
-        sub_title: Co-Lead
-        caption: August 2024 – May 2025
-        description: |
-          Co-founded and led a global thematic series; hosted panel focused on startups and venture capital in longevity biotech with Joshua Olshavsky, Steve Robinette, Alex Colville, and Lada Nuzhna
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/openbio.jpg');">
+          <div class="hover-card__content">
+            <h3 class="hover-card__title">Harvard OpenBio</h3>
+            <div class="hover-card__meta">
+              <span><strong>Biosecurity Team Co-Lead &amp; Co-Founder</strong></span>
+              <span>February 2024 – January 2025</span>
+            </div>
+            <p class="hover-card__body">
+              Organized biosecurity journal club and speaker sessions; planned and co-hosted the Future of Biology Conference (130+ attendees; keynotes: George Church, Reshma Shetty).
+              Co-led the Harvard Summer Research Institute, matching 73 underserved students to research mentors and publishing their abstracts.
+            </p>
+          </div>
+        </a>
 
-          Authored resource guides accompanying panel discussions.
-
-      - layout: left
-        title: Harvard OpenBio
-        sub_title: Biosecurity Team Co-Lead & Co-Founder
-        caption: February 2024 – January 2025
-        description: |
-          Organized biosecurity journal club and speaker sessions; planned and co-hosted the Future of Biology Conference (130+ attendees; keynotes: George Church, Reshma Shetty).
-
-          Co-led the Harvard Summer Research Institute, matching 73 underserved students to research mentors and publishing their abstracts.
+      </div>
 
   - title: 🏅 Honors and Awards
     layout: text

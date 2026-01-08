@@ -4,246 +4,231 @@
 @import "dark";
 @import "icons";
 
-.header-right p {
-  margin-bottom: 3px;
+/* -----------------------------
+   Header
+----------------------------- */
+
+.header-right p { margin-bottom: 3px; }
+.header-right a { color: inherit; font-weight: 500; }
+
+@media (max-width: 767px) {
+  .header-container div,
+  .header-right p { text-align: center; }
+
+  .header-left { margin-top: 0; }
 }
 
-.header-right a{
-  color:inherit;
-  font-weight:500;
-}
-
-@media screen and (max-width: 767px) {
-  .header-container div{
-    text-align: center;
-  }
-
-  .header-right p {
-    text-align: center;
-  }
-
-  .header-left {
-    margin-top: 0px;
-  }
-}
-
-.profile-img {
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  display: block;
-  border-radius: 100px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: repeat, no-repeat;
-  -moz-box-shadow: inset 0 0 20px #636161;
-  -webkit-box-shadow: inset 0 0 20px #636161;
-  box-shadow: inset 0 0 20px #636161;
-}
-
-.list-container {
-  h3 {
-    margin-bottom: 0;
-  }
-}
-
-.border-weak  {
-  padding-bottom: 8px;
-  border-bottom: solid 1px #333333;
-}
-
-.layout {
-  margin-top: 3rem;
-  display: flex;
-  flex-direction: row;
-
-  .details {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    justify-content: center;
-    vertical-align: middle;
-
-    p {
-      margin-bottom: 3px;
-      font-size: 1.6rem;
-      text-align: inherit;
-      font-weight: 300;
-
-      b {
-        font-weight: 500;
-      }
-    }
-
-    @media screen and (max-width: 767px) {
-      text-align: center!important;
-
-      p {
-        text-align: center!important;
-      }
-    }
-
-    a {
-      color: inherit;
-      font-style: italic;
-      font-weight: 300;
-    }
-
-    .fa {
-      font-size: 2rem;
-    }
-
-    .link {
-      font-size: 1.5rem;
-    }
-
-    h4 {
-      margin-bottom: 0.1rem;
-      font-weight: 500;
-
-      @media print {
-        margin-bottom: 0.2rem;
-      }
-
-      a {
-        font-weight: 500;
-      }
-    }
-  }
-}
-
-.layout-right {
-  flex-direction: row-reverse;
-}
-
-.layout-right, .layout-top-right {
-  .details {
-    text-align: right;
-  }
-}
-
-.layout-left, .layout-right {
-  @media screen and (max-width: 767px) {
-    flex-direction: column;
-  }
-
-  .details {
-    margin-bottom: 2rem;
-  }
-}
-
-.layout-top-middle, .layout-top, .layout-top-right {
-  flex-direction: column;
-
-  .details, .content {
-    width: 100%;
-  }
-}
-
-.layout-top-middle {
-  .details {
-    text-align: center;
-  }
-}
-
-.footer-container {
-  margin-top:100px;
-}
-
-.footer-container p {
-  text-align: center;
-  font-style: italic;
-  font-weight: 300;
-}
-
-.footer-container a {
-  color: inherit;
-  font-style: italic;
-  font-weight: 300;
-}
-
-.page-content {
+/* If icons are now moved into header-left, style them here */
+.header-touch-icons {
+  margin-top: 14px;
   padding: 0;
+  list-style: none;
+
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-.contact a {
-  line-height: 50px;
-  margin-left: 30px;
-  color: #BBBBBB;
-  -webkit-transition: color 0.4s ease;
-  -moz-transition: color 0.4s ease;
-  transition: color 0.4s ease;
-}
-
-.contact a:hover {
-  color: #000000;
-}
-
-p.quote {
-  font-size: 1.4rem;
-  font-style: italic;
-  padding: 1rem 2.5rem;
-  text-align: center;
-
-  @media print {
-    text-align: left;
-    padding: 0rem 1rem;
-    margin-top: 1rem;
-  }
-}
-
-/* Header icons: make them match the footer boxed buttons */
-.header-right a,
-.header-icons a,
-.icon-links a,
-.icons a {
+/* Shared boxed icon button style (header + footer) */
+.touch-btn {
   width: 34px;
   height: 34px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
 
-  border: 1px solid rgba(255, 255, 255, 0.894);
+  border: 1px solid rgba(255, 255, 255, 0.9);
   border-radius: 8px;
+  background: transparent;
 
   text-decoration: none;
   opacity: 0.85;
-
-  color: #ffffff; /* forces icon glyph color */
 }
 
-.header-right a:hover,
-.header-icons a:hover,
-.icon-links a:hover,
-.icons a:hover {
-  opacity: 1;
+.touch-btn:hover { opacity: 1; }
+.touch-btn i { font-size: 16px; color: #fff; }
+
+/* -----------------------------
+   Profile image
+----------------------------- */
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 20px;
+  display: block;
+  border-radius: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat, no-repeat;
+  box-shadow: inset 0 0 20px #636161;
 }
 
-/* icon size */
-.header-right i,
-.header-icons i,
-.icon-links i,
-.icons i {
-  font-size: 16px;
+/* -----------------------------
+   Sections / layout helpers
+----------------------------- */
+
+.list-container h3 { margin-bottom: 0; }
+
+.border-weak {
+  padding-bottom: 8px;
+  border-bottom: solid 1px #333;
 }
 
-/* ===== Hover Cards (image tiles with hover reveal) ===== */
+.layout {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.layout .details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.layout .details p {
+  margin-bottom: 3px;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.layout .details p b { font-weight: 500; }
+
+.layout .details a {
+  color: inherit;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.layout .details .fa { font-size: 2rem; }
+.layout .details .link { font-size: 1.5rem; }
+
+.layout .details h4 {
+  margin-bottom: 0.1rem;
+  font-weight: 500;
+}
+
+.layout .details h4 a { font-weight: 500; }
+
+@media print {
+  .layout .details h4 { margin-bottom: 0.2rem; }
+}
+
+@media (max-width: 767px) {
+  .layout .details,
+  .layout .details p { text-align: center; }
+}
+
+.layout-right { flex-direction: row-reverse; }
+.layout-right .details,
+.layout-top-right .details { text-align: right; }
+
+@media (max-width: 767px) {
+  .layout-left,
+  .layout-right { flex-direction: column; }
+
+  .layout-left .details,
+  .layout-right .details { margin-bottom: 2rem; }
+}
+
+.layout-top-middle,
+.layout-top,
+.layout-top-right {
+  flex-direction: column;
+}
+
+.layout-top-middle .details,
+.layout-top .details,
+.layout-top-right .details,
+.layout-top-middle .content,
+.layout-top .content,
+.layout-top-right .content {
+  width: 100%;
+}
+
+.layout-top-middle .details { text-align: center; }
+
+/* -----------------------------
+   Footer
+----------------------------- */
+
+.footer-container { margin-top: 100px; }
+.footer-container p {
+  text-align: center;
+  font-style: italic;
+  font-weight: 300;
+}
+.footer-container a {
+  color: inherit;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.page-content { padding: 0; }
+
+p.quote {
+  font-size: 1.4rem;
+  font-style: italic;
+  padding: 1rem 2.5rem;
+  text-align: center;
+}
+
+@media print {
+  p.quote {
+    text-align: left;
+    padding: 0 1rem;
+    margin-top: 1rem;
+  }
+}
+
+/* “Get in touch” footer block */
+.get-in-touch-wrap {
+  margin-top: 10px;
+  max-width: 520px;
+}
+
+.get-in-touch-label {
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 0.83);
+}
+
+.get-in-touch {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Footer uses the same .touch-btn rules */
+.get-in-touch .touch-btn {}
+
+/* -----------------------------
+   Hover cards (image tiles)
+----------------------------- */
 
 .hover-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
   margin-top: 16px;
+}
 
-  @media (max-width: 900px) {
-    grid-template-columns: 1fr;
-  }
+@media (max-width: 900px) {
+  .hover-grid { grid-template-columns: 1fr; }
 }
 
 .hover-card {
-  --bg: none;                 /* set per-card via inline style */
+  --bg: none; /* set via inline style */
   --overlay: rgba(0, 0, 0, 0.55);
+  --cover: rgba(74, 192, 176, 0.55);
 
   position: relative;
   display: block;
@@ -251,7 +236,6 @@ p.quote {
   overflow: hidden;
   min-height: 320px;
   text-decoration: none;
-  color: #ffffffd3;
 
   background-image: var(--bg);
   background-size: cover;
@@ -263,8 +247,9 @@ p.quote {
   transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
+.hover-card,
 .hover-card * {
-  color: inherit !important;
+  color: #fff !important;
   text-decoration: none !important;
 }
 
@@ -272,9 +257,10 @@ p.quote {
   content: "";
   position: absolute;
   inset: 0;
-  background: var(--overlay);
-  opacity: 0.35;
-  transition: opacity 180ms ease;
+  background: var(--cover);
+  opacity: 1;
+  transition: opacity 200ms ease;
+  z-index: 1;
 }
 
 .hover-card__content {
@@ -286,195 +272,80 @@ p.quote {
   justify-items: center;
   text-align: center;
   gap: 14px;
-  z-index: 1;
+  z-index: 2;
 }
 
+/* Default state: show big title only */
 .hover-card__title {
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0 18px;
+
   font-weight: 800;
-  font-size: clamp(1.6rem, 3.2vw, 2.6rem);
-  letter-spacing: 0.08em;
   text-transform: uppercase;
-  margin: 0;
+  letter-spacing: 0.08em;
+  font-size: clamp(26px, 3.2vw, 44px);
+  transition: opacity 200ms ease;
 }
 
-.hover-card__meta {
-  transform: translateY(6px);
-  transition: opacity 180ms ease, transform 180ms ease;
-  font-size: 1.05rem;
-  opacity: 0.9;
-  font-weight: 400;
-}
-
-.hover-card__meta span {
-  display: block;
-  opacity: 0.9;
-}
-
+.hover-card__meta,
 .hover-card__body {
-  font-size: clamp(1.2rem, 2.4vw, 1.85rem);
-  line-height: 1.45;
-  max-width: 44ch;
-  font-size: clamp(1.05rem, 2.0vw, 1.6rem);
-  margin: 0;
-
   opacity: 0;
   transform: translateY(8px);
-  transition: opacity 180ms ease, transform 180ms ease;
+  transition: opacity 200ms ease, transform 200ms ease;
 }
 
+.hover-card__meta { font-size: 1.05rem; opacity: 0.9; font-weight: 400; }
+.hover-card__meta span { display: block; opacity: 0.9; }
+.hover-card__body {
+  margin: 0;
+  max-width: 44ch;
+  font-size: clamp(1.05rem, 2.0vw, 1.6rem);
+  line-height: 1.45;
+}
+
+/* Hover: remove cover + hide big title + reveal details */
 .hover-card:hover,
 .hover-card:focus-visible {
   transform: translateY(-2px);
   box-shadow: 0 14px 42px rgba(0,0,0,0.26);
 }
 
-.hover-card::before { opacity: 0.50; }
 .hover-card:hover::before,
-.hover-card:focus-visible::before { opacity: 0.78; }
-
-.hover-card:hover .hover-card__meta,
-.hover-card:focus-visible .hover-card__meta,
-.hover-card:hover .hover-card__body,
-.hover-card:focus-visible .hover-card__body {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.hover-card__title,
-.hover-card__meta,
-.hover-card__body {
-  opacity: 0;
-  transform: translateY(8px);
-  transition: opacity 180ms ease, transform 180ms ease;
-}
+.hover-card:focus-visible::before { opacity: 0; }
 
 .hover-card:hover .hover-card__title,
+.hover-card:focus-visible .hover-card__title { opacity: 0; }
+
 .hover-card:hover .hover-card__meta,
 .hover-card:hover .hover-card__body,
-.hover-card:focus-visible .hover-card__title,
 .hover-card:focus-visible .hover-card__meta,
 .hover-card:focus-visible .hover-card__body {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* ================================
-   Force hover-card text to white
-   (override theme anchor styles)
-   ================================ */
-
-a.hover-card,
-a.hover-card:hover,
-a.hover-card:visited,
-a.hover-card:active {
-  color: #ffffff !important;
-  text-decoration: none !important;
-}
-
-a.hover-card * {
-  color: #ffffff !important;
-}
-
-/* Typography scale for cards */
-.hover-card__title {
-  font-size: clamp(1.6rem, 3.2vw, 2.6rem);
-  letter-spacing: 0.08em;
-}
-
-.hover-card__meta {
-  font-size: 1.2rem;
-  opacity: 0.9;
-}
-
-.hover-card__body {
-  font-size: clamp(1.2rem, 2.4vw, 1.85rem);
-  line-height: 1.45;
-}
-
-.hover-card__title,
-.hover-card__meta,
-.hover-card__body {
-  opacity: 0;
-  transform: translateY(10px);
-  transition: opacity 200ms ease, transform 200ms ease;
-}
-
-.hover-card:hover .hover-card__title,
-.hover-card:hover .hover-card__meta,
-.hover-card:hover .hover-card__body {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Small, left-aligned footer contact strip */
-.get-in-touch-wrap {
-  margin-top: 10px;
-  max-width: 520px;      /* keeps it from spanning the whole page */
-}
-
-.get-in-touch-label {
-  font-size: 20px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  opacity: 1;
-  margin-bottom: 15px;
-  color: #ffffffd3;
-}
-
-.get-in-touch {
-  display: flex;
-  gap: 14px;
-  flex-wrap: wrap;       /* wraps on small screens */
-  justify-content: flex-start;
-  align-items: center;
-}
-
-/* Make buttons subtle (no big boxes) */
-.get-in-touch .touch-btn {
-  width: 34px;
-  height: 34px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgba(255, 255, 255, 0.894); /* looks good on dark */
-  border-radius: 8px;
-  text-decoration: none;
-  opacity: 0.85;
-}
-
-.get-in-touch .touch-btn i {
-  font-size: 16px;
-}
-
-.get-in-touch .touch-btn:hover {
-  opacity: 1;
-}
-
-/* Touch devices: show hover-card content by default */
+/* Touch devices: show details by default (no hover) */
 @media (hover: none) and (pointer: coarse) {
-  .hover-card::before {
-    opacity: 0.78; /* same as your hover overlay */
-  }
-
-  .hover-card__title,
+  .hover-card::before { opacity: 0; }
+  .hover-card__title { opacity: 0; }
   .hover-card__meta,
   .hover-card__body {
     opacity: 1 !important;
     transform: translateY(0) !important;
   }
-
-  /* Optional: disable the “lift on hover” animation on touch */
-  .hover-card {
-    transform: none !important;
-  }
+  .hover-card { transform: none !important; }
 }
 
-.section-title,
-.section h2 {
-  color: #ffffff;
-}
+/* -----------------------------
+   Particles background
+----------------------------- */
 
 #particles-js {
   position: fixed;
@@ -482,36 +353,44 @@ a.hover-card * {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1;        /* behind everything */
+  z-index: -1;
   pointer-events: none;
 }
 
-/* Smooth scrolling */
-html { scroll-behavior: smooth; }
+/* -----------------------------
+   Smooth scrolling + anchor offset
+----------------------------- */
 
-/* Hamburger button */
+html { scroll-behavior: smooth; }
+h3[id], span[id] { scroll-margin-top: 90px; }
+
+/* -----------------------------
+   Menu
+----------------------------- */
+
 .menu-btn {
   position: fixed;
   top: 25px;
   right: 25px;
   z-index: 9999;
-  width: 44px;
+  width: 64px;
   height: 44px;
   border: 0;
   background: transparent;
   cursor: pointer;
   padding: 10px;
+  opacity: 0.85;
 }
 
 .menu-btn span {
   display: block;
   height: 5px;
   margin: 6px 0;
-  background: rgb(255, 255, 255); /* white for dark mode */
+  width: 34px;
+  background: #fff;
   border-radius: 2px;
 }
 
-/* Overlay */
 .menu-overlay {
   position: fixed;
   inset: 0;
@@ -522,7 +401,6 @@ html { scroll-behavior: smooth; }
   transition: opacity 180ms ease;
 }
 
-/* Slide-out panel */
 .menu-panel {
   position: fixed;
   top: 0;
@@ -543,6 +421,7 @@ html { scroll-behavior: smooth; }
 .menu-title {
   color: rgba(255,255,255,0.9);
   font-weight: 700;
+  font-size: 18px;
   letter-spacing: 0.14em;
   margin: 10px 0 8px 0;
 }
@@ -560,247 +439,34 @@ html { scroll-behavior: smooth; }
 .menu-panel a {
   color: rgba(255,255,255,0.88);
   text-decoration: none;
-  letter-spacing: 0.16em;
-  padding: 14px 0;
-  border-top: 1px solid rgba(255,255,255,0.15);
-}
-
-.menu-panel a:first-of-type {
-  border-top: 0;
-}
-
-/* Open state */
-body.menu-open .menu-panel { transform: translateX(0); }
-body.menu-open .menu-overlay {
-  opacity: 0.9;
-  pointer-events: auto;
-}
-
-
-html { scroll-behavior: smooth; }
-
-/* only offset headings/anchors you actually jump to */
-h3[id], span[id] {
-  scroll-margin-top: 90px;   /* try 70–90; 80 is a good start */
-}
-
-/* Header layout: put icon row under the title, left-aligned */
-.header-container {
-  flex-wrap: wrap;
-}
-
-.header-left {
-  flex: 1 1 100%;
-}
-
-.header-right {
-  flex: 1 1 100%;
-  margin-top: 10px;
-  text-align: left;
-}
-
-/* Make the header icon links look like your bottom "touch-btn" buttons */
-.header-right ul.icons {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  gap: 14px;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.header-right ul.icons li {
-  padding-left: 0; /* overrides icons.scss spacing */
-}
-
-.header-right ul.icons a {
-  width: 34px;
-  height: 34px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 8px;          /* square-ish, like bottom */
-  border: 1px solid rgba(255, 255, 255, 0.9);
-  background: transparent;
-  padding: 0;
-  box-shadow: none;
-  opacity: 0.85;
-}
-
-.header-right ul.icons a:hover {
-  opacity: 1;
-  background: transparent;
-}
-
-.header-right ul.icons a i {
-  font-size: 16px;
-  line-height: 1;
-  color: #fff;                 /* makes the icon white */
-}
-
-.touch-btn i,
-.header-right ul.icons a i {
-  color: #fff;
-}
-
-.menu-btn {
-  width: 64px;   /* wider */
-  height: 44px;
-}
-
-.menu-btn span {
-  width: 34px;   /* longer burger lines */
-}
-
-/* --- HEADER ICONS: force them to match footer boxed style --- */
-.header-right ul.icons {
-  margin: 0 !important;
-  padding: 0 !important;
-  list-style: none !important;
-  display: flex !important;
-  gap: 14px !important;
-  justify-content: flex-start !important;
-  align-items: center !important;
-  flex-wrap: nowrap !important;
-}
-
-.header-right ul.icons li {
-  padding-left: 0 !important; /* overrides theme spacing */
-}
-
-/* Override theme's round "badge" buttons */
-.header-right ul.icons a {
-  width: 34px !important;
-  height: 34px !important;
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-
-  border: 1px solid rgba(255,255,255,0.9) !important;
-  border-radius: 8px !important;         /* <-- not circular */
-  background: transparent !important;      /* <-- remove gray fill */
-  box-shadow: none !important;
-
-  opacity: 0.85 !important;
-  text-decoration: none !important;
-}
-
-.header-right ul.icons a:hover {
-  opacity: 1 !important;
-  background: transparent !important;
-}
-
-.header-right ul.icons a i {
-  font-size: 16px !important;
-  color: #fff !important;                 /* <-- white icons */
-}
-
-.header-container {
-  display: flex !important;
-  flex-wrap: wrap !important;
-}
-
-.header-left,
-.header-right {
-  flex: 0 0 100% !important;
-}
-
-.header-right {
-  text-align: left !important;
-  margin-top: 10px !important;
-}
-
-.menu-panel a {
   font-size: 18px;
   letter-spacing: 0.18em;
   padding: 18px 0;
+  border-top: 1px solid rgba(255,255,255,0.15);
 }
 
-.menu-title {
-  font-size: 18px;   /* or 15px */
-}
+.menu-panel a:first-of-type { border-top: 0; }
 
-/* Header layout: stack icons under title */
-.header-container {
-  flex-wrap: wrap;
-}
+body.menu-open .menu-panel { transform: translateX(0); }
+body.menu-open .menu-overlay { opacity: 0.9; pointer-events: auto; }
 
-.header-left,
-.header-right {
-  flex: 0 0 100%;
-}
-
-.header-right {
-  margin-top: 10px;
-  text-align: left;
-}
-
-/* Header icon row */
-.header-touch-icons {
-  margin-top: 14px;
-  padding: 0 !important;
-  list-style: none !important;
-
-  display: flex !important;
-  gap: 14px !important;
-  align-items: center !important;
-  justify-content: flex-start !important;
-
-  /* in case theme floats .icons */
-  float: none !important;
-}
-
-.header-touch-icons li {
-  padding-left: 0 !important;
-  margin: 0 !important;
-}
-
-/* Make header touch buttons match footer */
-.header-touch-icons .touch-btn {
-  width: 34px;
-  height: 34px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  border: 1px solid rgba(255, 255, 255, 0.9);
-  border-radius: 8px;
-  background: transparent;
-
-  text-decoration: none;
-  opacity: 0.85;
-}
-
-.header-touch-icons .touch-btn:hover {
-  opacity: 1;
-}
-
-.header-touch-icons .touch-btn i {
-  font-size: 16px;
-  color: #fff;
-}
-/* Smaller, lighter menu button on mobile */
 @media (max-width: 768px) {
   .menu-btn {
-    width: 36px;        /* smaller tap target */
+    width: 36px;
     height: 36px;
     padding: 6px;
-    top: 16px;          /* tuck it in slightly */
+    top: 16px;
     right: 16px;
-    opacity: 0.85;
+    opacity: 0.7;
   }
 
   .menu-btn span {
-    height: 2px;        /* thinner lines */
+    height: 2px;
     margin: 4px 0;
-    width: 22px;        /* shorter bars */
+    width: 22px;
   }
 }
 
-@media (max-width: 768px) {
-  .menu-btn {
-    opacity: 0.7;
-  }
-}
+/* Ensure section title color in dark mode */
+.section-title,
+.section h2 { color: #fff; }

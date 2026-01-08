@@ -56,7 +56,7 @@ content:
       <span id="labs"></span>
       <div class="hover-grid">
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/buenrostro.jpg');">
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/buenrostro.jpg'); --cover: rgba(74, 192, 176, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Buenrostro Lab</h3>
             <div class="hover-card__meta">
@@ -69,7 +69,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/synthetic-immunity.jpg');">
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/synthetic-immunity.jpg'); --cover: rgba(74, 192, 176, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Synthetic Immunity Lab</h3>
             <div class="hover-card__meta">
@@ -85,7 +85,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/gao-lab.jpg');">
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/gao-lab.jpg'); --cover: rgba(74, 192, 176, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Gao Lab</h3>
             <div class="hover-card__meta">
@@ -108,7 +108,7 @@ content:
       <span id="leadership"></span>
       <div class="hover-grid">
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/time.webp');">
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/time.webp'); --cover: rgba(74, 192, 176, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">TIME Initiative</h3>
             <div class="hover-card__meta">
@@ -121,7 +121,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/norn.webp');">
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/norn.webp'); --cover: rgba(74, 192, 176, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Nexus Fellowship</h3>
             <div class="hover-card__meta">
@@ -134,7 +134,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/foa-summit.png');">
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/foa-summit.png'); --cover: rgba(74, 192, 176, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Future of Aging Summit</h3>
             <div class="hover-card__meta">
@@ -147,7 +147,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/aging-initiative.png');">
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/aging-initiative.png'); --cover: rgba(74, 192, 176, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Aging Initiative at Harvard</h3>
             <div class="hover-card__meta">
@@ -162,7 +162,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/gami.png');">
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/gami.png'); --cover: rgba(74, 192, 176, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">GAMI</h3>
             <div class="hover-card__meta">
@@ -175,7 +175,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/nucleate.png');">
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/nucleate.png'); --cover: rgba(74, 192, 176, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Nucleate Aging Biology</h3>
             <div class="hover-card__meta">
@@ -189,7 +189,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/openbio.png');">
+        <a class="hover-card" href="#" style="--bg: url('/images/cards/openbio.png'); --cover: rgba(74, 192, 176, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Harvard OpenBio</h3>
             <div class="hover-card__meta">
@@ -209,7 +209,7 @@ content:
     layout: text
     content: |
       <span id="honors"></span>
-      - TIME x Aoki Foundation Grant Recipient - 1 of 11 recipients; support from TIME Initiative and Aoki Foundation to host Immune Aging Speaker series. 2026
+      - TIME x Aoki Foundation Grant Recipient — 1 of 11 recipients; support from TIME Initiative and Aoki Foundation to host Immune Aging Speaker series. 2026
       - John Harvard Scholar (top 5% of class). 2025
       - TIME Initiative Exploration Grant — 1 of 4 recipients; support from TIME Initiative and age1 VC to represent next-gen leaders at ARDD 2025 (Copenhagen). 2025
       - Herchel-Smith Fellow — Competitive fellowship supporting independent research in the Buenrostro Lab (Broad Institute); received travel grant to present at ARDD. 2025

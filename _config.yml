@@ -44,7 +44,6 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: Eshan Mehra
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Building and leveraging next-generation omics tools to uncover new levers to reprogram cell fate and restore resilience across the lifespan.

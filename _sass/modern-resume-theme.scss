@@ -437,7 +437,7 @@ a.hover-card * {
   font-size: 20px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  opacity: 0.75;
+  opacity: 1;
   margin-bottom: 15px;
   color: #ffffffd3;
 }
@@ -503,4 +503,94 @@ a.hover-card * {
   height: 100%;
   z-index: -1;        /* behind everything */
   pointer-events: none;
+}
+
+/* Smooth scrolling */
+html { scroll-behavior: smooth; }
+
+/* Hamburger button */
+.menu-btn {
+  position: fixed;
+  top: 22px;
+  right: 22px;
+  z-index: 9999;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.menu-btn span {
+  display: block;
+  height: 3px;
+  margin: 6px 0;
+  background: rgba(255,255,255,0.85); /* white for dark mode */
+  border-radius: 2px;
+}
+
+/* Overlay */
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+  z-index: 9998;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease;
+}
+
+/* Slide-out panel */
+.menu-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 320px;
+  max-width: 85vw;
+  background: rgba(80,80,80,0.95);
+  z-index: 9999;
+  transform: translateX(100%);
+  transition: transform 220ms ease;
+  padding: 28px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.menu-title {
+  color: rgba(255,255,255,0.9);
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  margin: 10px 0 8px 0;
+}
+
+.menu-close {
+  align-self: flex-start;
+  border: 0;
+  background: transparent;
+  color: rgba(255,255,255,0.9);
+  font-size: 28px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.menu-panel a {
+  color: rgba(255,255,255,0.88);
+  text-decoration: none;
+  letter-spacing: 0.16em;
+  padding: 14px 0;
+  border-top: 1px solid rgba(255,255,255,0.15);
+}
+
+.menu-panel a:first-of-type {
+  border-top: 0;
+}
+
+/* Open state */
+body.menu-open .menu-panel { transform: translateX(0); }
+body.menu-open .menu-overlay {
+  opacity: 1;
+  pointer-events: auto;
 }

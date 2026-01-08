@@ -6,6 +6,23 @@
 <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
   <div id="particles-js"></div>
   {%- include header.html -%}
+  <button class="menu-btn" aria-label="Open menu" onclick="document.body.classList.add('menu-open')">
+    <span></span><span></span><span></span>
+  </button>
+
+  <div class="menu-overlay" onclick="document.body.classList.remove('menu-open')"></div>
+
+  <nav class="menu-panel" aria-label="Site menu">
+    <button class="menu-close" aria-label="Close menu" onclick="document.body.classList.remove('menu-open')">✕</button>
+    <div class="menu-title">MENU</div>
+
+    <a href="#about" onclick="document.body.classList.remove('menu-open')">ABOUT</a>
+    <a href="#labs" onclick="document.body.classList.remove('menu-open')">LABORATORIES</a>
+    <a href="#honors" onclick="document.body.classList.remove('menu-open')">HONORS & AWARDS</a>
+    <a href="#publications" onclick="document.body.classList.remove('menu-open')">PUBLICATIONS & PRESENTATIONS</a>
+    <a href="#projects" onclick="document.body.classList.remove('menu-open')">PROJECTS</a>
+    <a href="#contact" onclick="document.body.classList.remove('menu-open')">CONTACT</a>
+  </nav>
 
   <main class="page-content" aria-label="Content">
     <div class="wrapper">

@@ -427,26 +427,47 @@ a.hover-card * {
   transform: translateY(0);
 }
 
-.get-in-touch {
-  margin-top: 18px;
-  display: flex;
-  gap: 18px;
-  flex-wrap: wrap;
+/* Small, left-aligned footer contact strip */
+.get-in-touch-wrap {
+  margin-top: 10px;
+  max-width: 520px;      /* keeps it from spanning the whole page */
 }
 
+.get-in-touch-label {
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.75;
+  margin-bottom: 10px;
+}
+
+.get-in-touch {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;       /* wraps on small screens */
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Make buttons subtle (no big boxes) */
 .get-in-touch .touch-btn {
-  width: 64px;
-  height: 64px;
+  width: 34px;
+  height: 34px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid rgba(0,0,0,0.15);
-  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.15); /* looks good on dark */
+  border-radius: 8px;
   text-decoration: none;
+  opacity: 0.85;
 }
 
 .get-in-touch .touch-btn i {
-  font-size: 28px;
+  font-size: 16px;
+}
+
+.get-in-touch .touch-btn:hover {
+  opacity: 1;
 }
 
 /* Touch devices: show hover-card content by default */

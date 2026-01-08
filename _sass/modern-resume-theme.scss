@@ -218,15 +218,29 @@ p.quote {
   .hover-grid { grid-template-columns: 1fr; }
 }
 
-/* 3-column grid variant (use: <div class="hover-grid cols-3">) */
-.hover-grid.cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-
-@media (max-width: 1100px) {
-  .hover-grid.cols-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+/* Projects: 3-column layout */
+.hover-grid.cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
 }
 
-@media (max-width: 900px) {
-  .hover-grid.cols-3 { grid-template-columns: 1fr; }
+@media (max-width: 1200px) {
+  .hover-grid.cols-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .hover-grid.cols-3 {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Projects: allow full-width grid so 3 columns can fit */
+#projects + .hover-grid,
+#projects ~ .hover-grid,
+.hover-grid.cols-3 {
+  max-width: none;
+  width: 100%;
 }
 
 .hover-card {
@@ -370,9 +384,11 @@ p.quote {
     rgba(255, 210, 120, 0.35);
 }
 
+/* Projects: smaller, calmer titles */
 .hover-card.projects .hover-card__title {
-  font-size: clamp(20px, 2.2vw, 30px);
-  letter-spacing: 0.06em;
+  font-size: clamp(18px, 1.9vw, 26px);
+  letter-spacing: 0.05em;
+  font-weight: 700;
 }
 
 .hover-card.projects .hover-card__title,

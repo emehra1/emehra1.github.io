@@ -470,3 +470,17 @@ body.menu-open .menu-overlay { opacity: 0.9; pointer-events: auto; }
 /* Ensure section title color in dark mode */
 .section-title,
 .section h2 { color: #fff; }
+
+/* Leadership cards: cover tint only, no title text */
+.hover-card.cover-no-title .hover-card__title {
+  display: none !important;
+}
+
+.hover-card.cover-no-title::before {
+  opacity: 1; /* keep tint strong */
+}
+
+/* Hide the small meta line ("Research Fellow", dates) on all cards */
+.hover-card__meta {
+  display: none !important;
+}

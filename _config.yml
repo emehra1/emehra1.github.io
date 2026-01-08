@@ -1,8 +1,6 @@
 # Site
 repository: https://emehra1.github.io/
 favicon: images/favicon.ico
-
-# Content configuration version
 version: 2
 
 # Personal info
@@ -12,14 +10,13 @@ title: Harvard University — A.B., Chemistry, Physics, and Human Developmental 
 # Dark Mode (true/false/never)
 darkmode: true
 
-
 # Social links
 linkedin_username: eshan-mehra-86aa26201
 twitter_username: emehra30
 googlescholar_username: "nJMnE9EAAAAJ&hl=en"
 github_username: emehra1
 
-# Additional icon links
+# Extra icon links (used in header via additional_links loop)
 additional_links:
   - title: Email
     icon: fas fa-envelope
@@ -28,24 +25,9 @@ additional_links:
     icon: fas fa-pencil-alt
     url: https://eshanmehra.substack.com/
 
-# Additional icon links
-#additional_links:
-#- title: Link name
-#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#  url: Link url (eg. https://esmehra1.github.io/)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
+# About
 about_profile_image: images/profile.png
-about_content: | # this will include new lines to allow paragraphs
+about_content: |
   <span id="about"></span>
   Building and leveraging next-generation omics tools to uncover new levers to reprogram cell fate and restore resilience across the lifespan.
 
@@ -56,45 +38,36 @@ content:
       <span id="labs"></span>
       <div class="hover-grid">
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/buenrostro.jpg'); --cover: rgba(74, 192, 176, 0.55);">
+        <a class="hover-card" href="#"
+           style="--bg: url('/images/cards/buenrostro.jpg'); --cover: rgba(74, 192, 176, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Buenrostro Lab</h3>
-            <div class="hover-card__meta">
-              <span><strong>Research Fellow</strong></span>
-              <span>May 2025 – Present</span>
-            </div>
             <p class="hover-card__body">
               Engineering a cost-effective, high-throughput single-cell methylation sequencing assay.
             </p>
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/synthetic-immunity.jpg'); --cover: rgba(74, 192, 176, 0.55);">
+        <a class="hover-card" href="#"
+           style="--bg: url('/images/cards/synthetic-immunity.jpg'); --cover: rgba(74, 192, 176, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Synthetic Immunity Lab</h3>
-            <div class="hover-card__meta">
-              <span><strong>Research Fellow</strong></span>
-              <span>November 2023 – January 2025</span>
-            </div>
             <p class="hover-card__body">
-              Designed and constructed cancer-targeting synthetic gene circuits to enhance the efficacy, specificity, and persistence of combinatorial immunotherapy.
-              Programmed T-cells with logic-gated induction of an immortalized “zombie T-cell” (zT-cell) state to overcome T-cell exhaustion in vivo.
+              Designed and constructed cancer-targeting synthetic gene circuits to enhance efficacy, specificity, and persistence of combinatorial immunotherapy.
+              Programmed T-cells with logic-gated induction of an immortalized “zombie T-cell” (zT-cell) state to overcome exhaustion in vivo.
               Characterized dynamics of immortalized T cells in vivo and in vitro.
               Mentored by Dr. Ming-Ru Wu, Dept. of Cancer Immunology &amp; Virology.
             </p>
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/gao-lab.jpg'); --cover: rgba(74, 192, 176, 0.55);">
+        <a class="hover-card" href="#"
+           style="--bg: url('/images/cards/gao-lab.jpg'); --cover: rgba(74, 192, 176, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Gao Lab</h3>
-            <div class="hover-card__meta">
-              <span><strong>Research Fellow</strong></span>
-              <span>May 2023 – August 2023</span>
-            </div>
             <p class="hover-card__body">
               Employed Nanopore scRNA-seq on patient-matched renal cell carcinoma primary tumors and brain metastases to map targetable cell types and markers for metastasis prevention.
-              Analyzed tumor and immune cell gene-expression dynamics during brain-metastasis evolution.
+              Analyzed tumor/immune gene-expression dynamics during brain-metastasis evolution.
               Awarded 1st Place Poster Presentation by the Beckman Institute of Advanced Science and Technology.
             </p>
           </div>
@@ -108,97 +81,74 @@ content:
       <span id="leadership"></span>
       <div class="hover-grid">
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/time.webp'); --cover: rgba(74, 192, 176, 0.55);">
+        <a class="hover-card cover-no-title" href="#"
+           style="--bg: url('/images/cards/time.webp'); --cover: rgba(120, 190, 255, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">TIME Initiative</h3>
-            <div class="hover-card__meta">
-              <span><strong>Fellow; Director of TIME Cast</strong></span>
-              <span>March 2025 – Present</span>
-            </div>
             <p class="hover-card__body">
-              Selected as 1 of 25 fellows supported by the Academy for Health &amp; Lifespan Research; represent youth in aging biology at major conferences across the world; network with pioneers in aging biology biotech, academia, and venture capital; host podcast episodes with leaders in aging biology.
+              Selected as 1 of 25 fellows supported by the Academy for Health &amp; Lifespan Research; represent youth in aging biology at major conferences; network with leaders in longevity biotech/academia/VC; host podcast episodes.
             </p>
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/norn.webp'); --cover: rgba(74, 192, 176, 0.55);">
+        <a class="hover-card cover-no-title" href="#"
+           style="--bg: url('/images/cards/norn.webp'); --cover: rgba(120, 190, 255, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Nexus Fellowship</h3>
-            <div class="hover-card__meta">
-              <span><strong>Fellow</strong></span>
-              <span>February 2025 – Present</span>
-            </div>
             <p class="hover-card__body">
               Drive translational efforts in age-related disease by leading journal clubs, drafting policy memos, and designing/securing funding for novel experiments.
             </p>
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/foa-summit.png'); --cover: rgba(74, 192, 176, 0.55);">
+        <a class="hover-card cover-no-title" href="#"
+           style="--bg: url('/images/cards/foa-summit.png'); --cover: rgba(120, 190, 255, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Future of Aging Summit</h3>
-            <div class="hover-card__meta">
-              <span><strong>Co-Founder and Co-Host</strong></span>
-              <span>January 2024 – Present</span>
-            </div>
             <p class="hover-card__body">
-              Hosting an interdisciplinary summit on aging at the annual Gerontological Society of America (GSA) 2025 with expected 100+ attendees; leading and hosting Clinical Research in Aging and Biotech’s Role in Aging Panel
+              Hosting an interdisciplinary summit on aging at GSA 2025 (expected 100+ attendees); leading and hosting panels on clinical research in aging and biotech’s role in aging.
             </p>
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/aging-initiative.png'); --cover: rgba(74, 192, 176, 0.55);">
+        <a class="hover-card cover-no-title" href="#"
+           style="--bg: url('/images/cards/aging-initiative.png'); --cover: rgba(120, 190, 255, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Aging Initiative at Harvard</h3>
-            <div class="hover-card__meta">
-              <span><strong>Vice President of Partnerships</strong></span>
-              <span>October 2023 – Present</span>
-            </div>
             <p class="hover-card__body">
-              Spearheaded the Muscle Aging Science and Translation (MAST) Symposium (April 2024), the largest muscle aging conference in the world including speakers David Glass, Andrew Adams, Anne-Ulrike Trendelenburg and Boston’s largest aging-biology mixer (Nov 2024) including speakers George Church, Alex Colville, and Jesse Poganik.
-              Co-lead a team of 27; manage partnerships with other companies and advisory board members including George Church, Martin Borch Jensen, Laza Nuzhna, and Jake Becraft; raised $10,000+ through industry outreach.
-              Lead professor-dinner series and events with MIT/Harvard researchers (e.g., Jonathan Gootenberg, Omar Abudayyeh).
+              Spearheaded MAST Symposium (Apr 2024) and Boston’s aging-biology mixer (Nov 2024).
+              Co-lead a team of 27; manage partnerships/advisors; raised $10,000+ through industry outreach; led professor-dinner series with MIT/Harvard researchers.
             </p>
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/gami.png'); --cover: rgba(74, 192, 176, 0.55);">
+        <a class="hover-card cover-no-title" href="#"
+           style="--bg: url('/images/cards/gami.png'); --cover: rgba(120, 190, 255, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">GAMI</h3>
-            <div class="hover-card__meta">
-              <span><strong>Research &amp; Development Co-Lead</strong></span>
-              <span>February 2024 – Present</span>
-            </div>
             <p class="hover-card__body">
-              Building a nurse-patient matching mobile app for elderly patients in rural India with Udaya Kumar and ISER Tirupati partners; mapping delivery bottlenecks and spearheading pilot implementation.
+              Building a nurse-patient matching mobile app for elderly patients in rural India; mapping delivery bottlenecks and spearheading pilot implementation.
             </p>
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/nucleate.png'); --cover: rgba(74, 192, 176, 0.55);">
+        <a class="hover-card cover-no-title" href="#"
+           style="--bg: url('/images/cards/nucleate.png'); --cover: rgba(120, 190, 255, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Nucleate Aging Biology</h3>
-            <div class="hover-card__meta">
-              <span><strong>Co-Lead</strong></span>
-              <span>August 2024 – May 2025</span>
-            </div>
             <p class="hover-card__body">
-              Co-founded and led a global thematic series; hosted panel focused on startups and venture capital in longevity biotech with Joshua Olshavsky, Steve Robinette, Alex Colville, and Lada Nuzhna.
-              Authored resource guides accompanying panel discussions.
+              Co-founded and led a global thematic series; hosted panel with founders/VC; authored resource guides accompanying panel discussions.
             </p>
           </div>
         </a>
 
-        <a class="hover-card" href="#" style="--bg: url('/images/cards/openbio.png'); --cover: rgba(74, 192, 176, 0.55);">
+        <a class="hover-card cover-no-title" href="#"
+           style="--bg: url('/images/cards/openbio.png'); --cover: rgba(120, 190, 255, 0.55);">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Harvard OpenBio</h3>
-            <div class="hover-card__meta">
-              <span><strong>Biosecurity Team Co-Lead &amp; Co-Founder</strong></span>
-              <span>February 2024 – January 2025</span>
-            </div>
             <p class="hover-card__body">
-              Organized biosecurity journal club and speaker sessions; planned and co-hosted the Future of Biology Conference (130+ attendees; keynotes: George Church, Reshma Shetty).
-              Co-led the Harvard Summer Research Institute, matching 73 underserved students to research mentors and publishing their abstracts.
+              Organized biosecurity journal club and speaker sessions; planned and co-hosted the Future of Biology Conference (130+ attendees).
+              Co-led Harvard Summer Research Institute matching 73 underserved students to mentors and publishing abstracts.
             </p>
           </div>
         </a>
@@ -209,23 +159,23 @@ content:
     layout: text
     content: |
       <span id="honors"></span>
-      - TIME x Aoki Foundation Grant Recipient — 1 of 11 recipients; support from TIME Initiative and Aoki Foundation to host Immune Aging Speaker series. 2026
+      - TIME x Aoki Foundation Grant Recipient — 1 of 11 recipients; support to host Immune Aging Speaker series. 2026
       - John Harvard Scholar (top 5% of class). 2025
-      - TIME Initiative Exploration Grant — 1 of 4 recipients; support from TIME Initiative and age1 VC to represent next-gen leaders at ARDD 2025 (Copenhagen). 2025
-      - Herchel-Smith Fellow — Competitive fellowship supporting independent research in the Buenrostro Lab (Broad Institute); received travel grant to present at ARDD. 2025
-      - PRISE (Program for Research in Science & Engineering) Fellow, Harvard Office of Undergraduate Research & Fellowships. 2024
+      - TIME Initiative Exploration Grant — 1 of 4 recipients; support to represent next-gen leaders at ARDD 2025. 2025
+      - Herchel-Smith Fellow — Fellowship supporting independent research in the Buenrostro Lab; travel grant to present at ARDD. 2025
+      - PRISE Fellow, Harvard Office of Undergraduate Research & Fellowships. 2024
       - Harvard College Research Program (HCRP) Grants (Twice Awarded). 2024
       - Congressional Award — Bronze Medalist, United States Congress. 2022
       - Jessie Chambers Scholarship, National Junior Classical League — 1 of 8 national recipients ($1,500). 2023
-      - National Latin Exam Scholarship, NLE Scholarship Committee — 1 of 12 global recipients ($2,000). 2023
+      - National Latin Exam Scholarship — 1 of 12 global recipients ($2,000). 2023
 
   - title: 📄 Publications and Presentations
     layout: text
     content: |
       <span id="publications"></span>
-      - Dasariraju, S., Simonini, S., **<u>Mehra, E.</u>**, Fedorovskyy, M., Law, C., Khera, N., Rajagopal, K., & Orkaby, A. (2025). Aging Initiative: A Student-Led Model for Advancing Aging Research with a Translational Focus. Late-breaking poster presented at the Gerontological Society of America (GSA) Annual Scientific Meeting, Cambridge, MA.
+      - Dasariraju, S., Simonini, S., **<u>Mehra, E.</u>**, Fedorovskyy, M., Law, C., Khera, N., Rajagopal, K., & Orkaby, A. (2025). Aging Initiative: A Student-Led Model for Advancing Aging Research with a Translational Focus. Late-breaking poster presented at GSA Annual Scientific Meeting, Cambridge, MA.
       - Chan, K., Wang, J., Balakumar, A., Ng, M., **<u>Mehra, E.</u>**, Jain, L., Fischetti, C., Foody, J.N., Duggan, N.M., Goldsmith, A.J., & Allan-Blitz, L.-T. (2025). Using Machine Learning to Classify Manifestations of Extrapulmonary Tuberculosis with Point-of-Care Ultrasound: A Proof of Concept. The Ultrasound Journal. (under review).
-      - **<u>Mehra, E.</u>**, Lu, L., Lin, H.-Y., Shiau, C.-K., Pan, T., & Gao, R. (2023). Delineating Cellular Ecosystem Dynamics from Renal Cell Carcinomas to Brain Metastases. Poster presented at the Lurie Cancer Research Center, Northwestern University Feinberg School of Medicine, Chicago, IL and Harvard University, Cambridge, MA.
+      - **<u>Mehra, E.</u>**, Lu, L., Lin, H.-Y., Shiau, C.-K., Pan, T., & Gao, R. (2023). Delineating Cellular Ecosystem Dynamics from Renal Cell Carcinomas to Brain Metastases. Poster presented at the Lurie Cancer Research Center and Harvard University.
       - Emani, V., An, D., **<u>Mehra, E.</u>** (2025). A Digital Platform to Improve Access & Affordability of Trained Homecare Medical Nurses in India. Poster presented at Harvard University, Cambridge, MA.
       - **<u>Mehra, E.</u>** How the Power Shift in Healthcare from Providers to Insurers is Eroding Physician–Patient Relationships. 2023.
 
@@ -233,7 +183,26 @@ content:
     layout: text
     content: |
       <span id="projects"></span>
-      - Modeling IL-2 + Adoptive Cellular Immunotherapy in Tumor Growth (2024) — Built and analyzed a systems model exploring dosing synergies between IL-2 and ACI to study tumor-growth dynamics.
+      <div class="hover-grid">
+
+        <a class="hover-card cover-no-title"
+        href="https://docs.google.com/document/d/1D8xeZBTMEZ8utR_p62iPLbYHhZFYc9NrCfbe8ss-NaI/edit?usp=sharing"
+        target="_blank"
+        rel="noopener"
+        style="--bg: url('/images/cards/il2-aci.png'); --cover: rgba(255, 210, 120, 0.55);">
+
+        <div class="hover-card__content">
+          <h3 class="hover-card__title">Modeling IL-2 + ACI in Tumor Growth</h3>
+
+          <p class="hover-card__body">
+            Built and analyzed a systems model exploring dosing synergies between IL-2
+            and adoptive cellular immunotherapy (ACI) to study tumor-growth dynamics.
+          </p>
+        </div>
+
+        </a>
+
+      </div>
 
   - title:
     layout: text
@@ -256,7 +225,7 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
 exclude:
   - Gemfile

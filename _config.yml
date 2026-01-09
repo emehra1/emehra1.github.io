@@ -23,7 +23,15 @@ additional_links:
 about_profile_image: images/profile.png
 about_content: |
   <span id="about"></span>
-  Building and leveraging next-generation omics tools to uncover new levers to reprogram cell fate and restore resilience across the lifespan.
+  I am interested in the problem of capacity: how it is built, how it erodes, and whether it can be restored.
+
+  Most modern medicine intervenes after failure becomes known. I am more interested in the upstream, the regulatory layers that translate environment, stress, and time into cell fate and trajectory. Much of decline is not simply damage accumulating but programmable cell states drifting off course.
+
+  My work focuses on building and applying next-generation omics tools to make those states legible. Measurement precedes mechanism. Mechanism precedes control. Without tools, prevention is philosophy. With them, it becomes engineering.
+
+  Biologically, aging is part of our evolutionary inheritance, a consequence of selection optimizing for reproduction rather than long-term maintenance. But this does not imply that the erosion of our ability to live in accordance with our values and to experience love, joy, purpose, and connection, must be accepted as inevitable long before death.
+
+  I work where tool-building meets aging biology because that is where leverage lives, upstream, treating loss of capacity before death as a problem to be understood, not a fate to be accepted.
 
 content:
   - title: 🔬 Laboratories
@@ -36,7 +44,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Buenrostro Lab</h3>
             <p class="hover-card__body">
-              Engineering a cost-effective, high-throughput single-cell methylation sequencing assay.
+              Advised by Dr. Jason Buenrostro and Dr. Patrick Griffin, I am engineering a cost-effective, high-throughput single-cell methylation sequencing assay.
             </p>
           </div>
         </a>
@@ -45,10 +53,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Synthetic Immunity Lab</h3>
             <p class="hover-card__body">
-              Designed and constructed cancer-targeting synthetic gene circuits to enhance efficacy, specificity, and persistence of combinatorial immunotherapy.
-              Programmed T-cells with logic-gated induction of an immortalized “zombie T-cell” (zT-cell) state to overcome exhaustion in vivo.
-              Characterized dynamics of immortalized T cells in vivo and in vitro.
-              Mentored by Dr. Ming-Ru Wu, Dept. of Cancer Immunology &amp; Virology.
+              Advised by Dr. Ming-Ru Wu, I engineered T-cells with logic-gated induction of an immortalized “zombie T-cell” (zT-cell) state to overcome exhaustion in vivo.
             </p>
           </div>
         </a>
@@ -57,9 +62,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Gao Lab</h3>
             <p class="hover-card__body">
-              Employed Nanopore scRNA-seq on patient-matched renal cell carcinoma primary tumors and brain metastases to map targetable cell types and markers for metastasis prevention.
-              Analyzed tumor/immune gene-expression dynamics during brain-metastasis evolution.
-              Awarded 1st Place Poster Presentation by the Beckman Institute of Advanced Science and Technology.
+              Advised by Dr. Ruli Gao, I analyzed Nanopore scRNA-seq data of patient-matched renal cell carcinomas and brain metastases to map gene expression dynamics in brain-metastasis evolution for target identification.
             </p>
           </div>
         </a>
@@ -94,7 +97,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Future of Aging Summit</h3>
             <p class="hover-card__body">
-              Hosting an interdisciplinary summit on aging at GSA 2025 (expected 100+ attendees); leading and hosting panels on clinical research in aging and biotech’s role in aging.
+              Hosted an interdisciplinary summit on aging at GSA 2025 (100+ attendees); hosted fireside chat and lightning talks on clinical research in aging and biotech’s role in aging.
             </p>
           </div>
         </a>
@@ -103,7 +106,6 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Aging Initiative at Harvard</h3>
             <p class="hover-card__body">
-              Spearheaded MAST Symposium (Apr 2024) and Boston’s aging-biology mixer (Nov 2024).
               Co-lead a team of 27; manage partnerships/advisors; raised $10,000+ through industry outreach; led professor-dinner series with MIT/Harvard researchers.
             </p>
           </div>
@@ -131,8 +133,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Harvard OpenBio</h3>
             <p class="hover-card__body">
-              Organized biosecurity journal club and speaker sessions; planned and co-hosted the Future of Biology Conference (130+ attendees).
-              Co-led Harvard Summer Research Institute matching 73 underserved students to mentors and publishing abstracts.
+              Organized biosecurity journal club and speaker sessions; planned and co-hosted the Future of Biology Conference (130+ attendees). Co-led Harvard Summer Research Institute matching 73 underserved students to mentors and publishing abstracts.
             </p>
           </div>
         </a>
@@ -149,9 +150,10 @@ content:
       - Herchel-Smith Fellow — Fellowship supporting independent research in the Buenrostro Lab; travel grant to present at ARDD. 2025
       - PRISE Fellow, Harvard Office of Undergraduate Research & Fellowships. 2024
       - Harvard College Research Program (HCRP) Grants (Twice Awarded). 2024
-      - Congressional Award — Bronze Medalist, United States Congress. 2022
+      - Awarded 1st place poster presentation award by Beckmann Institute of Advanced Science and Technology for research at Northwestern Feinberg School of Medicine. 2023
       - Jessie Chambers Scholarship, National Junior Classical League — 1 of 8 national recipients ($1,500). 2023
       - National Latin Exam Scholarship — 1 of 12 global recipients ($2,000). 2023
+      - Congressional Award — Bronze Medalist, United States Congress. 2022
 
   - title: 📄 Publications and Presentations
     layout: text

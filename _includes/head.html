@@ -3,11 +3,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="Eshan Mehra, Harvard student and researcher in aging biology and next-gen omics tech-dev, exploring cell state regulation & dynamics." />
 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Eshan Mehra",
+    "url": "https://eshanmehra.xyz/",
+    "sameAs": [
+      "https://www.linkedin.com/in/eshan-mehra-86aa26201/",
+      "https://scholar.google.com/citations?user=nJMnE9EAAAAJ&hl=en",
+      "https://x.com/emehra30",
+      "https://eshanmehra.substack.com/",
+      "https://github.com/emehra1"
+    ],
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Harvard University"
+    },
+    "description": "Harvard undergraduate building next-generation omics tools to research aging biology and cell state regulation."
+  }
+  </script>
+
   <title>{{ site.name }} | {{ site.title }}</title>
   {%- seo title=false -%}
 
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | default: '/assets/favicon.ico' | relative_url }}">
+  <link rel="canonical" href="https://eshanmehra.xyz/" />
 
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}

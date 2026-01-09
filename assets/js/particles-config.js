@@ -8,11 +8,11 @@ particlesJS("particles-js", {
     line_linked: { 
       color: particleColor ,
       distance: 100 ,
-      width: 1.1 ,
-      opacity: 0.5 ,
+      width: 1.2 ,
+      opacity: 0.6 ,
     },
     number: {
-      value: 75,
+      value: 80,
       density: {
         enable: true,
         value_area: 900

@@ -40,4 +40,10 @@
   {%- if jekyll.environment == 'production' and site.gtag -%}
     {%- include gtag.html -%}
   {%- endif -%}
+
+  <!-- Favicons -->
+  <link rel="icon" href="{{ '/favicon.png' | relative_url }}" sizes="512x512" type="image/png">
+  <link rel="apple-touch-icon" href="{{ '/favicon.png' | relative_url }}" sizes="512x512">
+  <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/x-icon">
+
 </head>

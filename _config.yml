@@ -79,7 +79,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">TIME Initiative</h3>
             <p class="hover-card__body">
-              Selected as 1 of 25 fellows supported by the Academy for Health &amp; Lifespan Research; represent youth in aging biology at major conferences; network with leaders in longevity biotech/academia/VC; host podcast episodes.
+              Selected as 1 of 25 fellows supported by the Academy for Health &amp; Lifespan Research; represent early-career scientists in aging biology at international conferences; direct and host TIME Cast, interviewing leaders in aging biology, biotechnology, and policy.
             </p>
           </div>
         </a>
@@ -88,7 +88,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Nexus Fellowship</h3>
             <p class="hover-card__body">
-              Drive translational efforts in age-related disease by leading journal clubs, drafting policy memos, and designing/securing funding for novel experiments.
+              Advance translational efforts in age-related disease by leading interdisciplinary journal clubs, drafting policy memos, and designing, scoping, and securing funding for high-impact experimental programs at the interface of academia, biotechnology, and policy.
             </p>
           </div>
         </a>
@@ -97,7 +97,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Future of Aging Summit</h3>
             <p class="hover-card__body">
-              Hosted an interdisciplinary summit on aging at GSA 2025 (100+ attendees); hosted fireside chat and lightning talks on clinical research in aging and biotech’s role in aging.
+              Co-founded and co-hosted an interdisciplinary summit on aging at the 2025 Gerontological Society of America (GSA) Annual Meeting, convening 100+ attendees across academia, industry, and policy; led and moderated discussions on clinical research in aging and biotechnology’s role in age-related disease translation.
             </p>
           </div>
         </a>
@@ -106,7 +106,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Aging Initiative at Harvard</h3>
             <p class="hover-card__body">
-              Co-lead a team of 27; manage partnerships/advisors; raised $10,000+ through industry outreach; led professor-dinner series with MIT/Harvard researchers.
+              Co-managed Boston’s largest aging-biology mixer (Nov 2024) featuring George Church, Alex Colville, and Jesse Poganik; jointly hosted the Muscle Aging Science and Translation (MAST) Symposium (April 2024); co-lead a 27-member team, manage partnerships and advisors, and raised $10,000+ through industry outreach.
             </p>
           </div>
         </a>
@@ -115,7 +115,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">GAMI</h3>
             <p class="hover-card__body">
-              Building a nurse-patient matching mobile app for elderly patients in rural India; mapping delivery bottlenecks and spearheading pilot implementation.
+              Co-led development of a nurse–patient matching mobile platform for elderly patients in rural India with Udaya Kumar and ISER Tirupati partners; led needs-mapping of healthcare delivery bottlenecks, coordinated cross-institutional development, and spearheaded pilot implementation planning.
             </p>
           </div>
         </a>
@@ -124,7 +124,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Nucleate Aging Biology</h3>
             <p class="hover-card__body">
-              Co-founded and led a global thematic series; hosted panel with founders/VC; authored resource guides accompanying panel discussions.
+              Co-managed a global thematic series focused on aging biology and longevity biotechnology; organized and moderated panels with founders and venture capital leaders in longevity biotech, and authored accompanying resource guides synthesizing technical and translational insights.
             </p>
           </div>
         </a>
@@ -133,7 +133,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Harvard OpenBio</h3>
             <p class="hover-card__body">
-              Organized biosecurity journal club and speaker sessions; planned and co-hosted the Future of Biology Conference (130+ attendees). Co-led Harvard Summer Research Institute matching 73 underserved students to mentors and publishing abstracts.
+              Co-founded and jointly chaired Harvard OpenBio’s Biosecurity Team; organized biosecurity journal clubs and speaker series; co-hosted the Future of Biology Conference (130+ attendees; keynote speakers including George Church and Reshma Shetty); co-led the Harvard Summer Research Institute, matching 73 underserved students nationwide to research mentors and publishing their abstracts.
             </p>
           </div>
         </a>
@@ -162,11 +162,15 @@ content:
       </p>
 
       <p>
-        <strong>Program for Research in Science &amp; Engineering (PRISE) Fellow</strong>, Harvard Office of Undergraduate Research &amp; Fellowships — fellowship supporting independent research in the Synthetic Immunity Lab at Harvard Medical School. <em>2024</em>
+        <strong>Program for Research in Science &amp; Engineering (PRISE) Fellow</strong>, Harvard Office of Undergraduate Research &amp; Fellowships — selective fellowship supporting independent research in the Synthetic Immunity Lab at Harvard Medical School. <em>2024</em>
       </p>
 
       <p>
         <strong>Harvard College Research Program (HCRP) Grant Recipient</strong>, Harvard Office of Undergraduate Research &amp; Fellowships — twice awarded to support independent research in the Synthetic Immunity Lab at Harvard Medical School. <em>2024</em>
+      </p>
+
+      <p>
+        <strong>1st Place Poster Presentation Award</strong>, Beckmann Institute of Advanced Science and Technology and ResearcHStart. <em>2023</em>
       </p>
 
       <p>
@@ -274,6 +278,23 @@ content:
           </p>
         </div>
       </a>
+
+      </div>
+
+  - title: 🩺 Clinical Experience
+    layout: text
+    content: |
+      <span id="clinical"></span>
+      <div class="hover-grid">
+
+        <a class="hover-card cover-no-title" href="#" style="--bg: url('/images/cards/uganda.png');">
+          <div class="hover-card__content">
+            <h3 class="hover-card__title">Empower Through Health</h3>
+            <p class="hover-card__body">
+              Lived and worked in rural Uganda in the rural districts of Iganga and Buyunde to study maternal and family experiences following child loss; conducted structured interviews to identify gaps in psychiatric and mental health support within local medical institutions; analyzed barriers to care delivery and community resilience in low-resource clinical settings.
+            </p>
+          </div>
+        </a>
 
       </div>
 

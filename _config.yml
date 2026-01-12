@@ -281,22 +281,22 @@ content:
 
       </div>
 
-  - title: 🩺 Clinical Experience
-    layout: text
-    content: |
-      <span id="clinical"></span>
-      <div class="hover-grid">
+  # - title: 🩺 Clinical Experience
+  #   layout: text
+  #   content: |
+  #     <span id="clinical"></span>
+  #     <div class="hover-grid">
 
-        <a class="hover-card cover-no-title" href="#" style="--bg: url('/images/cards/uganda.png');">
-          <div class="hover-card__content">
-            <h3 class="hover-card__title">Empower Through Health</h3>
-            <p class="hover-card__body">
-              Lived and worked in rural Uganda in the rural districts of Iganga and Buyunde to study maternal and family experiences following child loss; conducted structured interviews to identify gaps in psychiatric and mental health support within local medical institutions; analyzed barriers to care delivery and community resilience in low-resource clinical settings.
-            </p>
-          </div>
-        </a>
+  #       <a class="hover-card cover-no-title" href="#" style="--bg: url('/images/cards/uganda.png');">
+  #         <div class="hover-card__content">
+  #           <h3 class="hover-card__title">Empower Through Health</h3>
+  #           <p class="hover-card__body">
+  #             Lived and worked in rural Uganda in the rural districts of Iganga and Buyunde to study maternal and family experiences following child loss; conducted structured interviews to identify gaps in psychiatric and mental health support within local medical institutions; analyzed barriers to care delivery and community resilience in low-resource clinical settings.
+  #           </p>
+  #         </div>
+  #       </a>
 
-      </div>
+  #     </div>
 
   - title:
     layout: text

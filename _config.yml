@@ -144,26 +144,86 @@ content:
     layout: text
     content: |
       <span id="honors"></span>
-      - TIME x Aoki Foundation Grant Recipient — 1 of 11 recipients; support to host Immune Aging Speaker series. 2026
-      - John Harvard Scholar (top 5% of class). 2025
-      - TIME Initiative Exploration Grant — 1 of 4 recipients; support to represent next-gen leaders at ARDD 2025. 2025
-      - Herchel-Smith Fellow — Fellowship supporting independent research in the Buenrostro Lab; travel grant to present at ARDD. 2025
-      - PRISE Fellow, Harvard Office of Undergraduate Research & Fellowships. 2024
-      - Harvard College Research Program (HCRP) Grants (Twice Awarded). 2024
-      - Awarded 1st place poster presentation award by Beckmann Institute of Advanced Science and Technology for research at Northwestern Feinberg School of Medicine. 2023
-      - Jessie Chambers Scholarship, National Junior Classical League — 1 of 8 national recipients ($1,500). 2023
-      - National Latin Exam Scholarship — 1 of 12 global recipients ($2,000). 2023
-      - Congressional Award — Bronze Medalist, United States Congress. 2022
 
-  - title: 📄 Publications and Presentations
+      <p>
+        <strong>TIME x Aoki Foundation Grant Recipient</strong>, Aoki Foundation and TIME Initiative — 1 of 11 recipients; grant support to organize and host the Immune Aging Speaker Series. <em>2026</em>
+      </p>
+
+      <p>
+        <strong>John Harvard Scholar</strong>, Dean of Harvard College — top 5% of class. <em>2025</em>
+      </p>
+
+      <p>
+        <strong>TIME x age1 Exploration Grant</strong>, age1 venture capital and TIME Initiative — 1 of 4 recipients; funding to represent next-generation aging biology leaders at ARDD 2025. <em>2025</em>
+      </p>
+
+      <p>
+        <strong>Herchel-Smith Fellow</strong>, Herchel Smith Fund — competitive fellowship supporting independent research in the Buenrostro Lab at the Broad Institute, including travel support to present research at ARDD 2025. <em>2025</em>
+      </p>
+
+      <p>
+        <strong>Program for Research in Science &amp; Engineering (PRISE) Fellow</strong>, Harvard Office of Undergraduate Research &amp; Fellowships — fellowship supporting independent research in the Synthetic Immunity Lab at Harvard Medical School. <em>2024</em>
+      </p>
+
+      <p>
+        <strong>Harvard College Research Program (HCRP) Grant Recipient</strong>, Harvard Office of Undergraduate Research &amp; Fellowships — twice awarded to support independent research in the Synthetic Immunity Lab at Harvard Medical School. <em>2024</em>
+      </p>
+
+      <p>
+        <strong>Jessie Chambers Scholarship</strong>, National Junior Classical League — 1 of 8 national recipients ($1,500). <em>2023</em>
+      </p>
+
+      <p>
+        <strong>National Latin Exam Scholarship</strong>, NLE Scholarship Committee — 1 of 12 global recipients ($2,000). <em>2023</em>
+      </p>
+
+      <p>
+        <strong>Congressional Award</strong>, United States Congress — Bronze Medalist recognizing public service, personal development, exploration, and physical fitness. <em>2022</em>
+      </p>
+
+  - title: 📝 Publications and Presentations
     layout: text
     content: |
       <span id="publications"></span>
-      - Dasariraju, S., Simonini, S., **<u>Mehra, E.</u>**, Fedorovskyy, M., Law, C., Khera, N., Rajagopal, K., & Orkaby, A. (2025). Aging Initiative: A Student-Led Model for Advancing Aging Research with a Translational Focus. Late-breaking poster presented at GSA Annual Scientific Meeting, Cambridge, MA.
-      - Chan, K., Wang, J., Balakumar, A., Ng, M., **<u>Mehra, E.</u>**, Jain, L., Fischetti, C., Foody, J.N., Duggan, N.M., Goldsmith, A.J., & Allan-Blitz, L.-T. (2025). Using Machine Learning to Classify Manifestations of Extrapulmonary Tuberculosis with Point-of-Care Ultrasound: A Proof of Concept. The Ultrasound Journal. (under review).
-      - **<u>Mehra, E.</u>**, Lu, L., Lin, H.-Y., Shiau, C.-K., Pan, T., & Gao, R. (2023). Delineating Cellular Ecosystem Dynamics from Renal Cell Carcinomas to Brain Metastases. Poster presented at the Lurie Cancer Research Center and Harvard University.
-      - Emani, V., An, D., **<u>Mehra, E.</u>** (2025). A Digital Platform to Improve Access & Affordability of Trained Homecare Medical Nurses in India. Poster presented at Harvard University, Cambridge, MA.
-      - **<u>Mehra, E.</u>** How the Power Shift in Healthcare from Providers to Insurers is Eroding Physician–Patient Relationships. 2023.
+
+      <strong>Abstracts</strong>
+      <ul>
+        <li>
+          Fedorovskyy, M., Dasariraju, S., Simonini, S., <strong><u>Mehra, E.</u></strong>, Law, C., Khera, N., Rajagopal, K., &amp; Orkaby, A. (2025).
+          Aging initiative: A student-led model for advancing aging research with a translational focus.
+          <em>Innovation in Aging</em>.
+          <a href="https://doi.org/10.1093/geroni/igaf122.3536" target="_blank" rel="noopener">https://doi.org/10.1093/geroni/igaf122.3536</a>
+        </li>
+        <li>
+          Chan, K., Wang, J., Balakumar, A., Ng, M., <strong><u>Mehra, E.</u></strong>, Jain, L., Fischetti, C., Foody, J. N., Duggan, N. M., Goldsmith, A. J., &amp; Allan-Blitz, L.-T. (2025).
+          Using machine learning to classify manifestations of extrapulmonary tuberculosis with point-of-care ultrasound: A proof of concept.
+          <em>The Ultrasound Journal</em>. Manuscript under review.
+        </li>
+      </ul>
+
+      <strong>Presentations</strong>
+      <ul>
+        <li>
+          <strong><u>Mehra, E.</u></strong>, Lu, L., Lin, H.-Y., Shiau, C.-K., Pan, T., &amp; Gao, R. (2023).
+          <em>Studying cell fate trajectories of renal cell carcinomas in brain metastasis</em>.
+          Poster presentation. Lurie Cancer Research Center, Northwestern University Feinberg School of Medicine, Chicago, IL; Harvard University, Cambridge, MA.
+        </li>
+        <li>
+          Emani, V., An, D., <strong><u>Mehra, E.</u></strong> (2025).
+          <em>A digital platform to improve access &amp; affordability of trained homecare medical nurses in India</em>.
+          Poster presentation. Harvard University, Cambridge, MA.
+        </li>
+      </ul>
+
+      <strong>Essays</strong>
+      <ul>
+        <li>
+          <strong><u>Mehra, E.</u></strong> (2025).
+          How the power shift in healthcare from providers to insurers is eroding physician-patient relationships.
+          <em>Harvard Undergraduate Health Policy Review</em>.
+          <a href="https://www.huhpr.org/original-content/2024/2/4/how-the-power-shift-in-healthcare-from-providers-to-insurers-is-eroding-physician-patient-relationships-k8kgy" target="_blank" rel="noopener">Link</a>
+        </li>
+      </ul>
 
   - title: 🧪 Projects
     layout: text

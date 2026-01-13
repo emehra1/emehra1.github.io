@@ -559,3 +559,17 @@ body.menu-open .menu-overlay { opacity: 0.9; pointer-events: auto; }
 
   .hover-card.cover-no-title .hover-card__title { display: none !important; }
 }
+
+/* Making the honors two columns */
+
+.honors-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3rem;
+}
+
+@media (max-width: 900px) {
+  .honors-grid {
+    grid-template-columns: 1fr;
+  }
+}

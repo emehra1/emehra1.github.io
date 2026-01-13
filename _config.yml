@@ -145,62 +145,64 @@ content:
     content: |
       <span id="honors"></span>
 
-  - title: 🏅 Honors and Awards
-    layout: text
-    content: |
-      <span id="honors"></span>
+      <div class="honors-grid">
+        <div>
 
-      <p>
-        <strong>TIME x Aoki Foundation Grant Recipient</strong> (2026)<br>
-        <em>TIME Initiative; Aoki Foundation</em><br>
-        Grant support to organize and host the Immune Aging Speaker Series.
-      </p>
+          <p>
+            <strong>TIME x Aoki Foundation Grant Recipient</strong> (2026)<br>
+            <em>TIME Initiative; Aoki Foundation</em><br>
+            Grant support to organize and host the Immune Aging Speaker Series.
+          </p>
 
-      <p>
-        <strong>TIME x age1 Exploration Grant Recipient</strong> (2025)<br>
-        <em>age1 Venture Capital; TIME Initiative</em><br>
-        Selected to represent next-generation aging biology leaders at ARDD 2025.
-      </p>
+          <p>
+            <strong>TIME x age1 Exploration Grant Recipient</strong> (2025)<br>
+            <em>age1 Venture Capital; TIME Initiative</em><br>
+            Selected to represent next-generation aging biology leaders at ARDD 2025.
+          </p>
 
-      <p>
-        <strong>Herchel-Smith Fellow</strong> (2025)<br>
-        <em>Herchel Smith Fund</em>
-      </p>
+          <p>
+            <strong>Herchel-Smith Fellow</strong> (2025)<br>
+            <em>Herchel Smith Fund</em>
+          </p>
 
-      <p>
-        <strong>John Harvard Scholar</strong> (2025)<br>
-        <em>Dean of Harvard College</em> (top 5% of class)
-      </p>
+          <p>
+            <strong>John Harvard Scholar</strong> (2025)<br>
+            <em>Dean of Harvard College</em> (top 5% of class)
+          </p>
 
-      <p>
-        <strong>Program for Research in Science &amp; Engineering (PRISE) Fellow</strong> (2024)<br>
-        <em>Harvard Office of Undergraduate Research &amp; Fellowships</em>
-      </p>
+          <p>
+            <strong>Program for Research in Science &amp; Engineering (PRISE) Fellow</strong> (2024)<br>
+            <em>Harvard Office of Undergraduate Research &amp; Fellowships</em>
+          </p>
 
-      <p>
-        <strong>Harvard College Research Program Grant Recipient</strong> (2024)<br>
-        <em>Harvard Office of Undergraduate Research &amp; Fellowships</em> (twice awarded)
-      </p>
+          <p>
+            <strong>Harvard College Research Program Grant Recipient</strong> (2024)<br>
+            <em>Harvard Office of Undergraduate Research &amp; Fellowships</em> (twice awarded)
+          </p>
 
-      <p>
-        <strong>1st Place Poster Presentation Award</strong> (2023)<br>
-        <em>Beckman Institute of Advanced Science and Technology; ResearcHStart</em>
-      </p>
-      
-      <p>
-        <strong>Jessie Chambers Scholarship</strong> (2023)<br>
-        <em>National Junior Classical League</em> (1 of 8 recipients)
-      </p>
+          <p>
+            <strong>1st Place Poster Presentation Award</strong> (2023)<br>
+            <em>Beckman Institute of Advanced Science and Technology; ResearcHStart</em>
+          </p>
+          
+          <p>
+            <strong>Jessie Chambers Scholarship</strong> (2023)<br>
+            <em>National Junior Classical League</em> (1 of 8 recipients)
+          </p>
 
-      <p>
-        <strong>National Latin Exam Scholarship</strong> (2023)<br>
-        <em>NLE Scholarship Committee</em> (1 of 12 recipients)
-      </p>
+          <p>
+            <strong>National Latin Exam Scholarship</strong> (2023)<br>
+            <em>NLE Scholarship Committee</em> (1 of 12 recipients)
+          </p>
 
-      <p>
-        <strong>Congressional Award, Bronze Medal</strong> (2022)<br>
-        <em>United States Congress</em>
-      </p>
+          <p>
+            <strong>Congressional Award, Bronze Medal</strong> (2022)<br>
+            <em>United States Congress</em>
+          </p>
+
+        </div>
+
+      </div>
 
   - title: 📝 Publications and Presentations
     layout: text

@@ -144,7 +144,7 @@ content:
     layout: text
     content: |
       <span id="honors"></span>
-
+      
       <div class="honors-grid">
         <div>
           <p>
@@ -177,7 +177,7 @@ content:
         </div>
 
         <div>
-        
+
           <p>
             <strong>Harvard College Research Program Grant Recipient</strong> (2024)<br>
             <em>Harvard Office of Undergraduate Research &amp; Fellowships</em> (twice awarded)

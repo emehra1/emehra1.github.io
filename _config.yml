@@ -88,7 +88,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Nexus Fellowship</h3>
             <p class="hover-card__body">
-              Advance translational efforts in age-related disease by leading interdisciplinary journal clubs, drafting policy memos, and designing, scoping, and securing funding for high-impact experimental programs at the interface of academia, biotechnology, and policy.
+              Advance translational efforts in age-related disease by drafting policy memos, leading interdisciplinary journal clubs, and designing, scoping, and securing funding for high-impact experimental programs at the interface of academia, biotechnology, and policy.
             </p>
           </div>
         </a>
@@ -145,45 +145,16 @@ content:
     content: |
       <span id="honors"></span>
 
-      <p>
-        <strong>TIME x Aoki Foundation Grant Recipient</strong>, Aoki Foundation and TIME Initiative — 1 of 11 recipients; grant support to organize and host the Immune Aging Speaker Series. <em>2026</em>
-      </p>
-
-      <p>
-        <strong>John Harvard Scholar</strong>, Dean of Harvard College — top 5% of class. <em>2025</em>
-      </p>
-
-      <p>
-        <strong>TIME x age1 Exploration Grant</strong>, age1 venture capital and TIME Initiative — 1 of 4 recipients; funding to represent next-generation aging biology leaders at ARDD 2025. <em>2025</em>
-      </p>
-
-      <p>
-        <strong>Herchel-Smith Fellow</strong>, Herchel Smith Fund — competitive fellowship supporting independent research in the Buenrostro Lab at the Broad Institute, including travel support to present research at ARDD 2025. <em>2025</em>
-      </p>
-
-      <p>
-        <strong>Program for Research in Science &amp; Engineering (PRISE) Fellow</strong>, Harvard Office of Undergraduate Research &amp; Fellowships — selective fellowship supporting independent research in the Synthetic Immunity Lab at Harvard Medical School. <em>2024</em>
-      </p>
-
-      <p>
-        <strong>Harvard College Research Program (HCRP) Grant Recipient</strong>, Harvard Office of Undergraduate Research &amp; Fellowships — twice awarded to support independent research in the Synthetic Immunity Lab at Harvard Medical School. <em>2024</em>
-      </p>
-
-      <p>
-        <strong>1st Place Poster Presentation Award</strong>, Beckmann Institute of Advanced Science and Technology and ResearcHStart. <em>2023</em>
-      </p>
-
-      <p>
-        <strong>Jessie Chambers Scholarship</strong>, National Junior Classical League — 1 of 8 national recipients ($1,500). <em>2023</em>
-      </p>
-
-      <p>
-        <strong>National Latin Exam Scholarship</strong>, NLE Scholarship Committee — 1 of 12 global recipients ($2,000). <em>2023</em>
-      </p>
-
-      <p>
-        <strong>Congressional Award</strong>, United States Congress — Bronze Medalist recognizing public service, personal development, exploration, and physical fitness. <em>2022</em>
-      </p>
+      * <strong>TIME x Aoki Foundation Grant Recipient</strong>, Aoki Foundation and TIME Initiative - 1 of 11 recipients; grant support to organize and host the Immune Aging Speaker Series. <em>2026</em>
+      * <strong>John Harvard Scholar</strong>, Dean of Harvard College - top 5% of class. <em>2025</em>
+      * <strong>TIME x age1 Exploration Grant</strong>, age1 venture capital and TIME Initiative - 1 of 4 recipients; funding to represent next-generation aging biology leaders at ARDD 2025. <em>2025</em>
+      * <strong>Herchel-Smith Fellow</strong>, Herchel Smith Fund - competitive fellowship supporting independent research in the Buenrostro Lab at the Broad Institute, including travel support to present research at ARDD 2025. <em>2025</em>
+      * <strong>Program for Research in Science &amp; Engineering (PRISE) Fellow</strong>, Harvard Office of Undergraduate Research &amp; Fellowships - selective fellowship supporting independent research in the Synthetic Immunity Lab at Harvard Medical School. <em>2024</em>
+      * <strong>Harvard College Research Program (HCRP) Grant Recipient</strong>, Harvard Office of Undergraduate Research &amp; Fellowships - twice awarded to support independent research in the Synthetic Immunity Lab at Harvard Medical School. <em>2024</em>
+      * <strong>1st Place Poster Presentation Award</strong>, Beckmann Institute of Advanced Science and Technology and ResearcHStart. <em>2023</em>
+      * <strong>Jessie Chambers Scholarship</strong>, National Junior Classical League - 1 of 8 national recipients ($1,500). <em>2023</em>
+      * <strong>National Latin Exam Scholarship</strong>, NLE Scholarship Committee - 1 of 12 global recipients ($2,000). <em>2023</em>
+      * <strong>Congressional Award</strong>, United States Congress - Bronze Medalist recognizing public service, personal development, exploration, and physical fitness. <em>2022</em>
 
   - title: 📝 Publications and Presentations
     layout: text
@@ -196,7 +167,7 @@ content:
           Fedorovskyy, M., Dasariraju, S., Simonini, S., <strong><u>Mehra, E.</u></strong>, Law, C., Khera, N., Rajagopal, K., &amp; Orkaby, A. (2025).
           Aging initiative: A student-led model for advancing aging research with a translational focus.
           <em>Innovation in Aging</em>.
-          <a href="https://doi.org/10.1093/geroni/igaf122.3536" target="_blank" rel="noopener">https://doi.org/10.1093/geroni/igaf122.3536</a>
+          <a href="https://doi.org/10.1093/geroni/igaf122.3536" target="_blank" rel="noopener">(doi: 10.1093/geroni/igaf122.3536)</a>
         </li>
         <li>
           Chan, K., Wang, J., Balakumar, A., Ng, M., <strong><u>Mehra, E.</u></strong>, Jain, L., Fischetti, C., Foody, J. N., Duggan, N. M., Goldsmith, A. J., &amp; Allan-Blitz, L.-T. (2025).
@@ -241,7 +212,7 @@ content:
          style="--bg: url('/images/cards/scrb155.png');">
         <div class="hover-card__content">
           <h3 class="hover-card__title">
-            Chronic Expansion Reprograms Memory CD8+ T Cells Toward Poised Exhaustion Without Loss of Proliferative Capacity
+            Chronic Expansion Reprograms Memory CD8+ T Cells Toward Poised Exhaustion
           </h3>
           <p class="hover-card__body">
             Reanalyzed longitudinal RNA-seq and ATAC-seq data to show that repeated CD8⁺ T-cell expansion drives epigenetic and transcriptional programs associated with poised exhaustion while preserving proliferative capacity.

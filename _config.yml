@@ -44,7 +44,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Buenrostro Lab</h3>
             <p class="hover-card__body">
-              Advised by Dr. Jason Buenrostro and Dr. Patrick Griffin, I am engineering a cost-effective, high-throughput single-cell methylation sequencing assay.
+              Advised by Dr. Jason Buenrostro and Dr. Patrick Griffin, I am developing next-generation single-cell omics tools to study regulatory mechanisms governing immune cell states and fates in aging.
             </p>
           </div>
         </a>
@@ -53,7 +53,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Synthetic Immunity Lab</h3>
             <p class="hover-card__body">
-              Advised by Dr. Ming-Ru Wu, I engineered T-cells with logic-gated induction of an immortalized “zombie T-cell” (zT-cell) state to overcome exhaustion in vivo.
+              Advised by Dr. Ming-Ru Wu, I engineered T-cells with logic-gated induction of an immortalized “zombie T-cell” (zT-cell) state to overcome exhaustion <em>in vivo</em>.
             </p>
           </div>
         </a>
@@ -115,7 +115,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">GAMI</h3>
             <p class="hover-card__body">
-              Co-led development of a nurse–patient matching mobile platform for elderly patients in rural India with Udaya Kumar and ISER Tirupati partners; led needs-mapping of healthcare delivery bottlenecks, coordinated cross-institutional development, and spearheaded pilot implementation planning.
+              Co-led development of a nurse–patient matching mobile platform for elderly patients in India with Udaya Kumar and ISER Tirupati partners; led needs-mapping of healthcare delivery bottlenecks, coordinated cross-institutional development, and spearheaded pilot implementation planning.
             </p>
           </div>
         </a>
@@ -124,7 +124,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Nucleate Aging Biology</h3>
             <p class="hover-card__body">
-              Co-managed a global thematic series focused on aging biology and longevity biotechnology; organized and moderated panels with founders and venture capital leaders in longevity biotech, and authored accompanying resource guides synthesizing technical and translational insights.
+              Co-managed a global thematic series focused on aging biology and longevity biotechnology; organized and moderated panels with founders and venture capital leaders in longevity biotech, and co-authored accompanying resource guides synthesizing technical and translational insights.
             </p>
           </div>
         </a>
@@ -145,16 +145,62 @@ content:
     content: |
       <span id="honors"></span>
 
-      * <strong>TIME x Aoki Foundation Grant Recipient</strong>, Aoki Foundation and TIME Initiative - 1 of 11 recipients; grant support to organize and host the Immune Aging Speaker Series. <em>2026</em>
-      * <strong>John Harvard Scholar</strong>, Dean of Harvard College - top 5% of class. <em>2025</em>
-      * <strong>TIME x age1 Exploration Grant</strong>, age1 venture capital and TIME Initiative - 1 of 4 recipients; funding to represent next-generation aging biology leaders at ARDD 2025. <em>2025</em>
-      * <strong>Herchel-Smith Fellow</strong>, Herchel Smith Fund - competitive fellowship supporting independent research in the Buenrostro Lab at the Broad Institute, including travel support to present research at ARDD 2025. <em>2025</em>
-      * <strong>Program for Research in Science &amp; Engineering (PRISE) Fellow</strong>, Harvard Office of Undergraduate Research &amp; Fellowships - selective fellowship supporting independent research in the Synthetic Immunity Lab at Harvard Medical School. <em>2024</em>
-      * <strong>Harvard College Research Program (HCRP) Grant Recipient</strong>, Harvard Office of Undergraduate Research &amp; Fellowships - twice awarded to support independent research in the Synthetic Immunity Lab at Harvard Medical School. <em>2024</em>
-      * <strong>1st Place Poster Presentation Award</strong>, Beckmann Institute of Advanced Science and Technology and ResearcHStart. <em>2023</em>
-      * <strong>Jessie Chambers Scholarship</strong>, National Junior Classical League - 1 of 8 national recipients ($1,500). <em>2023</em>
-      * <strong>National Latin Exam Scholarship</strong>, NLE Scholarship Committee - 1 of 12 global recipients ($2,000). <em>2023</em>
-      * <strong>Congressional Award</strong>, United States Congress - Bronze Medalist recognizing public service, personal development, exploration, and physical fitness. <em>2022</em>
+  - title: 🏅 Honors and Awards
+    layout: text
+    content: |
+      <span id="honors"></span>
+
+      <p>
+        <strong>TIME x Aoki Foundation Grant Recipient</strong> (2026)<br>
+        <em>TIME Initiative; Aoki Foundation</em><br>
+        Grant support to organize and host the Immune Aging Speaker Series.
+      </p>
+
+      <p>
+        <strong>TIME x age1 Exploration Grant Recipient</strong> (2025)<br>
+        <em>age1 Venture Capital; TIME Initiative</em><br>
+        Selected to represent next-generation aging biology leaders at ARDD 2025.
+      </p>
+
+      <p>
+        <strong>Herchel-Smith Fellow</strong> (2025)<br>
+        <em>Herchel Smith Fund</em>
+      </p>
+
+      <p>
+        <strong>John Harvard Scholar</strong> (2025)<br>
+        <em>Dean of Harvard College</em> (top 5% of class)
+      </p>
+
+      <p>
+        <strong>Program for Research in Science &amp; Engineering (PRISE) Fellow</strong> (2024)<br>
+        <em>Harvard Office of Undergraduate Research &amp; Fellowships</em>
+      </p>
+
+      <p>
+        <strong>Harvard College Research Program Grant Recipient</strong> (2024)<br>
+        <em>Harvard Office of Undergraduate Research &amp; Fellowships</em> (twice awarded)
+      </p>
+
+      <p>
+        <strong>1st Place Poster Presentation Award</strong> (2023)<br>
+        <em>Beckman Institute of Advanced Science and Technology; ResearcHStart</em>
+      </p>
+      
+      <p>
+        <strong>Jessie Chambers Scholarship</strong> (2023)<br>
+        <em>National Junior Classical League</em> (1 of 8 recipients)
+      </p>
+
+      <p>
+        <strong>National Latin Exam Scholarship</strong> (2023)<br>
+        <em>NLE Scholarship Committee</em> (1 of 12 recipients)
+      </p>
+
+      <p>
+        <strong>Congressional Award, Bronze Medal</strong> (2022)<br>
+        <em>United States Congress</em>
+      </p>
 
   - title: 📝 Publications and Presentations
     layout: text

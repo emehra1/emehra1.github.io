@@ -573,3 +573,56 @@ body.menu-open .menu-overlay { opacity: 0.9; pointer-events: auto; }
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================================================
+   Mobile: force single-column layout
+========================================================= */
+@media (max-width: 900px) {
+  /* Any flex rows become stacked */
+  .layout,
+  .layout-left,
+  .layout-right {
+    flex-direction: column !important;
+  }
+
+  /* Ensure children don't cling to desktop widths */
+  .layout .details,
+  .layout .content,
+  .layout-top-middle .details,
+  .layout-top .details,
+  .layout-top-right .details,
+  .layout-top-middle .content,
+  .layout-top .content,
+  .layout-top-right .content {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* All your card grids become 1 column */
+  .hover-grid,
+  .hover-grid.cols-3,
+  #projects.hover-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Honors grid becomes 1 column */
+  .honors-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Optional: reduce card minimum height so mobile doesn't feel huge */
+  .hover-card {
+    min-height: 240px;
+  }
+
+  /* Optional: keep text readable without zoom */
+  .hover-card__content {
+    padding: 20px;
+  }
+}
+
+/* Media should never overflow the viewport */
+img, svg, video, iframe {
+  max-width: 100%;
+  height: auto;
+}

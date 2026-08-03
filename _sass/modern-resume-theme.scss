@@ -168,21 +168,28 @@ h3[id], span[id] { scroll-margin-top: 110px; }
 .page-content { padding: 0; }
 
 /* Affiliation line under the header tagline: present but subordinate to it. */
+/* Sits directly under the h1 as the only subtitle, since site.title is no
+   longer rendered as an h2. Sized to read as a subtitle without competing with
+   the 4rem name, and kept below the 1.6rem body size so it still reads as
+   metadata. */
 .header-affiliation {
-  margin: 6px 0 0;
-  font-size: 0.95rem;
+  margin: 10px 0 0;
+  font-size: 1.4rem;
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 1.45;
   letter-spacing: 0.01em;
-  opacity: 0.66;
+  opacity: 0.78;
   max-width: 62ch;
   /* type.scss sets `p, ul { text-align: justify }` globally, which strands ugly
-     word gaps across a short three-line block. */
+     word gaps across a short multi-line block. */
   text-align: left;
 }
 
 @media (max-width: 768px) {
-  .header-affiliation { font-size: 0.88rem; }
+  .header-affiliation {
+    font-size: 1.15rem;
+    margin-top: 8px;
+  }
 }
 
 p.quote {

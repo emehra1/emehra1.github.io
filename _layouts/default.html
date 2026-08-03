@@ -17,9 +17,12 @@
     <div class="menu-title">MENU</div>
 
     <a href="#about" onclick="document.body.classList.remove('menu-open')">ABOUT</a>
-    <a href="#labs" onclick="document.body.classList.remove('menu-open')">LABORATORIES</a>
-    <a href="#honors" onclick="document.body.classList.remove('menu-open')">HONORS & AWARDS</a>
+    <a href="#research" onclick="document.body.classList.remove('menu-open')">RESEARCH</a>
+    <a href="#experience" onclick="document.body.classList.remove('menu-open')">EXPERIENCE</a>
+    <a href="#writing" onclick="document.body.classList.remove('menu-open')">WRITING</a>
     <a href="#publications" onclick="document.body.classList.remove('menu-open')">PUBLICATIONS & PRESENTATIONS</a>
+    <a href="#honors" onclick="document.body.classList.remove('menu-open')">HONORS & AWARDS</a>
+    <a href="#clinical" onclick="document.body.classList.remove('menu-open')">CLINICAL</a>
     <a href="#projects" onclick="document.body.classList.remove('menu-open')">PROJECTS</a>
     <a href="#contact" onclick="document.body.classList.remove('menu-open')">CONTACT</a>
   </nav>
@@ -36,7 +39,7 @@
       {%- if site.version == 2 -%}
         {% for section in site.content %}
           <div class="container {{ section.layout }}-container">
-            <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
+            {%- if section.title -%}<h3>{{ section.title }}</h3>{%- endif -%}
             {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
           </div>
         {% endfor %}

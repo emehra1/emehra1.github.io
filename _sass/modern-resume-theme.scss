@@ -167,6 +167,24 @@ h3[id], span[id] { scroll-margin-top: 110px; }
 
 .page-content { padding: 0; }
 
+/* Affiliation line under the header tagline: present but subordinate to it. */
+.header-affiliation {
+  margin: 6px 0 0;
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  opacity: 0.66;
+  max-width: 62ch;
+  /* type.scss sets `p, ul { text-align: justify }` globally, which strands ugly
+     word gaps across a short three-line block. */
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .header-affiliation { font-size: 0.88rem; }
+}
+
 p.quote {
   font-size: 1.4rem;
   font-style: italic;
@@ -367,7 +385,13 @@ p.quote {
 /* Leadership: blue tint always + no title */
 .hover-card.cover-no-title .hover-card__title { display: none !important; }
 
-.hover-card.cover-no-title::before { background: rgba(120, 190, 255, 0.55); }
+/* Bottom-weighted rather than a flat 55% fill: the logo is the only identifier
+   on these cards, and a flat wash muddied every one of them. */
+.hover-card.cover-no-title::before {
+  background: linear-gradient(to bottom,
+    rgba(120, 190, 255, 0.22) 0%,
+    rgba(120, 190, 255, 0.44) 100%);
+}
 
 .hover-card.cover-no-title:hover::before,
 .hover-card.cover-no-title:focus-visible::before {
@@ -376,14 +400,19 @@ p.quote {
     rgba(120, 190, 255, 0.35);
 }
 
-/* Projects: yellow tint + stronger hover scrim + smaller title */
-.hover-card.projects::before { background: rgba(255, 210, 120, 0.55); }
+/* Projects: deep teal, sitting between the Labs teal and the Experience blue so
+   the three sections read as one system. Was an outlier yellow. */
+.hover-card.projects::before {
+  background: linear-gradient(to bottom,
+    rgba(52, 148, 160, 0.34) 0%,
+    rgba(52, 148, 160, 0.54) 100%);
+}
 
 .hover-card.projects:hover::before,
 .hover-card.projects:focus-visible::before {
   background:
     linear-gradient(rgba(0,0,0,0.62), rgba(0,0,0,0.62)),
-    rgba(255, 210, 120, 0.35);
+    rgba(52, 148, 160, 0.35);
 }
 
 .hover-card.projects .hover-card__title {
@@ -558,6 +587,15 @@ body.menu-open .menu-overlay { opacity: 0.9; pointer-events: auto; }
   }
 
   .hover-card.cover-no-title .hover-card__title { display: none !important; }
+
+  /* These cards show their body text over the resting scrim rather than the
+     dark hover one, so the lightened gradient above would leave white text on
+     pale blue. Darken it back for touch only. */
+  .hover-card.cover-no-title::before {
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+      rgba(120, 190, 255, 0.35);
+  }
 }
 
 /* Making the honors two columns */

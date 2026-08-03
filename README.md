@@ -1,172 +1,83 @@
-# modern-resume-theme [![Gem Version](https://badge.fury.io/rb/modern-resume-theme.svg)](https://badge.fury.io/rb/modern-resume-theme) ![CI workflow](https://github.com/sproogen/modern-resume-theme/workflows/CI%20workflow/badge.svg?branch=master)
+# eshanmehra.xyz
 
-*A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.*  
-*Host your own resume on GitHub for **free!***
+Source for my personal site, [eshanmehra.xyz](https://eshanmehra.xyz). Built with Jekyll and hosted on GitHub Pages.
 
-[View Demo](https://sproogen.github.io/modern-resume-theme/)
+Single page, dark theme, no posts and no collections. Everything a visitor sees comes from `_config.yml`.
 
-----
+---
 
-## Announcements
+## How content works
 
- - **Nov 2020** - Content configuration version 2 released. Added a new more configurable way of adding data to the resume. Add as many content sections as you like in what ever order you want. Currently just *text* and *list* but future categories coming soon.
-Full backwards compatibilty with version 1 remains and the documentation for version 1 can be found [here (Version 1 Readme)](https://github.com/sproogen/modern-resume-theme/blob/1.x/README.md).
+This is the `modern-resume-theme` "version 2" content model. `_layouts/default.html` loops over the `content:` array in `_config.yml` and renders each entry through `_includes/section-text.html`. There is **no `_data/` directory**, and `index.md` is only there to route `/` through the layout. Its body never renders, because the layout does not emit `{{ content }}`.
 
- - **Dec 2019** - Now includes **Dark Mode**
+So: to change any copy on the site, edit `_config.yml`. That is the only file you need.
 
-----
-
-![img](screenshot.png)
-
-Thank you for checking out my resume theme / template. If you have any feedback or suggestions for things I can add please let me know by by raising an [issue](https://github.com/sproogen/modern-resume-theme/issues/new/choose), I'm always happy to help.
-
-I always enjoy seeing how people are using my creations and if you would like to say thanks feel free to [buy me a coffee (buymeacoffee.com/vJ6HfLu)](https://buymeacoff.ee/vJ6HfLu).
-
-If you would like to see how I am using this then you can view my resume [here (jameswgrant.co.uk)](http://www.jameswgrant.co.uk/) and find the code [here (sproogen/jameswgrant)](https://github.com/sproogen/jameswgrant), hopefully this might help you.
-
-You can view the project [roadmap here](https://github.com/sproogen/modern-resume-theme/projects/1).
-
-----
-
-## Installation & setup guide
-This template is designed to be hosted using GitHub pages and so that's what these instructions will cover. If you plan on hosting it seperately then there might be some extra steps that we wont cover.
-
-Before starting it might be useful to familiarise yourself with [Jekyll](https://jekyllrb.com/docs/home/), [Markdown](https://www.markdownguide.org/getting-started) and [GitHub pages](https://pages.github.com/).
-
-### Step 1 - GitHub
-Start by creating an account on [GitHub](https://github.com/join)
-
-### Step 2 - Create Repository
-Create a repository on GitHub to hold your files and host your resume. You can find out how to do that [here](https://pages.github.com/)
-
-### Step 3 - Download Resume Template
-Download and extract the following zip into the git repository you have just created. [resume-template.zip](https://github.com/sproogen/modern-resume-theme/archive/gh-pages.zip)
-
-### Step 4 - Push it
-Commit and push the resume template to github
 ```
-$ git add --all
-$ git commit -m "Initial resume setup"
-$ git push -u origin master
-```
-### Step 5 - See it
-You should now be able to see the demo resume template using this theme at `[your-username].github.io`
-
-----
-
-## Usage
-
-So now you will be able to see the demo template at your github URL. You can can edit the yml files and replace the demo content with your own. Hopefully it will be fairly simple to work out where all the content goes, but here is a quick overview.
-
-### `_config.yml`
-This will contain all the of the main configuration for your resume such as your name, email, social media links and about me content. It also contains all the content for your resume.  
-A full example of the _config.yml can be found [here](https://github.com/sproogen/modern-resume-theme/blob/master/_config.yml)
-
-#### Content
-The main content for you resume will all come under the content property in the `_config.yml` file. This can be quite complex and a good understanding on [YAML](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html) will be helpful here.
-
-Content will contain an array of sections, there are currently 2 types of layouts for content sections, text and list.
-
-**text** is a basic layout that contains markdown content.  
-**list** is a the standard layout that is used for things like *Education* and *Experience*.
-
-Below is a the full list of content options.
-```
-content:
-  - title: Section Name
-    layout: list (options: list, text)
-    content:
-      - layout: left (options: left, right, top, top-right, top-middle)(default: left)
-        title: Name of item (eg. Company or Project name)
-        sub_title: Sub title (eg. Qualification or Job title)(optional)
-        caption: Item caption (eg. Employment or course dates)(optional)
-        link: Web link (eg. https://sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Text for link (optional: without this link will show URL as link text)
-        additional_links: (optional)
-          - title: Link name
-            icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-            url: Link url (eg. https://google.com)
-        quote: >
-          Short overview or quote for the item
-        description: | # this will include new lines to allow paragraphs
-          Main content area for the list item.
-  - title: Section Name
-    layout: text (options: list, text)
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+_config.yml                      all site copy, every card, award and citation
+_layouts/default.html            page shell, hardcoded nav
+_includes/
+  header.html                    name, tagline, affiliation line, social icons
+  about.html                     profile image + about_content
+  section-text.html              the only section renderer in use
+  head.html                      meta description, JSON-LD, favicons
+  footer.html                    renders site.email
+_sass/modern-resume-theme.scss   hover cards, honors grid, menu, mobile rules
+images/cards/                    card background art
 ```
 
-***Note:** The description or content areas (fields starting with `| #`) use markdown, this means that you have the ability to format the section in many different ways and add things such as images, code & syntax highlighting and tables. You can find a good [Markdown cheatsheet here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)*
+`_includes/section-list.html` and `_includes/a.html` are the theme's structured-content path. This site does not use them.
 
-#### Additional links
-If you would like to add more than the predefined social links in the config file, then you can use the `additional_links` field to add as many additional links with urls and font awesome icons as you wish.
+---
 
-#### Dark Mode
-Dark mode is configured via `_config.yml`  
-```
-darkmode: true (options: true, false, never)
-```
-When dark mode is `true` the site will show the dark theme for everyone  
-When dark mode is `false` the site will not show the dark theme, but it will still respect the users device preferences  
-When dark mode is `never` the site will never be shown in the dark theme
+## Things that will bite you
 
-#### Heading Anchors
-You can link to section titles using a Markdown anchor link, e.g.: `[About me](#about-me)`. The link after the `#` is the slug version of the title.
+These are not obvious from reading the files, and each one caused a real bug at some point.
 
-### `assets/main.scss`
-Add any css changes or additions you want to make here after the line `@import 'modern-resume-theme';`
+**Card body copy has a length ceiling.** `.hover-card` is `min-height: 320px` and `.hover-card__body` renders at up to `1.6rem` inside `44ch`. Past roughly 380 characters the text overflows the card. Check any new card at 1440px and at 390px before committing.
 
-----
+**Experience cards hide their titles.** Every card in the Experience section carries `cover-no-title`, which sets `display: none` on `.hover-card__title`. The logo art *is* the title. Body copy on those cards has to stand on its own without naming the organisation.
+
+**Anchors come from hand-placed spans, not headings.** Each section starts with a `<span id="...">`. The layout deliberately emits a bare `<h3>` with no `id`. If you add an `id` back to those headings, Jekyll will slugify the emoji titles down to `about`, `research`, `experience` and so on, and collide with the spans, producing duplicate IDs. Add a new section by giving it a span and adding the matching link to the nav in `_layouts/default.html`.
+
+**Touch devices behave differently from a narrow desktop window.** Under `@media (hover: none) and (pointer: coarse)`, Labs and Projects cards show their title only and never their body text, while Experience cards show body text over the *resting* scrim rather than the dark hover one. That is why the resting scrim is overridden to something darker inside that media query. Resizing a desktop browser will not reproduce any of this. Use device emulation.
+
+**Keep images small.** The repo once shipped about 32 MB of images on a single page. Before adding art:
+
+- Photographs go in as JPEG, capped around 1400 to 1600px.
+- Logos with real transparency stay PNG. Flattening them puts a hard white or black box behind the logo on top of the card tint.
+- Flat line art stays PNG. JPEG rings around thin strokes.
+- Check whether a PNG actually uses its alpha channel. Several here carried one while being fully opaque, and converting those to JPEG cut them by around 85%.
+- `sips` is the built-in macOS tool but it is a mediocre encoder and will sometimes produce a *larger* file. Compare sizes and keep whichever is smaller.
+
+**No em dashes in site copy.** House style. Use commas, or split the sentence.
+
+---
 
 ## Running locally
 
-Before you start make sure you have *Ruby* and the gems for *Jekyll* installed locally. You can find out how to do that [here](https://jekyllrb.com/docs/installation/).
+Requires Ruby and Jekyll. The system Ruby on macOS is too old, so install a current one first:
 
-1. Clone your resume repository locally *(if you haven't already)*
-2. `cd [your-repository-name]`
-3. `bundle install`
-4. `bundle exec jekyll serve`
-5. Open your browser to `http://localhost:4000`
+```bash
+brew install ruby
+export PATH="$(brew --prefix ruby)/bin:$PATH"   # add to ~/.zshrc to persist
+gem install bundler jekyll
 
-Any changes you make will automatically build and you will be able to see these by refreshing your browser.
+bundle install
+bundle exec jekyll serve
+```
 
-*Note: You will need to re-run `bundle exec jekyll serve` to see changes made in `_config.yml`.*
+Then open <http://localhost:4000>.
 
-----
+Changes rebuild automatically, **except** changes to `_config.yml`, which need a restart. Since nearly all content lives there, expect to restart often.
 
-## Contributing
+---
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/sproogen/modern-resume-theme. You can view our full guide to contributing [here](https://github.com/sproogen/modern-resume-theme/blob/master/CONTRIBUTING.md)
-This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+## Deploying
 
-----
+GitHub Pages builds this repository automatically. Pushing to `main` deploys to <https://eshanmehra.xyz> (the custom domain comes from `CNAME`) within a minute or two. There is no build step to run and no `_site/` to commit.
 
-## Development
+---
 
-### Locally
+## Credit
 
-Before you start make sure you have *Ruby* and the gems for *Jekyll* installed locally. You can find out how to do that [here](https://jekyllrb.com/docs/installation/).
-
-*Note: You will need version `1.15.2` of bundler, as this is the only version that Heroku supports.*
-
-1. Fork and or clone this repository locally
-2. `cd modern-resume-theme`
-3. `bundle install`
-4. `bundle exec jekyll serve`
-5. Open your browser to `http://localhost:4000`
-
-Any changes you make will automatically build and you will be able to see these by refreshing your browser. To find out more about *Jekyll* take a look [here](https://jekyllrb.com/docs/usage/).
-
-***Note:** You will need to re-run `bundle exec jekyll serve` to see changes made in `_config.yml`.*
-
-### Docker
-
-If you have docker installed you can simply run `docker-compose up` to launch the site in a container, it will then be hosted at `http://localhost:4000`
-
-----
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+Based on [modern-resume-theme](https://github.com/sproogen/modern-resume-theme) by James Grant, available under the MIT License. The layout, styles and content here have since been substantially rewritten.

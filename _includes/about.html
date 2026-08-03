@@ -1,6 +1,10 @@
 <div class="container intro-container">
-  <h3 id="{{ site.about_title | slugify | default: 'about-me' }}">{{ site.about_title | default:
-  "🤙🏽 About Me" }}</h3>
+  {%- comment -%}
+    No id here: the anchor comes from the <span id="about"> inside about_content,
+    matching how every other section anchors itself. Emitting a slugified id too
+    would produce a duplicate id="about" in the DOM.
+  {%- endcomment -%}
+  <h3>{{ site.about_title | default: "🤙🏽 About Me" }}</h3>
   <div class="row clearfix">
     {%- if site.about_profile_image -%}
       <div class="col-xs-12 col-sm-4 col-md-3 no-print">

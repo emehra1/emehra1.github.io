@@ -3,7 +3,10 @@ favicon: images/favicon.ico
 version: 2
 
 name: Eshan Mehra
-title: Harvard University — A.B., Chemistry, Physics, and Human Developmental & Regenerative Biology (Expected May 2027)
+title: Single-cell tools for the biology of aging
+affiliation: Buenrostro Lab, Broad Institute of MIT and Harvard · A.B. Chemistry & Physics and Human Developmental & Regenerative Biology, Harvard University (2027)
+
+email: emehra@broadinstitute.org
 
 darkmode: true
 
@@ -20,31 +23,37 @@ additional_links:
     icon: fas fa-pencil-alt
     url: https://eshanmehra.substack.com/
 
-about_profile_image: images/profile.png
+about_title: 🧭 About
+about_profile_image: images/profile.jpg
 about_content: |
   <span id="about"></span>
-  I am interested in the problem of capacity: how it is built, how it erodes, and whether it can be restored.
+  Medicine, as I first learned it, arrives at the worst possible moment. It waits for failure, for the tumor, the infarct, the diagnosis, and by the time it acts the biology has been drifting for years, unseen.
 
-  Most modern medicine intervenes after failure becomes known. I am more interested in the upstream, the regulatory layers that translate environment, stress, and time into cell fate and trajectory. Much of decline is not simply damage accumulating but programmable cell states drifting off course over time and as we age.
+  That delay is not a failure of will. It is a failure of sight. In the United States the median cancer diagnosis comes at 66, the first heart attack near 65, dementia at 83. Cure every cancer outright and you add two or three years to average lifespan, fewer of them good, because the same person meets another form of decline. The drivers underneath are shared, gradual, and mostly invisible: regulatory programs inside individual cells drifting off course under environment, stress, and time.
 
-  Age-associated decline is part of our evolutionary inheritance, a consequence of selection optimizing for reproduction rather than long-term maintenance. But this does not imply that the erosion of our ability to experience love, joy, purpose, and connection long before death must be accepted as inevitable.
+  So I build tools to make that drift legible. The field's problem is not a shortage of signals but a surplus of them, hundreds of correlates and few causes. Separating drivers from passengers means measuring cell state precisely, interpreting it functionally, and intervening in it directly. Without tools, prevention is philosophy. With them, it becomes engineering.
 
-  My focus then is on building and applying next-generation omics tools to make these dysregulated cell states legible. Measurement precedes mechanism. Mechanism precedes control. Without tools, prevention is philosophy. With them, it becomes engineering.
+  The other half of the work is that this field is small on purpose. A few thousand scientists and roughly a billion dollars a year sit against the hundreds of billions spent treating disease after the damage is done. Insurers reimburse treatment, not prevention; trials are built around single diseases, not the drivers beneath them. Good ideas die twice, first in the gaps between people who never meet, then against incentives that make prevention nobody's job.
 
-  I work where tool-building meets aging biology because that is where leverage lives, upstream, treating loss of capacity before death as an engineering problem to be understood, not a fate to be accepted.
+  So I build rooms too. Connective work is not peripheral to this science. In a field this young, it is how the science moves at all.
 
 content:
-  - title: 🔬 Laboratories
+  - title: 🔬 Research
     layout: text
     content: |
-      <span id="labs"></span>
+      <span id="research"></span>
+
+      <p>Reading DNA methylation one cell at a time has been expensive enough that most experiments cannot afford the cell numbers real biology requires. With Patrick Griffin in the Buenrostro Lab, I co-developed <strong>scMethyl</strong>, a combinatorial-indexing single-cell methylation assay cheap enough to change which questions are askable, with a median ~97% mapping rate and roughly 540,000 CpGs per cell in K562, validated across human cortex, PBMCs, and cell lines. A second-author manuscript is in preparation.</p>
+
+      <p>I am now extending the platform to read perturbation barcodes and paired RNA in the same cell, which would make possible the first pooled perturbation screens with joint methylation and probe-based RNA profiling as readouts. That is the step from reading the epigenome to testing which of its marks actually do something. My thesis pushes further into writing it: engineering transcription factor interactions for durable epigenetic reprogramming of CD8⁺ T cell exhaustion.</p>
+
       <div class="hover-grid">
 
         <a class="hover-card labs" href="https://www.buenrostrolab.com/" style="--bg: url('/images/cards/buenrostro.jpg');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Buenrostro Lab</h3>
             <p class="hover-card__body">
-              Advised by Dr. Jason Buenrostro and Dr. Patrick Griffin, I am developing next-generation single-cell omics tools to study regulatory mechanisms governing immune cell states and fates in aging.
+              With Jason Buenrostro and Patrick Griffin, I co-developed scMethyl, a low-cost combinatorial-indexing assay reading ~540,000 CpGs per cell, and am extending it to capture methylation, RNA, and perturbation barcodes in the same cell.
             </p>
           </div>
         </a>
@@ -53,7 +62,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Synthetic Immunity Lab</h3>
             <p class="hover-card__body">
-              Advised by Dr. Ming-Ru Wu, I engineered T-cells with logic-gated induction of an immortalized “zombie T-cell” (zT-cell) state to overcome exhaustion <em>in vivo</em>.
+              With Ming-Ru Wu, I built logic-gated circuits inducing an immortalized “zombie T-cell” state in primary murine CD8⁺ T cells, then tested whether those cells resist exhaustion in mice carrying B16F10 melanomas.
             </p>
           </div>
         </a>
@@ -62,7 +71,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Gao Lab</h3>
             <p class="hover-card__body">
-              Advised by Dr. Ruli Gao, I analyzed Nanopore scRNA-seq data of patient-matched renal cell carcinomas and brain metastases to map gene expression dynamics in brain-metastasis evolution for target identification.
+              With Ruli Gao, I analyzed Nanopore scRNA-seq from patient-matched renal cell carcinomas and their brain metastases, mapping the transcriptional programs of metastatic progression to find targetable tumor and immune populations.
             </p>
           </div>
         </a>
@@ -72,14 +81,32 @@ content:
   - title: 📚 Experience
     layout: text
     content: |
-      <span id="leadership"></span>
+      <span id="experience"></span>
       <div class="hover-grid">
+
+        <div class="hover-card cover-no-title" style="--bg: url('/images/cards/immune-aging.svg');">
+          <div class="hover-card__content">
+            <h3 class="hover-card__title">Immune Aging Series</h3>
+            <p class="hover-card__body">
+              Founded a three-evening symposium at The Engine convening ~100 leaders across academia, biotech, pharma, and venture on immune targets in chronic disease. Wrote the series' scientific primer on where immune aging is causal rather than merely correlated. Funded by the Aoki Foundation and TIME Initiative.
+            </p>
+          </div>
+        </div>
+
+        <a class="hover-card cover-no-title" href="https://aging-initiative.org/" style="--bg: url('/images/cards/aging-initiative.jpg');">
+          <div class="hover-card__content">
+            <h3 class="hover-card__title">Aging Initiative at Harvard</h3>
+            <p class="hover-card__body">
+              Started as a handful of students in a dining hall; now a nonprofit of more than three thousand people. I lead partnerships behind Boston's largest aging-biology gatherings and MAST, the world's largest muscle-aging meeting, and helped carry the science into the Massachusetts State House.
+            </p>
+          </div>
+        </a>
 
         <a class="hover-card cover-no-title" href="https://www.timeinitiative.org/" style="--bg: url('/images/cards/time.webp');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">TIME Initiative</h3>
             <p class="hover-card__body">
-              Selected as 1 of 25 fellows supported by the Academy for Health &amp; Lifespan Research; represent early-career scientists in aging biology at international conferences; direct and host TIME Cast, interviewing leaders in aging biology, biotechnology, and policy.
+              1 of 25 fellows backed by the Academy for Health &amp; Lifespan Research. I directed and hosted TIME Cast, interviewing leaders in aging biology, biotechnology, and policy to get the field's arguments in front of people outside it.
             </p>
           </div>
         </a>
@@ -88,34 +115,16 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Nexus Fellowship</h3>
             <p class="hover-card__body">
-              Advance translational efforts in age-related disease by drafting policy memos, leading interdisciplinary journal clubs, and designing, scoping, and securing funding for high-impact experimental programs at the interface of academia, biotechnology, and policy.
+              I scope and fund experimental initiatives sitting between academia, biotechnology, and policy, and write strategy memos on how aging-biology findings actually reach clinical practice and R&amp;D pipelines.
             </p>
           </div>
         </a>
 
         <a class="hover-card cover-no-title" href="https://www.changemakersinaging.org/" style="--bg: url('/images/cards/foa-summit.png');">
           <div class="hover-card__content">
-            <h3 class="hover-card__title">Future of Aging Summit</h3>
+            <h3 class="hover-card__title">Changemakers in Aging</h3>
             <p class="hover-card__body">
-              Co-founded and co-hosted an interdisciplinary summit on aging at the 2025 Gerontological Society of America (GSA) Annual Meeting, convening 100+ attendees across academia, industry, and policy; led and moderated discussions on clinical research in aging and biotechnology’s role in age-related disease translation.
-            </p>
-          </div>
-        </a>
-
-        <a class="hover-card cover-no-title" href="https://aging-initiative.org/" style="--bg: url('/images/cards/aging-initiative.png');">
-          <div class="hover-card__content">
-            <h3 class="hover-card__title">Aging Initiative at Harvard</h3>
-            <p class="hover-card__body">
-              Co-managed Boston’s largest aging-biology mixer (Nov 2024) featuring George Church, Alex Colville, and Jesse Poganik; jointly hosted the Muscle Aging Science and Translation (MAST) Symposium (April 2024); co-lead a 27-member team, manage partnerships and advisors, and raised $10,000+ through industry outreach.
-            </p>
-          </div>
-        </a>
-
-        <a class="hover-card cover-no-title" href="https://www.harvardgami.com/" style="--bg: url('/images/cards/gami.png');">
-          <div class="hover-card__content">
-            <h3 class="hover-card__title">GAMI</h3>
-            <p class="hover-card__body">
-              Co-led development of a nurse–patient matching mobile platform for elderly patients in India with Udaya Kumar and ISER Tirupati partners; led needs-mapping of healthcare delivery bottlenecks, coordinated cross-institutional development, and spearheaded pilot implementation planning.
+              Co-founded the organization and co-hosted its Future of Aging Summit at the 2025 Gerontological Society of America meeting, bringing together 100+ people from academia, industry, and policy to argue about what clinical research in aging should look like.
             </p>
           </div>
         </a>
@@ -124,38 +133,124 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Nucleate Aging Biology</h3>
             <p class="hover-card__body">
-              Co-managed a global thematic series focused on aging biology and longevity biotechnology; organized and moderated panels with founders and venture capital leaders in longevity biotech, and co-authored accompanying resource guides synthesizing technical and translational insights.
+              Co-led a global thematic series on aging biology and longevity biotechnology, moderating panels with founders and investors and writing the resource guides that made the technical case legible to both sides.
             </p>
           </div>
         </a>
 
-        <a class="hover-card cover-no-title" href="https://www.openbiolab.org/" style="--bg: url('/images/cards/openbio.png');">
+        <a class="hover-card cover-no-title" href="https://www.openbiolab.org/" style="--bg: url('/images/cards/openbio.jpg');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Harvard OpenBio</h3>
             <p class="hover-card__body">
-              Co-founded and jointly chaired Harvard OpenBio’s Biosecurity Team; organized biosecurity journal clubs and speaker series; co-hosted the Future of Biology Conference (130+ attendees; keynote speakers including George Church and Reshma Shetty); co-led the Harvard Summer Research Institute, matching 73 underserved students nationwide to research mentors and publishing their abstracts.
+              Co-founded and chaired the Biosecurity Team; co-hosted the Future of Biology Conference (130+ attendees, keynotes by George Church and Reshma Shetty) and matched 73 underserved students nationwide to research mentors.
+            </p>
+          </div>
+        </a>
+
+        <a class="hover-card cover-no-title" href="https://www.harvardgami.com/" style="--bg: url('/images/cards/gami.png');">
+          <div class="hover-card__content">
+            <h3 class="hover-card__title">GAMI</h3>
+            <p class="hover-card__body">
+              Co-led a nurse–patient matching platform for elderly patients in rural India with Udaya Kumar and ISER Tirupati, mapping the delivery bottlenecks that keep trained homecare out of reach.
             </p>
           </div>
         </a>
 
       </div>
 
+  - title: ✍️ Writing
+    layout: text
+    content: |
+      <span id="writing"></span>
+
+      <p>I write to make this field's arguments legible to people outside it, and to force myself to be precise about what we actually know.</p>
+
+      <ul>
+        <li>
+          <strong><a href="https://eshanmehra.substack.com/" target="_blank" rel="noopener">Substack</a></strong>.
+          Essays on aging biology, tool-building, and translation.
+        </li>
+        <li>
+          <strong><a href="https://open.spotify.com/show/2cKPP7AuRMoJFtebMFkeki" target="_blank" rel="noopener">TIME Cast</a></strong>.
+          Directed and hosted. Interviews with leaders in aging biology, biotechnology, and policy.
+        </li>
+        <li>
+          <strong><u>Mehra, E.</u></strong> (2024).
+          <a href="https://www.huhpr.org/original-content/2024/2/4/how-the-power-shift-in-healthcare-from-providers-to-insurers-is-eroding-physician-patient-relationships-k8kgy" target="_blank" rel="noopener">How the power shift in healthcare from providers to insurers is eroding physician-patient relationships</a>.
+          <em>Harvard Undergraduate Health Policy Review</em>.
+        </li>
+        <li>
+          <strong>Immune Aging Series scientific primer</strong> (2026).
+          Synthesizes the mechanistic, translational, and biomarker landscape of immune aging to frame which drivers are causal rather than merely correlative.
+        </li>
+        <li>
+          <strong>Nucleate Aging Biology resource guides</strong> (2024–2025).
+          Technical and translational syntheses accompanying the global thematic series.
+        </li>
+        <li>
+          Senior Editor, <em>Harvard Undergraduate Health Policy Review</em>.
+        </li>
+      </ul>
+
+  - title: 📝 Publications and Presentations
+    layout: text
+    content: |
+      <span id="publications"></span>
+
+      <strong>Manuscripts</strong>
+      <ul>
+        <li>
+          Griffin, P., <strong><u>Mehra, E.</u></strong>, Cooper, B., Earl, A., Rogers, C., &amp; Buenrostro, J. D.
+          <em>Unifying single-cell expansion imaging, genome, methylome, and footprint profiling in expandable polyacrylamide</em>.
+          Manuscript in preparation.
+        </li>
+      </ul>
+
+      <strong>Abstracts</strong>
+      <ul>
+        <li>
+          Fedorovskyy, M., Dasariraju, S., Simonini, S., <strong><u>Mehra, E.</u></strong>, Law, C., Khera, N., Rajagopal, K., &amp; Orkaby, A. (2025).
+          Aging Initiative: A student-led model for advancing aging research with a translational focus.
+          <em>Innovation in Aging</em>.
+          <a href="https://doi.org/10.1093/geroni/igaf122.3536" target="_blank" rel="noopener">(doi: 10.1093/geroni/igaf122.3536)</a>
+        </li>
+      </ul>
+
+      <strong>Presentations</strong>
+      <ul>
+        <li>
+          <strong><u>Mehra, E.</u></strong>, Griffin, P., Rogers, C., Cooper, B., &amp; Buenrostro, J. (2026).
+          <em>Engineering a scalable single-cell methylation sequencing platform</em>.
+          Poster presentation. Harvard University, Cambridge, MA.
+        </li>
+        <li>
+          <strong><u>Mehra, E.</u></strong>, Lu, L., Lin, H.-Y., Shiau, C.-K., Pan, T., &amp; Gao, R. (2023).
+          <em>Studying cell fate trajectories of renal cell carcinomas in brain metastasis</em>.
+          Poster presentation. Lurie Cancer Research Center, Northwestern University Feinberg School of Medicine, Chicago, IL; Harvard University, Cambridge, MA.
+        </li>
+        <li>
+          Emani, V., An, D., <strong><u>Mehra, E.</u></strong> (2025).
+          <em>A digital platform to improve access &amp; affordability of trained homecare medical nurses in India</em>.
+          Poster presentation. Harvard University, Cambridge, MA.
+        </li>
+      </ul>
+
   - title: 🏅 Honors and Awards
     layout: text
     content: |
       <span id="honors"></span>
-      
+
       <div class="honors-grid">
         <div>
           <p>
-            <strong>TIME x Aoki Foundation Grant Recipient</strong> (2026)<br>
-            <em>TIME Initiative; Aoki Foundation</em><br>
-            Grant support to organize and host the Immune Aging Speaker Series.
+            <strong>TIME × Aoki Foundation Grant Recipient</strong> (2026)<br>
+            <em>TIME Initiative; Aoki Foundation</em> (1 of 11 selected globally)<br>
+            Grant support to organize and host the Immune Aging Series.
           </p>
 
           <p>
-            <strong>TIME x age1 Exploration Grant Recipient</strong> (2025)<br>
-            <em>age1 Venture Capital; TIME Initiative</em><br>
+            <strong>TIME × age1 Exploration Grant Recipient</strong> (2025)<br>
+            <em>age1 Venture Capital; TIME Initiative</em> (1 of 4 selected globally)<br>
             Selected to represent next-generation aging biology leaders at ARDD 2025.
           </p>
 
@@ -165,8 +260,8 @@ content:
           </p>
 
           <p>
-            <strong>John Harvard Scholar</strong> (2025)<br>
-            <em>Dean of Harvard College</em> (top 5% of class)
+            <strong>John Harvard Scholar</strong> (2025, 2026)<br>
+            <em>Dean of Harvard College</em> (top 5% of class, awarded twice)
           </p>
 
           <p>
@@ -179,15 +274,15 @@ content:
         <div>
 
           <p>
-            <strong>Harvard College Research Program Grant Recipient</strong> (2024)<br>
-            <em>Harvard Office of Undergraduate Research &amp; Fellowships</em> (twice awarded)
+            <strong>Harvard College Research Program Grant Recipient</strong> (2024, 2026)<br>
+            <em>Harvard Office of Undergraduate Research &amp; Fellowships</em> (awarded three times)
           </p>
 
           <p>
             <strong>1st Place Poster Presentation Award</strong> (2023)<br>
             <em>Beckman Institute of Advanced Science and Technology; ResearcHStart</em>
           </p>
-          
+
           <p>
             <strong>Jessie Chambers Scholarship</strong> (2023)<br>
             <em>National Junior Classical League</em> (1 of 8 recipients)
@@ -207,49 +302,22 @@ content:
 
       </div>
 
-  - title: 📝 Publications and Presentations
+  - title: 🩺 Clinical Experience
     layout: text
     content: |
-      <span id="publications"></span>
+      <span id="clinical"></span>
+      <div class="hover-grid">
 
-      <strong>Abstracts</strong>
-      <ul>
-        <li>
-          Fedorovskyy, M., Dasariraju, S., Simonini, S., <strong><u>Mehra, E.</u></strong>, Law, C., Khera, N., Rajagopal, K., &amp; Orkaby, A. (2025).
-          Aging initiative: A student-led model for advancing aging research with a translational focus.
-          <em>Innovation in Aging</em>.
-          <a href="https://doi.org/10.1093/geroni/igaf122.3536" target="_blank" rel="noopener">(doi: 10.1093/geroni/igaf122.3536)</a>
-        </li>
-        <li>
-          Chan, K., Wang, J., Balakumar, A., Ng, M., <strong><u>Mehra, E.</u></strong>, Jain, L., Fischetti, C., Foody, J. N., Duggan, N. M., Goldsmith, A. J., &amp; Allan-Blitz, L.-T. (2025).
-          Using machine learning to classify manifestations of extrapulmonary tuberculosis with point-of-care ultrasound: A proof of concept.
-          <em>The Ultrasound Journal</em>. Manuscript under review.
-        </li>
-      </ul>
+        <div class="hover-card cover-no-title" style="--bg: url('/images/cards/uganda.jpg');">
+          <div class="hover-card__content">
+            <h3 class="hover-card__title">Empower Through Health</h3>
+            <p class="hover-card__body">
+              Lived in the Iganga and Buyunde districts of rural Uganda studying what happens to mothers and families after child loss, interviewing them directly to find where psychiatric support disappears inside local medical institutions.
+            </p>
+          </div>
+        </div>
 
-      <strong>Presentations</strong>
-      <ul>
-        <li>
-          <strong><u>Mehra, E.</u></strong>, Lu, L., Lin, H.-Y., Shiau, C.-K., Pan, T., &amp; Gao, R. (2023).
-          <em>Studying cell fate trajectories of renal cell carcinomas in brain metastasis</em>.
-          Poster presentation. Lurie Cancer Research Center, Northwestern University Feinberg School of Medicine, Chicago, IL; Harvard University, Cambridge, MA.
-        </li>
-        <li>
-          Emani, V., An, D., <strong><u>Mehra, E.</u></strong> (2025).
-          <em>A digital platform to improve access &amp; affordability of trained homecare medical nurses in India</em>.
-          Poster presentation. Harvard University, Cambridge, MA.
-        </li>
-      </ul>
-
-      <strong>Essays</strong>
-      <ul>
-        <li>
-          <strong><u>Mehra, E.</u></strong> (2025).
-          How the power shift in healthcare from providers to insurers is eroding physician-patient relationships.
-          <em>Harvard Undergraduate Health Policy Review</em>.
-          <a href="https://www.huhpr.org/original-content/2024/2/4/how-the-power-shift-in-healthcare-from-providers-to-insurers-is-eroding-physician-patient-relationships-k8kgy" target="_blank" rel="noopener">Link</a>
-        </li>
-      </ul>
+      </div>
 
   - title: 🧪 Projects
     layout: text
@@ -302,23 +370,6 @@ content:
       </a>
 
       </div>
-
-  # - title: 🩺 Clinical Experience
-  #   layout: text
-  #   content: |
-  #     <span id="clinical"></span>
-  #     <div class="hover-grid">
-
-  #       <a class="hover-card cover-no-title" href="#" style="--bg: url('/images/cards/uganda.png');">
-  #         <div class="hover-card__content">
-  #           <h3 class="hover-card__title">Empower Through Health</h3>
-  #           <p class="hover-card__body">
-  #             Lived and worked in rural Uganda in the rural districts of Iganga and Buyunde to study maternal and family experiences following child loss; conducted structured interviews to identify gaps in psychiatric and mental health support within local medical institutions; analyzed barriers to care delivery and community resilience in low-resource clinical settings.
-  #           </p>
-  #         </div>
-  #       </a>
-
-  #     </div>
 
   - title:
     layout: text

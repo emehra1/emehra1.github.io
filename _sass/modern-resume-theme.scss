@@ -167,12 +167,11 @@ h3[id], span[id] { scroll-margin-top: 110px; }
 
 .page-content { padding: 0; }
 
-/* Affiliation line under the header tagline: present but subordinate to it. */
-/* Sits directly under the h1 as the only subtitle, since site.title is no
-   longer rendered as an h2. Sized to read as a subtitle without competing with
-   the 4rem name, and kept below the 1.6rem body size so it still reads as
-   metadata. */
-.header-affiliation {
+/* Subtitle line under the name: present but subordinate to it. Renders
+   site.title, which is otherwise unused in the visible page. Sized to read as
+   a subtitle without competing with the 4rem name, and kept below the 1.6rem
+   body size so it still reads as metadata. */
+.header-title {
   margin: 10px 0 0;
   font-size: 1.4rem;
   font-weight: 300;
@@ -186,7 +185,7 @@ h3[id], span[id] { scroll-margin-top: 110px; }
 }
 
 @media (max-width: 768px) {
-  .header-affiliation {
+  .header-title {
     font-size: 1.15rem;
     margin-top: 8px;
   }

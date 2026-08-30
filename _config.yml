@@ -23,16 +23,16 @@ additional_links:
     url: https://eshanmehra.substack.com/
 
 about_title: 🧭 About
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.PNG
 about_content: |
   <span id="about"></span>
-  Medicine, as I first learned it, arrives at the worst possible moment. It waits for failure, for the tumor, the infarct, the diagnosis, and by the time it acts the biology has been drifting for years, unseen.
+  While powerful, medicine regularly waits for failure, letting disease manifest before intervening at emotional, financial, and physical costs. By then, the underlying biological decline has progressed for years, unseen. Training in cancer biology and public health, I understood why help arrives late: biological mechanisms of decline are hard to see and even harder to intervene in. Decline in health is not immediate but a gradual loss of regulation and accumulation of molecular damage shaped by environment, lifestyle, and stress. This loss is what we fail to understand and therefore fail to prevent.
 
-  That delay is not a failure of will. It is a failure of sight. In the United States the median cancer diagnosis comes at 66, the first heart attack near 65, dementia at 83. Cure every cancer outright and you add two or three years to average lifespan, fewer of them good, because the same person meets another form of decline. The drivers underneath are shared, gradual, and mostly invisible: regulatory programs inside individual cells drifting off course under environment, stress, and time.
+  It tracks with one variable above all: age. In the United States, the median cancer diagnosis comes at 66, the first heart attack near 65, and dementia at 83. Because many chronic diseases cluster in later years, therapeutic victories feel small. Cure every cancer and you add only two or three years to average lifespan, fewer still of quality, because often the same person meets another form of decline.
+  
+  So I build tools to make underlying drivers of chronic diseases visible, focusing on methods that read how regulatory programs in individual cells drift off course before disease manifests.
 
-  So I build tools to make that drift legible. The field's problem is not a shortage of signals but a surplus of them, hundreds of correlates and few causes. Separating drivers from passengers means measuring cell state precisely, interpreting it functionally, and intervening in it directly. Without tools, prevention is philosophy. With them, it becomes engineering.
-
-  The other half of the work is that this field is small on purpose. A few thousand scientists and roughly a billion dollars a year sit against the hundreds of billions spent treating disease after the damage is done. Insurers reimburse treatment, not prevention; trials are built around single diseases, not the drivers beneath them. Good ideas die twice, first in the gaps between people who never meet, then against incentives that make prevention nobody's job.
+  The other half of the work is that this field is small on purpose. A few thousand scientists and roughly a billion dollars a year sit against the hundreds of billions spent treating disease after the damage is done. Insurers reimburse treatment, not prevention; trials are built around single diseases, not the drivers beneath them. Good ideas die twice, first in the gaps between people who never meet and then against incentives that make prevention nobody's job.
 
   So I build rooms too. Connective work is not peripheral to this science. In a field this young, it is how the science moves at all.
 
@@ -42,18 +42,13 @@ content:
     content: |
       <span id="research"></span>
 
-      <p>Reading DNA methylation one cell at a time has been expensive enough that most experiments cannot afford the cell numbers real biology requires. With Patrick Griffin in the Buenrostro Lab, I co-developed <strong>scMethyl</strong>, a combinatorial-indexing single-cell methylation assay cheap enough to change which questions are askable, with a median ~97% mapping rate and roughly 540,000 CpGs per cell in K562, validated across human cortex, PBMCs, and cell lines. A second-author manuscript is in preparation.</p>
-
-      <p>I am now extending the platform to read perturbation barcodes and paired RNA in the same cell, which would make possible the first pooled perturbation screens with joint methylation and probe-based RNA profiling as readouts. That is the step from reading the epigenome to testing which of its marks actually do something. My thesis pushes further into writing it: engineering transcription factor interactions for durable epigenetic reprogramming of CD8⁺ T cell exhaustion.</p>
-
       <div class="hover-grid">
 
         <a class="hover-card labs" href="https://www.buenrostrolab.com/" style="--bg: url('/images/cards/buenrostro.jpg');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Buenrostro Lab</h3>
             <p class="hover-card__body">
-              With Jason Buenrostro and Patrick Griffin, I co-developed scMethyl, a low-cost combinatorial-indexing assay reading ~540,000 CpGs per cell, and am extending it to capture methylation, RNA, and perturbation barcodes in the same cell.
-            </p>
+              With Jason Buenrostro and Patrick Griffin, I am developing next-generation single-cell omics tools to resolve the regulatory programs that govern cell state and fate under aging and chronic early life stress.
           </div>
         </a>
 
@@ -83,11 +78,11 @@ content:
       <span id="experience"></span>
       <div class="hover-grid">
 
-        <div class="hover-card cover-no-title" style="--bg: url('/images/cards/immune-aging.svg');">
+        <div class="hover-card cover-no-title" style="--bg: url('/images/cards/immune-aging.jpg');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Immune Aging Series</h3>
             <p class="hover-card__body">
-              Founded a three-evening symposium at The Engine convening ~100 leaders across academia, biotech, pharma, and venture on immune targets in chronic disease. Wrote the series' scientific primer on where immune aging is causal rather than merely correlated. Funded by the Aoki Foundation and TIME Initiative.
+              Founded a three-evening symposium at The Engine convening ~100 leaders across academia, biotech, pharma, and venture on immune targets in chronic disease. Funded by the Aoki Foundation and TIME Initiative.
             </p>
           </div>
         </div>
@@ -96,8 +91,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Aging Initiative at Harvard</h3>
             <p class="hover-card__body">
-              Started as a handful of students in a dining hall; now a nonprofit of more than three thousand people. I lead partnerships behind Boston's largest aging-biology gatherings and MAST, the world's largest muscle-aging meeting, and helped carry the science into the Massachusetts State House.
-            </p>
+              Started as a handful of students in a dining hall; now a nonprofit of more than three thousand people. I led external partnerships, raising $10,000+ from biotech companies and research institutions and building an advisory board bridging academia, industry, and policy.
           </div>
         </a>
 
@@ -114,7 +108,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Nexus Fellowship</h3>
             <p class="hover-card__body">
-              I scope and fund experimental initiatives sitting between academia, biotechnology, and policy, and write strategy memos on how aging-biology findings actually reach clinical practice and R&amp;D pipelines.
+              I write strategy memos on how aging-biology findings actually reach clinical practice and R&amp;D pipelines. We scope and fund experimental initiatives sitting between academia, biotechnology, and policy.
             </p>
           </div>
         </a>
@@ -123,7 +117,7 @@ content:
           <div class="hover-card__content">
             <h3 class="hover-card__title">Changemakers in Aging</h3>
             <p class="hover-card__body">
-              Co-founded the organization and co-hosted its Future of Aging Summit at the 2025 Gerontological Society of America meeting, bringing together 100+ people from academia, industry, and policy to argue about what clinical research in aging should look like.
+              Co-founded the organization and co-hosted its Future of Aging Summit at the 2025 Gerontological Society of America meeting, bringing together 100+ people from academia, industry, and policy to debate about what clinical research in aging should look like.
             </p>
           </div>
         </a>
@@ -178,32 +172,12 @@ content:
           <a href="https://www.huhpr.org/original-content/2024/2/4/how-the-power-shift-in-healthcare-from-providers-to-insurers-is-eroding-physician-patient-relationships-k8kgy" target="_blank" rel="noopener">How the power shift in healthcare from providers to insurers is eroding physician-patient relationships</a>.
           <em>Harvard Undergraduate Health Policy Review</em>.
         </li>
-        <li>
-          <strong>Immune Aging Series scientific primer</strong> (2026).
-          Synthesizes the mechanistic, translational, and biomarker landscape of immune aging to frame which drivers are causal rather than merely correlative.
-        </li>
-        <li>
-          <strong>Nucleate Aging Biology resource guides</strong> (2024–2025).
-          Technical and translational syntheses accompanying the global thematic series.
-        </li>
-        <li>
-          Senior Editor, <em>Harvard Undergraduate Health Policy Review</em>.
-        </li>
       </ul>
 
   - title: 📝 Publications and Presentations
     layout: text
     content: |
       <span id="publications"></span>
-
-      <strong>Manuscripts</strong>
-      <ul>
-        <li>
-          Griffin, P., <strong><u>Mehra, E.</u></strong>, Cooper, B., Earl, A., Rogers, C., &amp; Buenrostro, J. D.
-          <em>Unifying single-cell expansion imaging, genome, methylome, and footprint profiling in expandable polyacrylamide</em>.
-          Manuscript in preparation.
-        </li>
-      </ul>
 
       <strong>Abstracts</strong>
       <ul>

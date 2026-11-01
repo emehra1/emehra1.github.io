@@ -79,14 +79,14 @@ content:
       <span id="experience"></span>
       <div class="hover-grid">
 
-        <div class="hover-card cover-no-title" href="https://immuneagingseries.org/" style="--bg: url('/images/cards/immune-aging.jpg');">
+        <a class="hover-card cover-no-title" href="https://immuneagingseries.org/" style="--bg: url('/images/cards/immune-aging.jpg');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Immune Aging Series</h3>
             <p class="hover-card__body">
               Founded a three-evening symposium at The Engine convening ~100 leaders across academia, biotech, pharma, and venture on immune targets in chronic disease. Funded by the Aoki Foundation and TIME Initiative.
             </p>
           </div>
-        </div>
+        </a>
 
         <a class="hover-card cover-no-title" href="https://aging-initiative.org/" style="--bg: url('/images/cards/aging-initiative.jpg');">
           <div class="hover-card__content">

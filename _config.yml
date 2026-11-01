@@ -97,7 +97,7 @@ content:
           </div>
         </a>
 
-        <a class="hover-card cover-no-title" href="https://www.timeinitiative.org/" style="--bg: url('/images/cards/time.webp');">
+        <a class="hover-card cover-no-title" style="--bg: url('/images/cards/time.webp');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">TIME Initiative</h3>
             <p class="hover-card__body">

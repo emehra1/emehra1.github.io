@@ -23,7 +23,7 @@ additional_links:
     url: https://eshanmehra.substack.com/
 
 about_title: 🧭 About
-about_profile_image: images/profile.PNG
+about_profile_image: images/profile.jpg
 about_content: |
   <span id="about"></span>
   While powerful, medicine regularly waits for failure, letting disease manifest before intervening at emotional, financial, and physical costs. By then, the underlying biological decline has progressed for years, unseen. Training in cancer biology and public health, I understood why help arrives late: biological mechanisms of decline are hard to see and even harder to intervene in. Decline in health is not immediate but a gradual loss of regulation and accumulation of molecular damage shaped by environment, lifestyle, and stress. This loss is what we fail to understand and therefore fail to prevent.
@@ -79,7 +79,7 @@ content:
       <span id="experience"></span>
       <div class="hover-grid">
 
-        <div class="hover-card cover-no-title" style="--bg: url('/images/cards/immune-aging.jpg');">
+        <div class="hover-card cover-no-title" href="https://immuneagingseries.org/" style="--bg: url('/images/cards/immune-aging.jpg');">
           <div class="hover-card__content">
             <h3 class="hover-card__title">Immune Aging Series</h3>
             <p class="hover-card__body">
